@@ -9,7 +9,7 @@ task_list = "tasks.jsonl"
 maxTokens = 512
 model = "OLMo" # switch to OLMoe for mixture-of-experts model
 
-stopSequences = {   # Written by claude, used to determine when the model has finished generating text
+stopSequences = {   # Stop sequences written by Claude, used to determine when the model has finished generating text. These stop sequences were also prompted to follow the ones used in OLMES, the original OLMoe paper. Gu et al. (2024)
     "math": ["Question:", "</s>", "<|im_end|>", "<|endoftext|>"],
     "knowledge": ["\n\n", "Question:", "</s>", "<|im_end|>", "<|endoftext|>"],
     "comprehension": ["Passage:", "Question:", "</s>", "<|im_end|>", "<|endoftext|>"],
@@ -76,7 +76,6 @@ def runTask(task, maxEnergy):
 
 def main():
     maxEnergy = int(counterMax())
-    runTask(task, maxEnergy)
     tasks = []
     with open("tasks.jsonl", "r") as file:
         for line in file:
@@ -88,8 +87,9 @@ def main():
 
 
     
-    with open(f"results-{model}.csv", "a") as file:
-        file.write("run order, model, repeat, task_id, domain, benchmark, energy_package_uj, wall_time_s, prompt_ms, predicted_ms, tokens_prompt, tokens_predicted, stop_type, truncated, content, \n")
+    with open(f"results-{model}.csv", "w", newline="") as file:
+        writer = csv.writer(file)
+        writer.writerow(["model", "repeat", "run_index", "task_id", "domain", "benchmark","energy_package_uj", "wall_time_s", "prompt_ms", "predicted_ms","tokens_prompt", "tokens_predicted", "stop_type", "truncated", "content"])
         for repeat in range(5):
             order = tasks.copy()
             random.shuffle(order)
@@ -97,7 +97,7 @@ def main():
                 time.sleep(2)
                 measurements = runTask(task, counterMax())
                 i += 1
-                file.write(f"{i}, {model}, {repeat}, {measurements[0]}, {measurements[1]}, {measurements[2]}, {measurements[3]}, {measurements[4]}, {measurements[5]}, {measurements[6]}, {measurements[7]}, {measurements[8]}, {measurements[9]}, {measurements[10]}, \"{measurements[11]}\", \n")
-
-
+                writer.writerow([model, repeat, i] + measurements)
+                file.flush()
+                print(f"[{i}/{totalRuns}] {measurements[0]} {measurements[3]/1000000} J")
 main()
