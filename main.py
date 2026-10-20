@@ -7,7 +7,7 @@ import csv
 serverURL = "http://localhost:8080/completion"
 task_list = "tasks.jsonl"
 maxTokens = 512
-model = "OLMo" # switch to OLMoe for mixture-of-experts model
+model = "OLMo" # switch to OLMoE for mixture-of-experts model
 
 stopSequences = {   # Stop sequences written by Claude, used to determine when the model has finished generating text. These stop sequences were also prompted to follow the ones used in OLMES, the original OLMoe paper. Gu et al. (2024)
     "math": ["Question:", "</s>", "<|im_end|>", "<|endoftext|>"],

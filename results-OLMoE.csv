@@ -1,0 +1,391 @@
+model,repeat,run_index,task_id,domain,benchmark,energy_package_uj,wall_time_s,prompt_ms,predicted_ms,tokens_prompt,tokens_predicted,stop_type,truncated,content
+OLMoE,0,1,gsm8k_0061,math,GSM8K,114486767,4.2205541399998765,1374.997,2839.512,60,61,eos,False," The cost to make the brooch is $500 + $800 = $1300. The insurance cost is 10% of $1300, which is $1300 * 10 / 100 = $130. Therefore, the total cost is $1300 + $130 = $1430.
+"
+OLMoE,0,2,drop_4c725499,comprehension,DROP,226487885,8.324814540000261,6410.397,1901.996,262,33,eos,False," The relevant information to answer the above question is: There were 12,064 housing units at an average density of 36 per square mile (14/km²)."
+OLMoE,0,3,gsm8k_0228,math,GSM8K,185042251,6.757960073999584,1364.497,5373.991,56,112,eos,False," Kalinda can place 4 pieces per minute. Her mom can place half as many, which is 4 / 2 = 2 pieces per minute. Together, they can place 4 + 2 = 6 pieces per minute. The total number of pieces in the puzzle is 360. At a rate of 6 pieces per minute, the time it will take to complete the puzzle is 360 / 6 = 60 minutes. There are 60 minutes in 1 hour, so it will take them 60 / 60 = 1 hour to complete the puzzle.
+So, the answer is 1."
+OLMoE,0,4,tqa_6601,knowledge,TriviaQA,23136659,0.8704769679998208,615.932,238.011,24,6,eos,False," ""hobab"""
+OLMoE,0,5,gsm8k_0864,math,GSM8K,117478398,4.39898647300015,1623.09,2768.703,67,58,eos,False," If each of the 50 students received 10 burritos, the total number of burritos given out is 50 * 10 = 500 burritos. Mr. George ate 20 burritos, leaving 500 - 20 = 480 burritos.
+So the answer is 480."
+OLMoE,0,6,drop_1da8ddaa,comprehension,DROP,147522145,6.182043123999847,6015.257,153.248,255,4,eos,False,  New England
+OLMoE,0,7,drop_b457b042,comprehension,DROP,86778403,3.530139898000016,3313.7,196.474,139,5,eos,False, 14.70.
+OLMoE,0,8,tqa_5865,knowledge,TriviaQA,22252506,0.8139976480001678,563.657,237.175,22,6,eos,False, barnsley fc
+OLMoE,0,9,drop_43d21cab,comprehension,DROP,82439791,3.283075724000355,3227.455,48.766,137,2,eos,False, 4
+OLMoE,0,10,tqa_4464,knowledge,TriviaQA,17107562,0.6199503769998955,464.69,140.728,18,4,eos,False, port melbourne
+OLMoE,0,11,drop_d817453d,comprehension,DROP,93017401,3.59975965600006,3399.154,193.119,147,5,eos,False, 24.35%.
+OLMoE,0,12,drop_ec451b54,comprehension,DROP,365924356,14.601873683000122,10995.491,3590.348,469,66,word,False," The relevant information to answer the above question is: The Eagles cut into the Broncos' lead, with a 25-yard field goal by placekicker Alex Henery, but the Broncos subsequently increased their lead, with return specialist Trindon Holliday returning the ensuing kickoff 105 yards for a touchdown.
+
+"
+OLMoE,0,13,gsm8k_1116,math,GSM8K,85018154,3.143836151999949,1059.558,2049.227,43,44,word,False," The increase in enrollment is 20% of 50 students, which is 50 * 20 / 100 = 10 students. Therefore, the total number of students enrolled this year is 50 + 10 = 60 students.
+
+"
+OLMoE,0,14,gsm8k_0209,math,GSM8K,140844061,5.147187708999809,870.833,4264.946,36,90,eos,False," If twenty dozen cups cost $1200 less than the total cost of half a dozen plates, then the total cost of half a dozen plates is $6000 + $1200 = $7200. Half a dozen plates cost $7200, so a dozen plates cost $7200 / 6 = $1200. Thus, a cup, which is a twelfth of a dozen, costs $1200 / 12 = $100. The answer: 100."
+OLMoE,0,15,tqa_1805,knowledge,TriviaQA,33568822,1.2775567480002792,1074.875,188.53,44,5,eos,False, simon cowell
+OLMoE,0,16,drop_dc647615,comprehension,DROP,123274404,4.961733806999746,4856.724,98.787,208,3,eos,False, Native American
+OLMoE,0,17,gsm8k_0476,math,GSM8K,91178294,3.3390080999997735,1144.676,2176.418,48,47,eos,False," The total number of books Sarah bought is $300 / $15 = 20 books. If she gave an equal number of books to her 4 kids, each child got 20 / 4 = 5 books.
+The answer: 5."
+OLMoE,0,18,gsm8k_0447,math,GSM8K,99421072,3.629710823000096,1062.968,2554.695,44,55,word,False," Joey had 214 points and scored 26, so now he has 214 + 26 = 240 points. Marcy had 225 points and scored 10, so now she has 225 + 10 = 235 points. Joey is now winning by 240 - 235 = 5 points.
+
+"
+OLMoE,0,19,tqa_3436,knowledge,TriviaQA,29925216,1.0774401439998655,460.555,605.205,18,14,eos,False," """"""Alba"""" is the Gaelic name for Scotland."""
+OLMoE,0,20,tqa_6216,knowledge,TriviaQA,16719501,0.601505200000247,357.15,237.96,13,6,eos,False, Earl Derr Biggers
+OLMoE,0,21,tqa_6630,knowledge,TriviaQA,21533575,0.7957731060000697,600.472,189.394,24,5,eos,False, bad bad lepper
+OLMoE,0,22,gsm8k_0051,math,GSM8K,109999413,3.995671595999738,1151.0,2838.382,49,61,eos,False," From 1 to 4 PM is 3 hours. At 10 mph, the distance covered is 10 * 3 = 30 miles. At 6 mph, the time taken to cover 30 miles is 30 / 6 = 5 hours. The total time is 3 + 5 = 8 hours. \boxed{8}"
+OLMoE,0,23,drop_513c00fd,comprehension,DROP,147632923,5.922895052000058,5857.387,50.313,252,2,eos,False, 31
+OLMoE,0,24,drop_eb024d5a,comprehension,DROP,204828088,8.273731674999908,8201.87,53.45,350,2,eos,False, 10
+OLMoE,0,25,gsm8k_1209,math,GSM8K,308097539,11.724450989000161,3863.789,7834.614,164,154,eos,False,"
+The low setting removes 1 liter of water per day. For 3 days, the total amount of water removed is 1 * 3 = 3 liters. The medium setting removes twice as much water as the low setting, which is 2 * 1 = 2 liters per day. For 3 days, the total amount of water removed is 2 * 3 = 6 liters. The high setting removes twice as much water as the medium setting, which is 2 * 2 = 4 liters per day. For 5 days, the total amount of water removed is 4 * 5 = 20 liters. Therefore, the total amount of water removed from the air in Brian's basement is 3 + 6 + 20 = 29 liters.
+
+The final answer: 29."
+OLMoE,0,26,drop_f6b987f4,comprehension,DROP,173246382,7.243135878999965,6593.404,626.683,278,13,eos,False, 37.9 - 52.2 = -14.3
+OLMoE,0,27,drop_f39a64a4,comprehension,DROP,128714209,5.3779933730002085,5306.044,49.996,225,2,eos,False, 65
+OLMoE,0,28,tqa_5745,knowledge,TriviaQA,23307985,0.8741296460002559,616.085,238.467,24,6,eos,False, woody guthrie
+OLMoE,0,29,tqa_1628,knowledge,TriviaQA,13034940,0.47937245100001746,377.821,94.76,14,3,eos,False, Lacrosse
+OLMoE,0,30,tqa_4597,knowledge,TriviaQA,15801718,0.5692081789998156,375.586,188.451,14,5,eos,False, The River Aire
+OLMoE,0,31,gsm8k_0191,math,GSM8K,130005832,4.7186654970000745,985.494,3727.029,41,80,eos,False," The ducks need 3.5 pounds of insects each week per duck, so for 10 ducks, they need 3.5 * 10 = 35 pounds of insects each week. To find out how many pounds they need per day, we divide the total pounds needed per week by the number of days in a week: 35 pounds / 7 days = 5 pounds per day. So the answer is 5."
+OLMoE,0,32,drop_5e671a33,comprehension,DROP,107830107,4.3104415180000615,4100.947,195.725,175,5,eos,False, Ungheni
+OLMoE,0,33,gsm8k_0563,math,GSM8K,127623880,4.689349750000019,1174.244,3492.464,49,74,eos,False," The younger son is 12 - 4 = 8 years old. So the total age of the two sons is 12 + 8 = 20 years. James needs to buy 20 / 5 = 4 packs of candles. Each pack costs $3, so 4 packs will cost $3 * 4 = $12. So James spends \boxed{12} dollars on candles."
+OLMoE,0,34,tqa_5719,knowledge,TriviaQA,20375009,0.7666177269998116,658.148,94.812,26,3,eos,False, Tamale
+OLMoE,0,35,gsm8k_1034,math,GSM8K,91566965,3.3287990059998265,909.341,2412.24,37,52,eos,False, The cost of the books is 3 * $16 = $48. The cost of the pencils is 3 * $6 = $18. The total amount Ted spent is $48 + $18 = $66. So the answer is 66.
+OLMoE,0,36,tqa_3462,knowledge,TriviaQA,32210123,1.224597632000041,1073.383,139.91,44,4,eos,False, australia
+OLMoE,0,37,gsm8k_0457,math,GSM8K,135628193,5.005108763000408,1855.527,3140.495,78,66,eos,False," Katelyn saw 50 fairies. Her friend saw half as many, which is 50 / 2 = 25 fairies. So, initially, there were 50 + 25 = 75 fairies. After 10 minutes, 30 fairies flew away, leaving 75 - 30 = 45 fairies. So, the answer is 45."
+OLMoE,0,38,drop_0a1e6fa5,comprehension,DROP,151203348,6.272795568999754,6205.801,50.97,262,2,eos,False, French
+OLMoE,0,39,gsm8k_0178,math,GSM8K,136020709,5.0295129330002055,1078.602,3930.315,44,82,eos,False," If Bo has 40 crabs, and Monic has 4 fewer crabs than Bo, then Monic has 40 - 4 = 36 crabs. Rani has ten more crabs than Monic, which means Rani has 36 + 10 = 46 crabs. The total number of crabs the three have together is 40 + 36 + 46 = 122 crabs.
+The answer: 122."
+OLMoE,0,40,tqa_2278,knowledge,TriviaQA,15343161,0.5637919979999424,409.534,141.562,15,4,eos,False, Daniel Defoe
+OLMoE,0,41,tqa_1307,knowledge,TriviaQA,14978111,0.5606637360001514,411.697,140.456,16,4,eos,False, Ferdinand Marcos
+OLMoE,0,42,drop_d45d1bff,comprehension,DROP,199040995,8.07316874900016,7278.654,787.556,311,16,eos,False, The passage provides the duration of the Spanish Civil War as 1936-1939.
+OLMoE,0,43,drop_4f1919d2,comprehension,DROP,194141105,8.11832743900004,7724.653,369.353,326,8,eos,False, Treaty of Żurawno
+OLMoE,0,44,drop_52f65e5e,comprehension,DROP,288018367,12.32183976999977,12077.793,219.328,512,5,eos,False, The Braves.
+OLMoE,0,45,drop_41ceae2f,comprehension,DROP,162024731,6.881432429999677,6743.616,103.052,284,3,eos,False, Jake Elliott
+OLMoE,0,46,tqa_2787,knowledge,TriviaQA,17625321,0.6715533329997925,600.75,47.85,23,2,eos,False, tattoo
+OLMoE,0,47,gsm8k_0285,math,GSM8K,70786440,2.5802716609996423,733.534,1842.179,29,40,eos,False," If Ann is 9 years old, her brother is 9 * 2 = 18 years old. In 3 years, her brother will be 18 + 3 = 21 years old. The answer: 21."
+OLMoE,0,48,drop_9b1e4b5e,comprehension,DROP,310143615,12.977221113000269,11673.581,1293.831,494,24,word,False," Joachim III Frederick inheriting the Silesian Duchy of Jägerndorf
+
+"
+OLMoE,0,49,drop_e240629c,comprehension,DROP,152184424,6.470416667000336,6329.714,105.76,266,3,eos,False, December 1939
+OLMoE,0,50,gsm8k_1309,math,GSM8K,146813223,5.549362710999958,1452.802,4075.728,60,84,eos,False," If Alexandra raises $430, and Kim raises $320 more than Alexandra, then Kim raises $430 + 320 = 750 dollars. Maryam raises $400 more than Sarah, who raises $300, so Maryam raises $300 + 400 = 700 dollars. The total amount of money they all raise is $430 + 750 + 300 + 700 = 2180 dollars.
+The answer: 2180."
+OLMoE,0,51,gsm8k_0501,math,GSM8K,122333061,4.641091649000373,1586.941,3039.53,65,63,eos,False," Mariah used 1 / 4 of a skein, which is 1 / 4 * 364 = 91 yards. Her grandma used 1 / 2 of a skein, which is 1 / 2 * 364 = 182 yards. Together, they used 91 + 182 = 273 yards. So the answer is 273."
+OLMoE,0,52,tqa_5323,knowledge,TriviaQA,15313986,0.5713334540000687,414.479,143.09,15,4,eos,False, sesame seeds
+OLMoE,0,53,gsm8k_0065,math,GSM8K,135350484,4.9861718180000025,1174.183,3804.955,49,80,eos,False," Jim spends 2 hours watching TV. He then reads for half as long, which is 2 / 2 = 1 hour. So, each time he does this, he spends 2 + 1 = 3 hours. He does this 3 times a week, so he spends 3 * 3 = 9 hours per week. In 4 weeks, he spends 9 * 4 = 36 hours. The answer: 36."
+OLMoE,0,54,tqa_3679,knowledge,TriviaQA,36136382,1.376756411000315,1080.823,282.023,44,7,eos,False, Jacqueline Kennedy Onassis
+OLMoE,0,55,gsm8k_1232,math,GSM8K,95198242,3.517181115999847,1193.112,2315.076,49,49,eos,False," If Eve is left with 1 / 4 of the original 20 pomelos, then she has 20 * 1 / 4 = 5 pomelos left. The number of pomelos she gave away is 20 - 5 = 15.
+"
+OLMoE,0,56,gsm8k_0054,math,GSM8K,194436453,7.316349986000205,2210.197,5093.903,92,104,eos,False," If the two house cats had a total of 2 kittens, and the Doubtfire sisters adopted 7 kittens from the shelter, then the total number of kittens so far is 2 + 7 = 9 kittens. The first cat, Patchy, has triple the number of kittens adopted from the shelter, which is 3 * 7 = 21 kittens. The total number of kittens now is 9 + 21 = 30 kittens. The answer: 30."
+OLMoE,0,57,tqa_0053,knowledge,TriviaQA,20019419,0.7396623820000059,483.961,239.369,18,6,eos,False, seymour hersh
+OLMoE,0,58,tqa_7121,knowledge,TriviaQA,25885798,0.9553115860003345,664.591,284.146,26,7,eos,False, sultan al-baroni
+OLMoE,0,59,drop_2dce13c3,comprehension,DROP,84753079,3.3852602320002916,3183.513,194.343,134,5,eos,False, non-families.
+OLMoE,0,60,tqa_4827,knowledge,TriviaQA,22664432,0.8418480109999109,733.473,94.229,29,3,eos,False, burglar
+OLMoE,1,61,drop_e240629c,comprehension,DROP,157439966,6.397042231000341,6283.482,102.094,266,3,eos,False, December 1939
+OLMoE,1,62,gsm8k_0061,math,GSM8K,117502628,4.358706773999984,1442.286,2897.362,60,61,eos,False," The cost to make the brooch is $500 + $800 = $1300. The insurance cost is 10% of $1300, which is $1300 * 10 / 100 = $130. Therefore, the total cost is $1300 + $130 = $1430.
+"
+OLMoE,1,63,drop_b457b042,comprehension,DROP,86479454,3.5109139820001474,3306.227,195.007,139,5,eos,False, 14.70.
+OLMoE,1,64,tqa_5745,knowledge,TriviaQA,23122500,0.8577102720000767,611.513,237.807,24,6,eos,False, woody guthrie
+OLMoE,1,65,drop_eb024d5a,comprehension,DROP,199671791,8.315935682000145,8249.239,52.708,350,2,eos,False, 10
+OLMoE,1,66,gsm8k_1209,math,GSM8K,305724437,11.795113954000044,3897.785,7869.989,164,154,eos,False,"
+The low setting removes 1 liter of water per day. For 3 days, the total amount of water removed is 1 * 3 = 3 liters. The medium setting removes twice as much water as the low setting, which is 2 * 1 = 2 liters per day. For 3 days, the total amount of water removed is 2 * 3 = 6 liters. The high setting removes twice as much water as the medium setting, which is 2 * 2 = 4 liters per day. For 5 days, the total amount of water removed is 4 * 5 = 20 liters. Therefore, the total amount of water removed from the air in Brian's basement is 3 + 6 + 20 = 29 liters.
+
+The final answer: 29."
+OLMoE,1,67,gsm8k_0864,math,GSM8K,115857674,4.4567885690003095,1631.719,2803.322,67,58,eos,False," If each of the 50 students received 10 burritos, the total number of burritos given out is 50 * 10 = 500 burritos. Mr. George ate 20 burritos, leaving 500 - 20 = 480 burritos.
+So the answer is 480."
+OLMoE,1,68,drop_f39a64a4,comprehension,DROP,127183268,5.401876215999891,5338.612,50.547,225,2,eos,False, 65
+OLMoE,1,69,gsm8k_0191,math,GSM8K,130693575,4.880355816000247,1012.731,3857.636,41,80,eos,False," The ducks need 3.5 pounds of insects each week per duck, so for 10 ducks, they need 3.5 * 10 = 35 pounds of insects each week. To find out how many pounds they need per day, we divide the total pounds needed per week by the number of days in a week: 35 pounds / 7 days = 5 pounds per day. So the answer is 5."
+OLMoE,1,70,gsm8k_0447,math,GSM8K,98868582,3.7125370550002117,1089.91,2613.96,44,55,word,False," Joey had 214 points and scored 26, so now he has 214 + 26 = 240 points. Marcy had 225 points and scored 10, so now she has 225 + 10 = 235 points. Joey is now winning by 240 - 235 = 5 points.
+
+"
+OLMoE,1,71,drop_d45d1bff,comprehension,DROP,194606191,8.159821394000119,7352.21,794.533,311,16,eos,False, The passage provides the duration of the Spanish Civil War as 1936-1939.
+OLMoE,1,72,gsm8k_1116,math,GSM8K,84011626,3.16303122599993,1066.018,2074.919,43,44,word,False," The increase in enrollment is 20% of 50 students, which is 50 * 20 / 100 = 10 students. Therefore, the total number of students enrolled this year is 50 + 10 = 60 students.
+
+"
+OLMoE,1,73,drop_f6b987f4,comprehension,DROP,173489241,7.249195834999682,6606.418,628.841,278,13,eos,False, 37.9 - 52.2 = -14.3
+OLMoE,1,74,drop_43d21cab,comprehension,DROP,79923806,3.3396908459999395,3269.68,48.773,137,2,eos,False, 4
+OLMoE,1,75,drop_52f65e5e,comprehension,DROP,287312375,12.317159551999794,12082.335,218.224,512,5,eos,False, The Braves.
+OLMoE,1,76,gsm8k_0209,math,GSM8K,140743231,5.263876393999908,890.693,4340.41,36,90,eos,False," If twenty dozen cups cost $1200 less than the total cost of half a dozen plates, then the total cost of half a dozen plates is $6000 + $1200 = $7200. Half a dozen plates cost $7200, so a dozen plates cost $7200 / 6 = $1200. Thus, a cup, which is a twelfth of a dozen, costs $1200 / 12 = $100. The answer: 100."
+OLMoE,1,77,tqa_5719,knowledge,TriviaQA,20424570,0.7761939639999582,672.591,95.868,26,3,eos,False, Tamale
+OLMoE,1,78,gsm8k_1309,math,GSM8K,147483143,5.5052152260000184,1449.591,4048.362,60,84,eos,False," If Alexandra raises $430, and Kim raises $320 more than Alexandra, then Kim raises $430 + 320 = 750 dollars. Maryam raises $400 more than Sarah, who raises $300, so Maryam raises $300 + 400 = 700 dollars. The total amount of money they all raise is $430 + 750 + 300 + 700 = 2180 dollars.
+The answer: 2180."
+OLMoE,1,79,tqa_3679,knowledge,TriviaQA,36130705,1.3860729299999548,1089.001,287.32,44,7,eos,False, Jacqueline Kennedy Onassis
+OLMoE,1,80,gsm8k_1034,math,GSM8K,91383067,3.3591567429998577,918.93,2432.648,37,52,eos,False, The cost of the books is 3 * $16 = $48. The cost of the pencils is 3 * $6 = $18. The total amount Ted spent is $48 + $18 = $66. So the answer is 66.
+OLMoE,1,81,gsm8k_0054,math,GSM8K,193762565,7.351331541000036,2218.804,5123.445,92,104,eos,False," If the two house cats had a total of 2 kittens, and the Doubtfire sisters adopted 7 kittens from the shelter, then the total number of kittens so far is 2 + 7 = 9 kittens. The first cat, Patchy, has triple the number of kittens adopted from the shelter, which is 3 * 7 = 21 kittens. The total number of kittens now is 9 + 21 = 30 kittens. The answer: 30."
+OLMoE,1,82,drop_9b1e4b5e,comprehension,DROP,304619337,13.039783220999652,11725.538,1296.936,494,24,word,False," Joachim III Frederick inheriting the Silesian Duchy of Jägerndorf
+
+"
+OLMoE,1,83,tqa_1307,knowledge,TriviaQA,15817220,0.5999075009999615,425.225,142.735,16,4,eos,False, Ferdinand Marcos
+OLMoE,1,84,drop_dc647615,comprehension,DROP,119963377,5.029279410999607,4920.891,100.079,208,3,eos,False, Native American
+OLMoE,1,85,tqa_6216,knowledge,TriviaQA,16608051,0.604758418000074,357.919,237.701,13,6,eos,False, Earl Derr Biggers
+OLMoE,1,86,drop_d817453d,comprehension,DROP,91402537,3.691587211999831,3488.535,195.254,147,5,eos,False, 24.35%.
+OLMoE,1,87,drop_ec451b54,comprehension,DROP,356857790,14.786401014000148,11112.545,3652.688,469,66,word,False," The relevant information to answer the above question is: The Eagles cut into the Broncos' lead, with a 25-yard field goal by placekicker Alex Henery, but the Broncos subsequently increased their lead, with return specialist Trindon Holliday returning the ensuing kickoff 105 yards for a touchdown.
+
+"
+OLMoE,1,88,gsm8k_0051,math,GSM8K,109562586,4.164965927999674,1198.101,2934.012,49,61,eos,False," From 1 to 4 PM is 3 hours. At 10 mph, the distance covered is 10 * 3 = 30 miles. At 6 mph, the time taken to cover 30 miles is 30 / 6 = 5 hours. The total time is 3 + 5 = 8 hours. \boxed{8}"
+OLMoE,1,89,gsm8k_0501,math,GSM8K,121972344,4.652741188000164,1586.931,3057.3,65,63,eos,False," Mariah used 1 / 4 of a skein, which is 1 / 4 * 364 = 91 yards. Her grandma used 1 / 2 of a skein, which is 1 / 2 * 364 = 182 yards. Together, they used 91 + 182 = 273 yards. So the answer is 273."
+OLMoE,1,90,drop_1da8ddaa,comprehension,DROP,145293695,6.195744055999967,6028.756,154.795,255,4,eos,False,  New England
+OLMoE,1,91,drop_4c725499,comprehension,DROP,190540466,7.93427327299969,6234.166,1676.932,262,33,eos,False," The relevant information to answer the above question is: There were 12,064 housing units at an average density of 36 per square mile (14/km²)."
+OLMoE,1,92,tqa_5323,knowledge,TriviaQA,15466024,0.5807137760002661,417.858,142.827,15,4,eos,False, sesame seeds
+OLMoE,1,93,tqa_4827,knowledge,TriviaQA,21873540,0.8389085280000472,738.03,94.733,29,3,eos,False, burglar
+OLMoE,1,94,tqa_7121,knowledge,TriviaQA,25902766,0.9601775709998037,665.897,288.45,26,7,eos,False, sultan al-baroni
+OLMoE,1,95,tqa_6601,knowledge,TriviaQA,22915591,0.8503348919998643,608.74,236.378,24,6,eos,False," ""hobab"""
+OLMoE,1,96,tqa_0053,knowledge,TriviaQA,19483532,0.7115603830002328,468.094,236.504,18,6,eos,False, seymour hersh
+OLMoE,1,97,tqa_3462,knowledge,TriviaQA,32260720,1.2135809189999236,1068.331,138.953,44,4,eos,False, australia
+OLMoE,1,98,gsm8k_0285,math,GSM8K,70110965,2.5548041600000033,725.49,1821.882,29,40,eos,False," If Ann is 9 years old, her brother is 9 * 2 = 18 years old. In 3 years, her brother will be 18 + 3 = 21 years old. The answer: 21."
+OLMoE,1,99,tqa_6630,knowledge,TriviaQA,21823309,0.808338659000583,608.272,193.474,24,5,eos,False, bad bad lepper
+OLMoE,1,100,tqa_2787,knowledge,TriviaQA,17196916,0.6352102060000107,582.576,47.267,23,2,eos,False, tattoo
+OLMoE,1,101,tqa_1628,knowledge,TriviaQA,13162686,0.47835083799964195,380.681,93.53,14,3,eos,False, Lacrosse
+OLMoE,1,102,tqa_3436,knowledge,TriviaQA,29874130,1.0798326829999496,460.266,614.844,18,14,eos,False," """"""Alba"""" is the Gaelic name for Scotland."""
+OLMoE,1,103,tqa_1805,knowledge,TriviaQA,33837926,1.253686149000714,1062.617,185.314,44,5,eos,False, simon cowell
+OLMoE,1,104,tqa_4597,knowledge,TriviaQA,16130452,0.5824201069999617,378.525,197.78,14,5,eos,False, The River Aire
+OLMoE,1,105,tqa_2278,knowledge,TriviaQA,14757287,0.5467021300000852,400.858,140.205,15,4,eos,False, Daniel Defoe
+OLMoE,1,106,tqa_4464,knowledge,TriviaQA,16678790,0.6104061450005247,458.543,146.466,18,4,eos,False, port melbourne
+OLMoE,1,107,drop_513c00fd,comprehension,DROP,148589768,5.8902246679999735,5828.628,50.037,252,2,eos,False, 31
+OLMoE,1,108,gsm8k_0563,math,GSM8K,128137673,4.686039685000651,1178.744,3487.96,49,74,eos,False," The younger son is 12 - 4 = 8 years old. So the total age of the two sons is 12 + 8 = 20 years. James needs to buy 20 / 5 = 4 packs of candles. Each pack costs $3, so 4 packs will cost $3 * 4 = $12. So James spends \boxed{12} dollars on candles."
+OLMoE,1,109,drop_0a1e6fa5,comprehension,DROP,150439313,6.283225850000235,6219.976,51.145,262,2,eos,False, French
+OLMoE,1,110,gsm8k_0457,math,GSM8K,134659140,5.123966598000152,1894.82,3209.273,78,66,eos,False," Katelyn saw 50 fairies. Her friend saw half as many, which is 50 / 2 = 25 fairies. So, initially, there were 50 + 25 = 75 fairies. After 10 minutes, 30 fairies flew away, leaving 75 - 30 = 45 fairies. So, the answer is 45."
+OLMoE,1,111,gsm8k_0178,math,GSM8K,134727072,5.0508101579998765,1091.486,3949.548,44,82,eos,False," If Bo has 40 crabs, and Monic has 4 fewer crabs than Bo, then Monic has 40 - 4 = 36 crabs. Rani has ten more crabs than Monic, which means Rani has 36 + 10 = 46 crabs. The total number of crabs the three have together is 40 + 36 + 46 = 122 crabs.
+The answer: 122."
+OLMoE,1,112,gsm8k_1232,math,GSM8K,93525518,3.5409259160005604,1202.883,2328.679,49,49,eos,False," If Eve is left with 1 / 4 of the original 20 pomelos, then she has 20 * 1 / 4 = 5 pomelos left. The number of pomelos she gave away is 20 - 5 = 15.
+"
+OLMoE,1,113,drop_4f1919d2,comprehension,DROP,190468995,8.13920445399981,7753.47,372.889,326,8,eos,False, Treaty of Żurawno
+OLMoE,1,114,drop_2dce13c3,comprehension,DROP,83298981,3.442704973000218,3207.147,212.322,134,5,eos,False, non-families.
+OLMoE,1,115,gsm8k_0065,math,GSM8K,134783713,5.0519371029995455,1188.102,3854.399,49,80,eos,False," Jim spends 2 hours watching TV. He then reads for half as long, which is 2 / 2 = 1 hour. So, each time he does this, he spends 2 + 1 = 3 hours. He does this 3 times a week, so he spends 3 * 3 = 9 hours per week. In 4 weeks, he spends 9 * 4 = 36 hours. The answer: 36."
+OLMoE,1,116,tqa_5865,knowledge,TriviaQA,21948553,0.822173446999841,574.706,238.189,22,6,eos,False, barnsley fc
+OLMoE,1,117,drop_5e671a33,comprehension,DROP,105477208,4.354296679000072,4146.987,198.693,175,5,eos,False, Ungheni
+OLMoE,1,118,gsm8k_0228,math,GSM8K,183111592,6.809648069000104,1359.666,5440.019,56,112,eos,False," Kalinda can place 4 pieces per minute. Her mom can place half as many, which is 4 / 2 = 2 pieces per minute. Together, they can place 4 + 2 = 6 pieces per minute. The total number of pieces in the puzzle is 360. At a rate of 6 pieces per minute, the time it will take to complete the puzzle is 360 / 6 = 60 minutes. There are 60 minutes in 1 hour, so it will take them 60 / 60 = 1 hour to complete the puzzle.
+So, the answer is 1."
+OLMoE,1,119,drop_41ceae2f,comprehension,DROP,161888075,6.87033395599974,6755.08,103.189,284,3,eos,False, Jake Elliott
+OLMoE,1,120,gsm8k_0476,math,GSM8K,90517774,3.416858472000058,1173.419,2221.053,48,47,eos,False," The total number of books Sarah bought is $300 / $15 = 20 books. If she gave an equal number of books to her 4 kids, each child got 20 / 4 = 5 books.
+The answer: 5."
+OLMoE,2,121,gsm8k_0209,math,GSM8K,140804632,5.22977839899977,887.937,4333.388,36,90,eos,False," If twenty dozen cups cost $1200 less than the total cost of half a dozen plates, then the total cost of half a dozen plates is $6000 + $1200 = $7200. Half a dozen plates cost $7200, so a dozen plates cost $7200 / 6 = $1200. Thus, a cup, which is a twelfth of a dozen, costs $1200 / 12 = $100. The answer: 100."
+OLMoE,2,122,tqa_4464,knowledge,TriviaQA,16896258,0.6360314800003835,484.333,142.79,18,4,eos,False, port melbourne
+OLMoE,2,123,tqa_1805,knowledge,TriviaQA,33358374,1.2788243120003244,1081.9,191.024,44,5,eos,False, simon cowell
+OLMoE,2,124,drop_f6b987f4,comprehension,DROP,174907816,7.216916725000374,6583.801,621.596,278,13,eos,False, 37.9 - 52.2 = -14.3
+OLMoE,2,125,tqa_2787,knowledge,TriviaQA,17683488,0.6662286950004273,598.857,47.146,23,2,eos,False, tattoo
+OLMoE,2,126,drop_2dce13c3,comprehension,DROP,83609100,3.3841902180001853,3181.575,194.529,134,5,eos,False, non-families.
+OLMoE,2,127,drop_eb024d5a,comprehension,DROP,198066510,8.340870357999847,8274.076,52.905,350,2,eos,False, 10
+OLMoE,2,128,gsm8k_0447,math,GSM8K,99625660,3.7185143110000354,1085.967,2608.363,44,55,word,False," Joey had 214 points and scored 26, so now he has 214 + 26 = 240 points. Marcy had 225 points and scored 10, so now she has 225 + 10 = 235 points. Joey is now winning by 240 - 235 = 5 points.
+
+"
+OLMoE,2,129,gsm8k_0864,math,GSM8K,116952886,4.443298166000204,1635.518,2799.459,67,58,eos,False," If each of the 50 students received 10 burritos, the total number of burritos given out is 50 * 10 = 500 burritos. Mr. George ate 20 burritos, leaving 500 - 20 = 480 burritos.
+So the answer is 480."
+OLMoE,2,130,tqa_3679,knowledge,TriviaQA,35812774,1.3833253940001669,1090.062,285.04,44,7,eos,False, Jacqueline Kennedy Onassis
+OLMoE,2,131,tqa_7121,knowledge,TriviaQA,26008844,0.9654496600005587,671.908,284.539,26,7,eos,False, sultan al-baroni
+OLMoE,2,132,gsm8k_0061,math,GSM8K,117056952,4.357592510999893,1449.866,2900.614,60,61,eos,False," The cost to make the brooch is $500 + $800 = $1300. The insurance cost is 10% of $1300, which is $1300 * 10 / 100 = $130. Therefore, the total cost is $1300 + $130 = $1430.
+"
+OLMoE,2,133,drop_4c725499,comprehension,DROP,191700254,7.906348415000139,6214.737,1678.948,262,33,eos,False," The relevant information to answer the above question is: There were 12,064 housing units at an average density of 36 per square mile (14/km²)."
+OLMoE,2,134,tqa_1628,knowledge,TriviaQA,13579799,0.5088140990001193,392.463,95.039,14,3,eos,False, Lacrosse
+OLMoE,2,135,drop_0a1e6fa5,comprehension,DROP,149739851,6.310879760999342,6248.306,51.322,262,2,eos,False, French
+OLMoE,2,136,drop_513c00fd,comprehension,DROP,141623112,6.0268465740000465,5954.322,50.576,252,2,eos,False, 31
+OLMoE,2,137,gsm8k_1232,math,GSM8K,93881779,3.5394304589999592,1201.699,2326.833,49,49,eos,False," If Eve is left with 1 / 4 of the original 20 pomelos, then she has 20 * 1 / 4 = 5 pomelos left. The number of pomelos she gave away is 20 - 5 = 15.
+"
+OLMoE,2,138,gsm8k_0065,math,GSM8K,134466818,5.062563575999775,1192.099,3861.949,49,80,eos,False," Jim spends 2 hours watching TV. He then reads for half as long, which is 2 / 2 = 1 hour. So, each time he does this, he spends 2 + 1 = 3 hours. He does this 3 times a week, so he spends 3 * 3 = 9 hours per week. In 4 weeks, he spends 9 * 4 = 36 hours. The answer: 36."
+OLMoE,2,139,tqa_2278,knowledge,TriviaQA,15421897,0.5736690690000614,420.958,144.254,15,4,eos,False, Daniel Defoe
+OLMoE,2,140,gsm8k_1309,math,GSM8K,147424794,5.535137000999384,1454.886,4073.164,60,84,eos,False," If Alexandra raises $430, and Kim raises $320 more than Alexandra, then Kim raises $430 + 320 = 750 dollars. Maryam raises $400 more than Sarah, who raises $300, so Maryam raises $300 + 400 = 700 dollars. The total amount of money they all raise is $430 + 750 + 300 + 700 = 2180 dollars.
+The answer: 2180."
+OLMoE,2,141,drop_e240629c,comprehension,DROP,151340006,6.4602581540002575,6344.181,103.994,266,3,eos,False, December 1939
+OLMoE,2,142,tqa_3436,knowledge,TriviaQA,30189010,1.1162964529994497,473.823,623.241,18,14,eos,False," """"""Alba"""" is the Gaelic name for Scotland."""
+OLMoE,2,143,tqa_4827,knowledge,TriviaQA,22490543,0.844930332000331,745.299,94.72,29,3,eos,False, burglar
+OLMoE,2,144,drop_ec451b54,comprehension,DROP,355778813,14.803441383000063,11134.454,3651.907,469,66,word,False," The relevant information to answer the above question is: The Eagles cut into the Broncos' lead, with a 25-yard field goal by placekicker Alex Henery, but the Broncos subsequently increased their lead, with return specialist Trindon Holliday returning the ensuing kickoff 105 yards for a touchdown.
+
+"
+OLMoE,2,145,gsm8k_0051,math,GSM8K,109065517,4.1837067970000135,1203.011,2945.664,49,61,eos,False," From 1 to 4 PM is 3 hours. At 10 mph, the distance covered is 10 * 3 = 30 miles. At 6 mph, the time taken to cover 30 miles is 30 / 6 = 5 hours. The total time is 3 + 5 = 8 hours. \boxed{8}"
+OLMoE,2,146,drop_41ceae2f,comprehension,DROP,158854452,6.880660994000209,6764.23,104.087,284,3,eos,False, Jake Elliott
+OLMoE,2,147,tqa_5865,knowledge,TriviaQA,22127141,0.8404093540002577,579.869,240.76,22,6,eos,False, barnsley fc
+OLMoE,2,148,gsm8k_1116,math,GSM8K,84402677,3.1618958839999323,1065.545,2089.65,43,44,word,False," The increase in enrollment is 20% of 50 students, which is 50 * 20 / 100 = 10 students. Therefore, the total number of students enrolled this year is 50 + 10 = 60 students.
+
+"
+OLMoE,2,149,drop_5e671a33,comprehension,DROP,104677223,4.359002412999871,4150.306,199.145,175,5,eos,False, Ungheni
+OLMoE,2,150,tqa_6216,knowledge,TriviaQA,16591083,0.6106888959993739,363.429,238.205,13,6,eos,False, Earl Derr Biggers
+OLMoE,2,151,gsm8k_1034,math,GSM8K,90925182,3.37358673899962,911.966,2452.388,37,52,eos,False, The cost of the books is 3 * $16 = $48. The cost of the pencils is 3 * $6 = $18. The total amount Ted spent is $48 + $18 = $66. So the answer is 66.
+OLMoE,2,152,tqa_5719,knowledge,TriviaQA,20434274,0.7722514999995838,670.579,95.572,26,3,eos,False, Tamale
+OLMoE,2,153,tqa_6630,knowledge,TriviaQA,21552008,0.8030214179998438,608.681,189.07,24,5,eos,False, bad bad lepper
+OLMoE,2,154,tqa_3462,knowledge,TriviaQA,32119791,1.223550575000445,1074.348,142.964,44,4,eos,False, australia
+OLMoE,2,155,tqa_6601,knowledge,TriviaQA,23068788,0.8495188079996296,608.911,234.409,24,6,eos,False," ""hobab"""
+OLMoE,2,156,drop_1da8ddaa,comprehension,DROP,150738140,6.1429286250004225,5980.11,151.791,255,4,eos,False,  New England
+OLMoE,2,157,drop_43d21cab,comprehension,DROP,80831092,3.3232770399999936,3255.614,48.782,137,2,eos,False, 4
+OLMoE,2,158,gsm8k_1209,math,GSM8K,304662611,11.810952434999308,3877.459,7920.992,164,154,eos,False,"
+The low setting removes 1 liter of water per day. For 3 days, the total amount of water removed is 1 * 3 = 3 liters. The medium setting removes twice as much water as the low setting, which is 2 * 1 = 2 liters per day. For 3 days, the total amount of water removed is 2 * 3 = 6 liters. The high setting removes twice as much water as the medium setting, which is 2 * 2 = 4 liters per day. For 5 days, the total amount of water removed is 4 * 5 = 20 liters. Therefore, the total amount of water removed from the air in Brian's basement is 3 + 6 + 20 = 29 liters.
+
+The final answer: 29."
+OLMoE,2,159,tqa_1307,knowledge,TriviaQA,15657309,0.5953320910002731,423.722,148.433,16,4,eos,False, Ferdinand Marcos
+OLMoE,2,160,drop_9b1e4b5e,comprehension,DROP,303488969,13.059878694999497,11734.343,1305.509,494,24,word,False," Joachim III Frederick inheriting the Silesian Duchy of Jägerndorf
+
+"
+OLMoE,2,161,drop_dc647615,comprehension,DROP,118187380,5.0760774079999464,4942.479,100.746,208,3,eos,False, Native American
+OLMoE,2,162,gsm8k_0285,math,GSM8K,70259769,2.6374476810005945,747.569,1879.919,29,40,eos,False," If Ann is 9 years old, her brother is 9 * 2 = 18 years old. In 3 years, her brother will be 18 + 3 = 21 years old. The answer: 21."
+OLMoE,2,163,drop_f39a64a4,comprehension,DROP,128129738,5.400120083000729,5338.048,50.271,225,2,eos,False, 65
+OLMoE,2,164,gsm8k_0178,math,GSM8K,134321251,5.047639347999393,1087.998,3947.519,44,82,eos,False," If Bo has 40 crabs, and Monic has 4 fewer crabs than Bo, then Monic has 40 - 4 = 36 crabs. Rani has ten more crabs than Monic, which means Rani has 36 + 10 = 46 crabs. The total number of crabs the three have together is 40 + 36 + 46 = 122 crabs.
+The answer: 122."
+OLMoE,2,165,gsm8k_0054,math,GSM8K,191891476,7.4010797769997225,2234.152,5158.68,92,104,eos,False," If the two house cats had a total of 2 kittens, and the Doubtfire sisters adopted 7 kittens from the shelter, then the total number of kittens so far is 2 + 7 = 9 kittens. The first cat, Patchy, has triple the number of kittens adopted from the shelter, which is 3 * 7 = 21 kittens. The total number of kittens now is 9 + 21 = 30 kittens. The answer: 30."
+OLMoE,2,166,gsm8k_0563,math,GSM8K,125054062,4.785820042000523,1195.751,3580.415,49,74,eos,False," The younger son is 12 - 4 = 8 years old. So the total age of the two sons is 12 + 8 = 20 years. James needs to buy 20 / 5 = 4 packs of candles. Each pack costs $3, so 4 packs will cost $3 * 4 = $12. So James spends \boxed{12} dollars on candles."
+OLMoE,2,167,drop_d45d1bff,comprehension,DROP,191449888,8.207330203999845,7392.957,801.144,311,16,eos,False, The passage provides the duration of the Spanish Civil War as 1936-1939.
+OLMoE,2,168,tqa_4597,knowledge,TriviaQA,16073811,0.6028713229998175,389.611,191.487,14,5,eos,False, The River Aire
+OLMoE,2,169,gsm8k_0501,math,GSM8K,121700921,4.62425592999989,1579.371,3037.792,65,63,eos,False," Mariah used 1 / 4 of a skein, which is 1 / 4 * 364 = 91 yards. Her grandma used 1 / 2 of a skein, which is 1 / 2 * 364 = 182 yards. Together, they used 91 + 182 = 273 yards. So the answer is 273."
+OLMoE,2,170,tqa_0053,knowledge,TriviaQA,19628368,0.7265599339998516,477.211,240.391,18,6,eos,False, seymour hersh
+OLMoE,2,171,drop_52f65e5e,comprehension,DROP,286114013,12.339610712999274,12089.319,235.591,512,5,eos,False, The Braves.
+OLMoE,2,172,drop_b457b042,comprehension,DROP,85522731,3.570408602000498,3339.724,198.506,139,5,eos,False, 14.70.
+OLMoE,2,173,gsm8k_0228,math,GSM8K,181931052,6.869397671000115,1365.835,5493.412,56,112,eos,False," Kalinda can place 4 pieces per minute. Her mom can place half as many, which is 4 / 2 = 2 pieces per minute. Together, they can place 4 + 2 = 6 pieces per minute. The total number of pieces in the puzzle is 360. At a rate of 6 pieces per minute, the time it will take to complete the puzzle is 360 / 6 = 60 minutes. There are 60 minutes in 1 hour, so it will take them 60 / 60 = 1 hour to complete the puzzle.
+So, the answer is 1."
+OLMoE,2,174,gsm8k_0457,math,GSM8K,132386930,5.139228369000193,1910.144,3217.636,78,66,eos,False," Katelyn saw 50 fairies. Her friend saw half as many, which is 50 / 2 = 25 fairies. So, initially, there were 50 + 25 = 75 fairies. After 10 minutes, 30 fairies flew away, leaving 75 - 30 = 45 fairies. So, the answer is 45."
+OLMoE,2,175,gsm8k_0191,math,GSM8K,129156469,4.8955931179998515,1026.612,3859.043,41,80,eos,False," The ducks need 3.5 pounds of insects each week per duck, so for 10 ducks, they need 3.5 * 10 = 35 pounds of insects each week. To find out how many pounds they need per day, we divide the total pounds needed per week by the number of days in a week: 35 pounds / 7 days = 5 pounds per day. So the answer is 5."
+OLMoE,2,176,gsm8k_0476,math,GSM8K,89355484,3.420667237000089,1172.13,2240.629,48,47,eos,False," The total number of books Sarah bought is $300 / $15 = 20 books. If she gave an equal number of books to her 4 kids, each child got 20 / 4 = 5 books.
+The answer: 5."
+OLMoE,2,177,tqa_5745,knowledge,TriviaQA,23251466,0.8794078319997425,632.136,240.082,24,6,eos,False, woody guthrie
+OLMoE,2,178,drop_d817453d,comprehension,DROP,89174211,3.7008969979997346,3494.279,197.695,147,5,eos,False, 24.35%.
+OLMoE,2,179,tqa_5323,knowledge,TriviaQA,15311728,0.5653431939999791,413.952,142.486,15,4,eos,False, sesame seeds
+OLMoE,2,180,drop_4f1919d2,comprehension,DROP,192374569,8.11522268599947,7733.273,369.855,326,8,eos,False, Treaty of Żurawno
+OLMoE,3,181,drop_41ceae2f,comprehension,DROP,161124221,6.8909300690002055,6760.841,103.926,284,3,eos,False, Jake Elliott
+OLMoE,3,182,gsm8k_1209,math,GSM8K,300971703,11.861046167000495,3894.783,7942.88,164,154,eos,False,"
+The low setting removes 1 liter of water per day. For 3 days, the total amount of water removed is 1 * 3 = 3 liters. The medium setting removes twice as much water as the low setting, which is 2 * 1 = 2 liters per day. For 3 days, the total amount of water removed is 2 * 3 = 6 liters. The high setting removes twice as much water as the medium setting, which is 2 * 2 = 4 liters per day. For 5 days, the total amount of water removed is 4 * 5 = 20 liters. Therefore, the total amount of water removed from the air in Brian's basement is 3 + 6 + 20 = 29 liters.
+
+The final answer: 29."
+OLMoE,3,183,tqa_5745,knowledge,TriviaQA,23162233,0.8977500789997066,627.264,248.543,24,6,eos,False, woody guthrie
+OLMoE,3,184,tqa_6216,knowledge,TriviaQA,16330036,0.603645783000502,360.367,238.183,13,6,eos,False, Earl Derr Biggers
+OLMoE,3,185,drop_f6b987f4,comprehension,DROP,172606492,7.240591133000635,6603.165,625.133,278,13,eos,False, 37.9 - 52.2 = -14.3
+OLMoE,3,186,drop_0a1e6fa5,comprehension,DROP,146872610,6.328752943999461,6253.408,51.567,262,2,eos,False, French
+OLMoE,3,187,gsm8k_0054,math,GSM8K,192006711,7.399695158000213,2233.948,5146.599,92,104,eos,False," If the two house cats had a total of 2 kittens, and the Doubtfire sisters adopted 7 kittens from the shelter, then the total number of kittens so far is 2 + 7 = 9 kittens. The first cat, Patchy, has triple the number of kittens adopted from the shelter, which is 3 * 7 = 21 kittens. The total number of kittens now is 9 + 21 = 30 kittens. The answer: 30."
+OLMoE,3,188,drop_b457b042,comprehension,DROP,84352506,3.5542230050004946,3335.989,206.765,139,5,eos,False, 14.70.
+OLMoE,3,189,drop_e240629c,comprehension,DROP,151337015,6.475006507999751,6360.319,103.197,266,3,eos,False, December 1939
+OLMoE,3,190,gsm8k_0501,math,GSM8K,122000115,4.649223139999776,1590.814,3038.837,65,63,eos,False," Mariah used 1 / 4 of a skein, which is 1 / 4 * 364 = 91 yards. Her grandma used 1 / 2 of a skein, which is 1 / 2 * 364 = 182 yards. Together, they used 91 + 182 = 273 yards. So the answer is 273."
+OLMoE,3,191,drop_ec451b54,comprehension,DROP,350180195,14.85125030800009,11168.782,3666.221,469,66,word,False," The relevant information to answer the above question is: The Eagles cut into the Broncos' lead, with a 25-yard field goal by placekicker Alex Henery, but the Broncos subsequently increased their lead, with return specialist Trindon Holliday returning the ensuing kickoff 105 yards for a touchdown.
+
+"
+OLMoE,3,192,drop_43d21cab,comprehension,DROP,78994671,3.401996229999895,3318.985,49.846,137,2,eos,False, 4
+OLMoE,3,193,gsm8k_1232,math,GSM8K,92892219,3.552722231000189,1202.454,2342.043,49,49,eos,False," If Eve is left with 1 / 4 of the original 20 pomelos, then she has 20 * 1 / 4 = 5 pomelos left. The number of pomelos she gave away is 20 - 5 = 15.
+"
+OLMoE,3,194,tqa_6601,knowledge,TriviaQA,22931704,0.8677950199999032,620.885,238.765,24,6,eos,False," ""hobab"""
+OLMoE,3,195,drop_d45d1bff,comprehension,DROP,193884086,8.173554099000285,7364.873,795.407,311,16,eos,False, The passage provides the duration of the Spanish Civil War as 1936-1939.
+OLMoE,3,196,gsm8k_0065,math,GSM8K,134528159,5.095627933000287,1193.989,3879.438,49,80,eos,False," Jim spends 2 hours watching TV. He then reads for half as long, which is 2 / 2 = 1 hour. So, each time he does this, he spends 2 + 1 = 3 hours. He does this 3 times a week, so he spends 3 * 3 = 9 hours per week. In 4 weeks, he spends 9 * 4 = 36 hours. The answer: 36."
+OLMoE,3,197,gsm8k_0285,math,GSM8K,70055302,2.639427615999921,747.01,1882.303,29,40,eos,False," If Ann is 9 years old, her brother is 9 * 2 = 18 years old. In 3 years, her brother will be 18 + 3 = 21 years old. The answer: 21."
+OLMoE,3,198,drop_4c725499,comprehension,DROP,189647830,7.923856364999665,6227.851,1685.204,262,33,eos,False," The relevant information to answer the above question is: There were 12,064 housing units at an average density of 36 per square mile (14/km²)."
+OLMoE,3,199,tqa_1307,knowledge,TriviaQA,15485861,0.5884700350006824,420.647,143.438,16,4,eos,False, Ferdinand Marcos
+OLMoE,3,200,gsm8k_0457,math,GSM8K,133661218,5.109933427999749,1898.755,3202.503,78,66,eos,False," Katelyn saw 50 fairies. Her friend saw half as many, which is 50 / 2 = 25 fairies. So, initially, there were 50 + 25 = 75 fairies. After 10 minutes, 30 fairies flew away, leaving 75 - 30 = 45 fairies. So, the answer is 45."
+OLMoE,3,201,gsm8k_0061,math,GSM8K,115813485,4.411548199000208,1464.795,2936.766,60,61,eos,False," The cost to make the brooch is $500 + $800 = $1300. The insurance cost is 10% of $1300, which is $1300 * 10 / 100 = $130. Therefore, the total cost is $1300 + $130 = $1430.
+"
+OLMoE,3,202,tqa_3679,knowledge,TriviaQA,35658051,1.391952102999312,1097.694,285.521,44,7,eos,False, Jacqueline Kennedy Onassis
+OLMoE,3,203,tqa_3436,knowledge,TriviaQA,30168502,1.0981507900005454,471.664,620.646,18,14,eos,False," """"""Alba"""" is the Gaelic name for Scotland."""
+OLMoE,3,204,gsm8k_0209,math,GSM8K,141000921,5.206364511000174,886.568,4311.303,36,90,eos,False," If twenty dozen cups cost $1200 less than the total cost of half a dozen plates, then the total cost of half a dozen plates is $6000 + $1200 = $7200. Half a dozen plates cost $7200, so a dozen plates cost $7200 / 6 = $1200. Thus, a cup, which is a twelfth of a dozen, costs $1200 / 12 = $100. The answer: 100."
+OLMoE,3,205,drop_dc647615,comprehension,DROP,119416809,5.049082889999227,4938.035,101.183,208,3,eos,False, Native American
+OLMoE,3,206,drop_eb024d5a,comprehension,DROP,194540762,8.394593439000346,8326.11,53.138,350,2,eos,False, 10
+OLMoE,3,207,tqa_1628,knowledge,TriviaQA,13483120,0.5094006310000623,390.315,95.005,14,3,eos,False, Lacrosse
+OLMoE,3,208,tqa_2278,knowledge,TriviaQA,15244346,0.5600297839991981,413.11,142.441,15,4,eos,False, Daniel Defoe
+OLMoE,3,209,gsm8k_0563,math,GSM8K,128088112,4.729994452000028,1190.488,3532.328,49,74,eos,False," The younger son is 12 - 4 = 8 years old. So the total age of the two sons is 12 + 8 = 20 years. James needs to buy 20 / 5 = 4 packs of candles. Each pack costs $3, so 4 packs will cost $3 * 4 = $12. So James spends \boxed{12} dollars on candles."
+OLMoE,3,210,gsm8k_0476,math,GSM8K,90354383,3.4004118689999814,1164.045,2226.775,48,47,eos,False," The total number of books Sarah bought is $300 / $15 = 20 books. If she gave an equal number of books to her 4 kids, each child got 20 / 4 = 5 books.
+The answer: 5."
+OLMoE,3,211,tqa_4597,knowledge,TriviaQA,16170429,0.5938944760000595,394.983,190.111,14,5,eos,False, The River Aire
+OLMoE,3,212,gsm8k_1034,math,GSM8K,91059887,3.371327757000472,911.954,2453.364,37,52,eos,False, The cost of the books is 3 * $16 = $48. The cost of the pencils is 3 * $6 = $18. The total amount Ted spent is $48 + $18 = $66. So the answer is 66.
+OLMoE,3,213,tqa_5719,knowledge,TriviaQA,20760262,0.7778413770001862,675.038,96.173,26,3,eos,False, Tamale
+OLMoE,3,214,tqa_5865,knowledge,TriviaQA,21710271,0.8025731199995789,562.212,235.563,22,6,eos,False, barnsley fc
+OLMoE,3,215,gsm8k_1116,math,GSM8K,84588101,3.1091188079999483,1046.522,2053.05,43,44,word,False," The increase in enrollment is 20% of 50 students, which is 50 * 20 / 100 = 10 students. Therefore, the total number of students enrolled this year is 50 + 10 = 60 students.
+
+"
+OLMoE,3,216,gsm8k_0191,math,GSM8K,130922700,4.824740989999555,1004.754,3811.432,41,80,eos,False," The ducks need 3.5 pounds of insects each week per duck, so for 10 ducks, they need 3.5 * 10 = 35 pounds of insects each week. To find out how many pounds they need per day, we divide the total pounds needed per week by the number of days in a week: 35 pounds / 7 days = 5 pounds per day. So the answer is 5."
+OLMoE,3,217,drop_513c00fd,comprehension,DROP,142759278,6.004544180000266,5942.419,50.522,252,2,eos,False, 31
+OLMoE,3,218,tqa_7121,knowledge,TriviaQA,25717220,0.9681824409999535,668.593,288.994,26,7,eos,False, sultan al-baroni
+OLMoE,3,219,tqa_4464,knowledge,TriviaQA,18262710,0.6649925350002377,513.629,144.9,18,4,eos,False, port melbourne
+OLMoE,3,220,tqa_4827,knowledge,TriviaQA,22229680,0.8351409030001378,735.211,94.899,29,3,eos,False, burglar
+OLMoE,3,221,drop_2dce13c3,comprehension,DROP,85040920,3.380726140999286,3178.787,194.398,134,5,eos,False, non-families.
+OLMoE,3,222,drop_1da8ddaa,comprehension,DROP,149351546,6.170491787999708,6005.966,153.184,255,4,eos,False,  New England
+OLMoE,3,223,drop_f39a64a4,comprehension,DROP,128408424,5.4037258150001435,5333.351,50.136,225,2,eos,False, 65
+OLMoE,3,224,gsm8k_0228,math,GSM8K,181904991,6.862639392999881,1363.498,5487.562,56,112,eos,False," Kalinda can place 4 pieces per minute. Her mom can place half as many, which is 4 / 2 = 2 pieces per minute. Together, they can place 4 + 2 = 6 pieces per minute. The total number of pieces in the puzzle is 360. At a rate of 6 pieces per minute, the time it will take to complete the puzzle is 360 / 6 = 60 minutes. There are 60 minutes in 1 hour, so it will take them 60 / 60 = 1 hour to complete the puzzle.
+So, the answer is 1."
+OLMoE,3,225,tqa_6630,knowledge,TriviaQA,21456732,0.8215465579996817,619.142,191.245,24,5,eos,False, bad bad lepper
+OLMoE,3,226,drop_4f1919d2,comprehension,DROP,191949216,8.129519738999988,7745.059,371.801,326,8,eos,False, Treaty of Żurawno
+OLMoE,3,227,tqa_0053,knowledge,TriviaQA,19639842,0.7402655910000249,479.336,238.707,18,6,eos,False, seymour hersh
+OLMoE,3,228,drop_5e671a33,comprehension,DROP,105003881,4.3480248209998535,4141.416,197.931,175,5,eos,False, Ungheni
+OLMoE,3,229,tqa_5323,knowledge,TriviaQA,15514792,0.5712341899998137,419.329,143.102,15,4,eos,False, sesame seeds
+OLMoE,3,230,gsm8k_0864,math,GSM8K,117719791,4.41119082700061,1622.767,2779.573,67,58,eos,False," If each of the 50 students received 10 burritos, the total number of burritos given out is 50 * 10 = 500 burritos. Mr. George ate 20 burritos, leaving 500 - 20 = 480 burritos.
+So the answer is 480."
+OLMoE,3,231,tqa_2787,knowledge,TriviaQA,17480363,0.6570631599997796,600.715,47.53,23,2,eos,False, tattoo
+OLMoE,3,232,gsm8k_0178,math,GSM8K,135923236,5.0064299739997296,1078.13,3920.756,44,82,eos,False," If Bo has 40 crabs, and Monic has 4 fewer crabs than Bo, then Monic has 40 - 4 = 36 crabs. Rani has ten more crabs than Monic, which means Rani has 36 + 10 = 46 crabs. The total number of crabs the three have together is 40 + 36 + 46 = 122 crabs.
+The answer: 122."
+OLMoE,3,233,gsm8k_0051,math,GSM8K,109548548,4.112581887000488,1189.04,2914.615,49,61,eos,False," From 1 to 4 PM is 3 hours. At 10 mph, the distance covered is 10 * 3 = 30 miles. At 6 mph, the time taken to cover 30 miles is 30 / 6 = 5 hours. The total time is 3 + 5 = 8 hours. \boxed{8}"
+OLMoE,3,234,tqa_1805,knowledge,TriviaQA,33253699,1.2851841479996438,1087.544,189.277,44,5,eos,False, simon cowell
+OLMoE,3,235,drop_52f65e5e,comprehension,DROP,286492369,12.350460430000567,12115.072,219.161,512,5,eos,False, The Braves.
+OLMoE,3,236,drop_9b1e4b5e,comprehension,DROP,302691974,13.065228192000177,11723.188,1303.159,494,24,word,False," Joachim III Frederick inheriting the Silesian Duchy of Jägerndorf
+
+"
+OLMoE,3,237,gsm8k_0447,math,GSM8K,98837210,3.757688464000239,1095.675,2629.296,44,55,word,False," Joey had 214 points and scored 26, so now he has 214 + 26 = 240 points. Marcy had 225 points and scored 10, so now she has 225 + 10 = 235 points. Joey is now winning by 240 - 235 = 5 points.
+
+"
+OLMoE,3,238,gsm8k_1309,math,GSM8K,146355277,5.583412580000186,1457.286,4117.351,60,84,eos,False," If Alexandra raises $430, and Kim raises $320 more than Alexandra, then Kim raises $430 + 320 = 750 dollars. Maryam raises $400 more than Sarah, who raises $300, so Maryam raises $300 + 400 = 700 dollars. The total amount of money they all raise is $430 + 750 + 300 + 700 = 2180 dollars.
+The answer: 2180."
+OLMoE,3,239,tqa_3462,knowledge,TriviaQA,31857584,1.2475869209993107,1095.294,142.933,44,4,eos,False, australia
+OLMoE,3,240,drop_d817453d,comprehension,DROP,89572280,3.699583096000424,3494.465,196.89,147,5,eos,False, 24.35%.
+OLMoE,4,241,gsm8k_0285,math,GSM8K,70491030,2.614279971999167,736.612,1861.773,29,40,eos,False," If Ann is 9 years old, her brother is 9 * 2 = 18 years old. In 3 years, her brother will be 18 + 3 = 21 years old. The answer: 21."
+OLMoE,4,242,tqa_4827,knowledge,TriviaQA,22294743,0.8447869080000601,744.45,94.757,29,3,eos,False, burglar
+OLMoE,4,243,tqa_2278,knowledge,TriviaQA,15075339,0.5566568190006365,407.772,142.759,15,4,eos,False, Daniel Defoe
+OLMoE,4,244,gsm8k_0061,math,GSM8K,117639958,4.3370932300003915,1446.209,2883.71,60,61,eos,False," The cost to make the brooch is $500 + $800 = $1300. The insurance cost is 10% of $1300, which is $1300 * 10 / 100 = $130. Therefore, the total cost is $1300 + $130 = $1430.
+"
+OLMoE,4,245,drop_0a1e6fa5,comprehension,DROP,150062299,6.300626854000257,6236.44,51.425,262,2,eos,False, French
+OLMoE,4,246,gsm8k_0447,math,GSM8K,99316884,3.7211869100001422,1088.997,2612.754,44,55,word,False," Joey had 214 points and scored 26, so now he has 214 + 26 = 240 points. Marcy had 225 points and scored 10, so now she has 225 + 10 = 235 points. Joey is now winning by 240 - 235 = 5 points.
+
+"
+OLMoE,4,247,drop_52f65e5e,comprehension,DROP,284897403,12.35531740100032,12116.082,221.28,512,5,eos,False, The Braves.
+OLMoE,4,248,tqa_0053,knowledge,TriviaQA,19672618,0.7475156350001271,476.262,239.69,18,6,eos,False, seymour hersh
+OLMoE,4,249,gsm8k_0864,math,GSM8K,116977118,4.433730255000228,1634.09,2789.942,67,58,eos,False," If each of the 50 students received 10 burritos, the total number of burritos given out is 50 * 10 = 500 burritos. Mr. George ate 20 burritos, leaving 500 - 20 = 480 burritos.
+So the answer is 480."
+OLMoE,4,250,drop_43d21cab,comprehension,DROP,79856302,3.3302572180000425,3271.585,48.766,137,2,eos,False, 4
+OLMoE,4,251,tqa_6630,knowledge,TriviaQA,21650884,0.8137113929997213,615.372,189.751,24,5,eos,False, bad bad lepper
+OLMoE,4,252,drop_5e671a33,comprehension,DROP,106260470,4.333676409999498,4127.184,197.349,175,5,eos,False, Ungheni
+OLMoE,4,253,drop_d817453d,comprehension,DROP,89879531,3.6939945979993354,3486.621,196.251,147,5,eos,False, 24.35%.
+OLMoE,4,254,tqa_1628,knowledge,TriviaQA,13364651,0.4884309019998909,384.828,95.06,14,3,eos,False, Lacrosse
+OLMoE,4,255,drop_ec451b54,comprehension,DROP,356517581,14.782560152999395,11116.629,3649.992,469,66,word,False," The relevant information to answer the above question is: The Eagles cut into the Broncos' lead, with a 25-yard field goal by placekicker Alex Henery, but the Broncos subsequently increased their lead, with return specialist Trindon Holliday returning the ensuing kickoff 105 yards for a touchdown.
+
+"
+OLMoE,4,256,gsm8k_0054,math,GSM8K,191192869,7.443883520999407,2239.55,5170.763,92,104,eos,False," If the two house cats had a total of 2 kittens, and the Doubtfire sisters adopted 7 kittens from the shelter, then the total number of kittens so far is 2 + 7 = 9 kittens. The first cat, Patchy, has triple the number of kittens adopted from the shelter, which is 3 * 7 = 21 kittens. The total number of kittens now is 9 + 21 = 30 kittens. The answer: 30."
+OLMoE,4,257,tqa_5865,knowledge,TriviaQA,21435919,0.8270311129999754,577.657,239.636,22,6,eos,False, barnsley fc
+OLMoE,4,258,tqa_1805,knowledge,TriviaQA,32977699,1.2825852610003494,1087.149,189.656,44,5,eos,False, simon cowell
+OLMoE,4,259,tqa_1307,knowledge,TriviaQA,15449362,0.5709547039996323,423.326,142.067,16,4,eos,False, Ferdinand Marcos
+OLMoE,4,260,gsm8k_0065,math,GSM8K,135840960,4.9922948180001185,1179.993,3804.277,49,80,eos,False," Jim spends 2 hours watching TV. He then reads for half as long, which is 2 / 2 = 1 hour. So, each time he does this, he spends 2 + 1 = 3 hours. He does this 3 times a week, so he spends 3 * 3 = 9 hours per week. In 4 weeks, he spends 9 * 4 = 36 hours. The answer: 36."
+OLMoE,4,261,drop_41ceae2f,comprehension,DROP,161278457,6.843039839000085,6727.384,102.798,284,3,eos,False, Jake Elliott
+OLMoE,4,262,tqa_7121,knowledge,TriviaQA,26054743,0.9810321340000883,672.538,289.149,26,7,eos,False, sultan al-baroni
+OLMoE,4,263,tqa_3436,knowledge,TriviaQA,30117111,1.0985246930003996,471.921,619.453,18,14,eos,False," """"""Alba"""" is the Gaelic name for Scotland."""
+OLMoE,4,264,gsm8k_0457,math,GSM8K,134645346,5.092154803000085,1887.697,3196.669,78,66,eos,False," Katelyn saw 50 fairies. Her friend saw half as many, which is 50 / 2 = 25 fairies. So, initially, there were 50 + 25 = 75 fairies. After 10 minutes, 30 fairies flew away, leaving 75 - 30 = 45 fairies. So, the answer is 45."
+OLMoE,4,265,tqa_3679,knowledge,TriviaQA,35810638,1.3780383220000658,1085.168,284.64,44,7,eos,False, Jacqueline Kennedy Onassis
+OLMoE,4,266,drop_d45d1bff,comprehension,DROP,195586963,8.150402518999726,7342.174,795.156,311,16,eos,False, The passage provides the duration of the Spanish Civil War as 1936-1939.
+OLMoE,4,267,drop_2dce13c3,comprehension,DROP,82639864,3.4279664050000065,3208.425,196.406,134,5,eos,False, non-families.
+OLMoE,4,268,tqa_6216,knowledge,TriviaQA,16392842,0.6062689590007722,362.57,236.396,13,6,eos,False, Earl Derr Biggers
+OLMoE,4,269,tqa_4464,knowledge,TriviaQA,16746111,0.6218540449999637,474.667,142.547,18,4,eos,False, port melbourne
+OLMoE,4,270,gsm8k_0501,math,GSM8K,123545704,4.56986267100001,1560.742,3002.497,65,63,eos,False," Mariah used 1 / 4 of a skein, which is 1 / 4 * 364 = 91 yards. Her grandma used 1 / 2 of a skein, which is 1 / 2 * 364 = 182 yards. Together, they used 91 + 182 = 273 yards. So the answer is 273."
+OLMoE,4,271,gsm8k_1116,math,GSM8K,84553189,3.1313140949996523,1066.757,2054.766,43,44,word,False," The increase in enrollment is 20% of 50 students, which is 50 * 20 / 100 = 10 students. Therefore, the total number of students enrolled this year is 50 + 10 = 60 students.
+
+"
+OLMoE,4,272,gsm8k_0191,math,GSM8K,130852692,4.853597603999333,1014.582,3830.954,41,80,eos,False," The ducks need 3.5 pounds of insects each week per duck, so for 10 ducks, they need 3.5 * 10 = 35 pounds of insects each week. To find out how many pounds they need per day, we divide the total pounds needed per week by the number of days in a week: 35 pounds / 7 days = 5 pounds per day. So the answer is 5."
+OLMoE,4,273,gsm8k_1034,math,GSM8K,90675366,3.387965838999662,921.021,2458.278,37,52,eos,False, The cost of the books is 3 * $16 = $48. The cost of the pencils is 3 * $6 = $18. The total amount Ted spent is $48 + $18 = $66. So the answer is 66.
+OLMoE,4,274,drop_b457b042,comprehension,DROP,85553370,3.531393362000017,3325.333,196.91,139,5,eos,False, 14.70.
+OLMoE,4,275,gsm8k_0228,math,GSM8K,182821798,6.8630622430000585,1366.155,5486.139,56,112,eos,False," Kalinda can place 4 pieces per minute. Her mom can place half as many, which is 4 / 2 = 2 pieces per minute. Together, they can place 4 + 2 = 6 pieces per minute. The total number of pieces in the puzzle is 360. At a rate of 6 pieces per minute, the time it will take to complete the puzzle is 360 / 6 = 60 minutes. There are 60 minutes in 1 hour, so it will take them 60 / 60 = 1 hour to complete the puzzle.
+So, the answer is 1."
+OLMoE,4,276,drop_f6b987f4,comprehension,DROP,170245475,7.25049941099951,6606.964,630.244,278,13,eos,False, 37.9 - 52.2 = -14.3
+OLMoE,4,277,gsm8k_1309,math,GSM8K,146225029,5.5821467349996965,1463.197,4097.91,60,84,eos,False," If Alexandra raises $430, and Kim raises $320 more than Alexandra, then Kim raises $430 + 320 = 750 dollars. Maryam raises $400 more than Sarah, who raises $300, so Maryam raises $300 + 400 = 700 dollars. The total amount of money they all raise is $430 + 750 + 300 + 700 = 2180 dollars.
+The answer: 2180."
+OLMoE,4,278,gsm8k_0178,math,GSM8K,133384729,5.080477026000153,1096.689,3974.237,44,82,eos,False," If Bo has 40 crabs, and Monic has 4 fewer crabs than Bo, then Monic has 40 - 4 = 36 crabs. Rani has ten more crabs than Monic, which means Rani has 36 + 10 = 46 crabs. The total number of crabs the three have together is 40 + 36 + 46 = 122 crabs.
+The answer: 122."
+OLMoE,4,279,tqa_4597,knowledge,TriviaQA,16215474,0.6072856730006606,408.52,190.91,14,5,eos,False, The River Aire
+OLMoE,4,280,tqa_3462,knowledge,TriviaQA,32207559,1.2358626860004733,1086.589,144.142,44,4,eos,False, australia
+OLMoE,4,281,drop_f39a64a4,comprehension,DROP,128881812,5.360899411999526,5301.508,49.926,225,2,eos,False, 65
+OLMoE,4,282,tqa_5719,knowledge,TriviaQA,20540719,0.7721890140001051,667.708,94.765,26,3,eos,False, Tamale
+OLMoE,4,283,gsm8k_1209,math,GSM8K,304805616,11.788233649000176,3870.449,7906.333,164,154,eos,False,"
+The low setting removes 1 liter of water per day. For 3 days, the total amount of water removed is 1 * 3 = 3 liters. The medium setting removes twice as much water as the low setting, which is 2 * 1 = 2 liters per day. For 3 days, the total amount of water removed is 2 * 3 = 6 liters. The high setting removes twice as much water as the medium setting, which is 2 * 2 = 4 liters per day. For 5 days, the total amount of water removed is 4 * 5 = 20 liters. Therefore, the total amount of water removed from the air in Brian's basement is 3 + 6 + 20 = 29 liters.
+
+The final answer: 29."
+OLMoE,4,284,tqa_5745,knowledge,TriviaQA,23569215,0.9021245969997835,639.931,240.425,24,6,eos,False, woody guthrie
+OLMoE,4,285,drop_4c725499,comprehension,DROP,190844360,7.908621188999859,6221.51,1676.216,262,33,eos,False," The relevant information to answer the above question is: There were 12,064 housing units at an average density of 36 per square mile (14/km²)."
+OLMoE,4,286,drop_1da8ddaa,comprehension,DROP,145498834,6.229245774999981,6050.402,154.868,255,4,eos,False,  New England
+OLMoE,4,287,gsm8k_0476,math,GSM8K,90021803,3.422577139999703,1171.599,2232.346,48,47,eos,False," The total number of books Sarah bought is $300 / $15 = 20 books. If she gave an equal number of books to her 4 kids, each child got 20 / 4 = 5 books.
+The answer: 5."
+OLMoE,4,288,tqa_5323,knowledge,TriviaQA,15400473,0.5739242529998592,424.766,142.105,15,4,eos,False, sesame seeds
+OLMoE,4,289,tqa_2787,knowledge,TriviaQA,16847125,0.6427869299996019,590.667,47.748,23,2,eos,False, tattoo
+OLMoE,4,290,tqa_6601,knowledge,TriviaQA,23082643,0.8545405810000375,612.601,236.8,24,6,eos,False," ""hobab"""
+OLMoE,4,291,gsm8k_0051,math,GSM8K,110026513,4.044674632999886,1175.796,2861.762,49,61,eos,False," From 1 to 4 PM is 3 hours. At 10 mph, the distance covered is 10 * 3 = 30 miles. At 6 mph, the time taken to cover 30 miles is 30 / 6 = 5 hours. The total time is 3 + 5 = 8 hours. \boxed{8}"
+OLMoE,4,292,drop_e240629c,comprehension,DROP,153917941,6.438629402000515,6324.726,103.416,266,3,eos,False, December 1939
+OLMoE,4,293,gsm8k_1232,math,GSM8K,94318851,3.5365288230004808,1199.345,2317.867,49,49,eos,False," If Eve is left with 1 / 4 of the original 20 pomelos, then she has 20 * 1 / 4 = 5 pomelos left. The number of pomelos she gave away is 20 - 5 = 15.
+"
+OLMoE,4,294,drop_dc647615,comprehension,DROP,119769835,5.038221382000302,4926.784,100.517,208,3,eos,False, Native American
+OLMoE,4,295,gsm8k_0563,math,GSM8K,126720317,4.758553835999919,1189.455,3559.26,49,74,eos,False," The younger son is 12 - 4 = 8 years old. So the total age of the two sons is 12 + 8 = 20 years. James needs to buy 20 / 5 = 4 packs of candles. Each pack costs $3, so 4 packs will cost $3 * 4 = $12. So James spends \boxed{12} dollars on candles."
+OLMoE,4,296,drop_9b1e4b5e,comprehension,DROP,302549213,13.05405866000001,11727.344,1310.83,494,24,word,False," Joachim III Frederick inheriting the Silesian Duchy of Jägerndorf
+
+"
+OLMoE,4,297,drop_4f1919d2,comprehension,DROP,189653567,8.196484908000457,7778.902,379.801,326,8,eos,False, Treaty of Żurawno
+OLMoE,4,298,drop_eb024d5a,comprehension,DROP,192658259,8.401423252999848,8321.234,53.478,350,2,eos,False, 10
+OLMoE,4,299,drop_513c00fd,comprehension,DROP,140466560,6.032204028000706,5966.602,50.653,252,2,eos,False, 31
+OLMoE,4,300,gsm8k_0209,math,GSM8K,139241709,5.252689764000024,890.3,4345.191,36,90,eos,False," If twenty dozen cups cost $1200 less than the total cost of half a dozen plates, then the total cost of half a dozen plates is $6000 + $1200 = $7200. Half a dozen plates cost $7200, so a dozen plates cost $7200 / 6 = $1200. Thus, a cup, which is a twelfth of a dozen, costs $1200 / 12 = $100. The answer: 100."

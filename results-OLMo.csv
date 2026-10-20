@@ -1,0 +1,951 @@
+model,repeat,run_index,task_id,domain,benchmark,energy_package_uj,wall_time_s,prompt_ms,predicted_ms,tokens_prompt,tokens_predicted,stop_type,truncated,content
+OLMo,0,1,tqa_4827,knowledge,TriviaQA,279805252,10.547286076000006,578.884,9933.619,30,191,eos,False," footpad is the term used to describe a criminal from the 16th to 19th century. Today, the term ""footpad"" is no longer used, and the term ""thief"" or ""burglar"" is more commonly used to describe a criminal who steals property. The term ""footpad"" was used during the Renaissance and the early modern period, particularly in England, to describe individuals who committed petty thefts by forcibly taking property from individuals at their feet, typically while they were asleep or distracted. The term was derived from the act of stealing a man's shoes, which was considered a particularly heinous crime at the time. The term ""footpad"" was used in various forms throughout the 17th and 18th centuries, and was used in various English-language legal documents and literature. The term fell out of use after the 19th century, and today it is considered an archaic or historical term."
+OLMo,0,2,gsm8k_0051,math,GSM8K,752240078,29.422463116999978,916.144,28489.535,52,512,limit,True," To find the time it takes for Tom to get back, we first need to determine the time he spends traveling from 1 to 4 PM.
+
+Since Tom sails from 1 to 4 PM, he has a total of 3 hours of travel time.
+
+Let's calculate the distance traveled from 1 to 4 PM. 
+Tom's ship travels at 10 miles per hour, so in 3 hours, it covers a distance of 10 * 3 = 30 miles.
+
+Since Tom needs to return at a rate of 6 mph, we need to calculate the time it takes to cover the same 30 miles back.
+
+Time = Distance / Speed = 30 miles / 6 mph = 5 hours.
+
+However, this calculation seems to contradict the fact that he only traveled for 3 hours from 1 to 4 PM. Let's re-evaluate the problem.
+
+The time from 1 to 4 PM is 3 hours, and he travels at 10 mph. So, the distance covered from 1 to 4 PM is 10 * 3 = 30 miles.
+
+Since he needs to return at 6 mph, the time taken to return is 30 miles / 6 mph = 5 hours.
+
+This calculation seems incorrect because it suggests a 5-hour return trip when only 3 hours were spent traveling from 1 to 4 PM. Let's re-evaluate the problem again.
+
+The correct approach is to calculate the time taken to travel 30 miles at 6 mph.
+
+Time = Distance / Speed = 30 miles / 6 mph = 5 hours.
+
+However, this still doesn't align with the 3-hour travel time from 1 to 4 PM. Let's consider the total travel time from 1 to 4 PM as 3 hours and the return trip as 5 hours, but this seems inconsistent.
+
+Let's reframe the problem: Tom travels from 1 to 4 PM and then returns at 6 mph. The total travel time should be consistent with the given 3 hours from 1 to 4 PM.
+
+The correct interpretation is that the return trip should take into account the initial travel time and the return speed. Let's calculate the return trip time correctly:
+
+The distance covered in the initial 3-hour trip is 30 miles. The return trip at 6 mph should cover the same distance in a time that is consistent with the total travel time of 3 hours.
+
+Time = Distance / Speed = 30 miles / "
+OLMo,0,3,gsm8k_1209,math,GSM8K,357037171,19.97393225000002,5655.388,14244.509,166,223,eos,False," Let's break down the problem step by step.
+
+The low setting removes 1 liter of water per day.
+So, in 3 days on the low setting, the dehumidifier removes 3 * 1 = 3 liters of water.
+
+The medium setting removes twice as much water per day as the low setting, which is 2 * 1 = 2 liters per day.
+So, in 3 days on the medium setting, the dehumidifier removes 3 * 2 = 6 liters of water.
+
+The high setting removes twice as much water per day as the medium setting, which is 2 * 2 = 4 liters per day.
+So, in 5 days on the high setting, the dehumidifier removes 5 * 4 = 20 liters of water.
+
+Now, let's add up the total amount of water removed: 3 + 6 + 20 = 29 liters.
+
+Thus, the total amount of water that the dehumidifier removed from the air in Brian's basement is \boxed{29} liters."
+OLMo,0,4,gsm8k_0864,math,GSM8K,205189172,7.853751332000002,1096.503,6729.305,64,130,eos,False," To find the total number of leftover burritos, first calculate the total number of burritos given to the students and then subtract the number of burritos eaten by Mr. George.
+
+The total number of burritos given to the students is 50 students * 10 burritos per student = 500 burritos.
+
+Adding the burritos eaten by Mr. George, the total number of burritos consumed is 500 + 20 = 520 burritos.
+
+The number of leftover burritos is then 600 - 520 = 80 burritos.
+
+So, the total number of leftover burritos from the picnic is \boxed{80}."
+OLMo,0,5,gsm8k_0061,math,GSM8K,275467496,10.556285591999995,1070.114,9468.838,60,181,eos,False," To find the total amount Janet paid, we need to add the cost of the material, the construction cost, and the insurance cost.
+
+First, we calculate the total cost of the material and construction.
+The material cost is $500.
+The construction cost is $800.
+So the total cost for material and construction is $500 + 800 = 1300$.
+
+Next, we calculate the insurance cost which is 10% of the total cost.
+The insurance cost is 10% of $1300, which is $1300 * 10 / 100 = 13000 / 100 = 130$.
+
+Finally, we add the insurance cost to the total cost of material and construction to get the total amount paid.
+The total amount paid is $1300 + 130 = 1430$.
+
+Thus, Janet paid a total of \boxed{1430} dollars."
+OLMo,0,6,gsm8k_1034,math,GSM8K,156983607,5.9672247730000265,687.132,5260.716,38,103,eos,False," Ted buys 3 books for 16 dollars each, so the total cost of the books is 3 * 16 = 48 dollars. He also buys 3 pencils for 6 dollars each, so the total cost of the pencils is 3 * 6 = 18 dollars. The total amount Ted spent is 48 + 18 = 66 dollars.
+Explanation: Ted spent 48 dollars on books and 18 dollars on pencils, so the total amount he spent is 66 dollars."
+OLMo,0,7,tqa_3436,knowledge,TriviaQA,209426709,7.849435167999957,281.206,7553.747,16,148,eos,False," Alba is the Gaelic name for Scotland. The name is derived from the ancient Pictish word ""Alba,"" which means ""island"" or ""sea."" The name was adopted by the Gaels when they began to settle the Scottish islands in the 5th century. The name is also used in the Scottish language, where it is known as ""Alba"" or ""Albannach."" In Scots, ""Alba"" is often used to refer to Scotland as a whole, while ""Albannach"" is used to refer to the Scottish Highlands. The name is also used in various other contexts, including the Scottish national anthem, ""Scotland the Brave,"" which is titled after Alba. "
+OLMo,0,8,tqa_1307,knowledge,TriviaQA,25294857,0.9705589330000066,305.468,650.293,17,14,eos,False, Ferdinand Marcos became President of the Philippines in December 1965.
+OLMo,0,9,drop_0a1e6fa5,comprehension,DROP,111885883,4.928012344999956,4596.799,321.951,265,7,eos,False," The French army was bigger.
+"
+OLMo,0,10,gsm8k_0191,math,GSM8K,182243186,6.751691521999987,714.102,6016.821,40,119,eos,False," To find out how many pounds of insects the flock of ducks needs per day, we first calculate the total pounds needed per week and then divide by the number of days in a week. First, calculate the weekly requirement: 3.5 pounds per duck per week means for 10 ducks, the weekly requirement is 3.5 * 10 = 35 pounds. Since there are 7 days in a week, the daily requirement is 35 pounds / 7 days = 5 pounds per day. Therefore, the flock of ducks needs 5 pounds of insects per day.
+
+"
+OLMo,0,11,tqa_6630,knowledge,TriviaQA,20289621,0.7968430990000002,442.313,340.17,24,8,eos,False, I'm Gonna Pay You Back
+OLMo,0,12,tqa_5865,knowledge,TriviaQA,224142981,8.045167966000008,353.769,7684.18,19,152,eos,False," H'Angus the Monkey is the official mascot of Arsenal F.C. in the English Premier League. The monkey was introduced in 2001 by Arsenal manager Arsène Wenger, who wanted a distinctive mascot to promote the club. The character was designed by artist Simon Groom and was first used at a match against Leeds United on 21 September 2001. The name 'H'Angus' was chosen after a poll conducted by Arsenal fans, with 'Angus' being the name of the founder of the club. H'Angus is a registered trademark of Arsenal Football Club and is used in all club communications and marketing. The character has since become a significant part of Arsenal's identity, and is often used in promotional material and merchandise."
+OLMo,0,13,tqa_3462,knowledge,TriviaQA,22384159,0.9356015509999906,869.762,49.371,47,2,word,False, Brazil
+OLMo,0,14,tqa_6216,knowledge,TriviaQA,25730892,0.9503859850000254,257.052,683.631,12,15,eos,False,  The Charlie Chan series was written by Earl Derrbigger.
+OLMo,0,15,drop_4f1919d2,comprehension,DROP,134381370,5.769301016000043,5541.788,218.323,321,5,eos,False, Commonwealth resumed the offensive
+OLMo,0,16,drop_9b1e4b5e,comprehension,DROP,209208876,9.03648198899998,8549.701,463.566,490,9,eos,False, The Battle of White Mountain happened second.
+OLMo,0,17,tqa_5719,knowledge,TriviaQA,16642719,0.6683725759999675,441.783,193.568,24,5,eos,False, Enchiladas
+OLMo,0,18,gsm8k_0457,math,GSM8K,166217165,6.170397436999963,1397.069,4767.139,79,94,eos,False," Katelyn saw 50 fairies initially. After twenty minutes, her friend saw half as many fairies as Katelyn saw, which is 50 / 2 = 25 fairies. So, the total number of fairies became 50 + 25 = 75. After ten more minutes, 30 fairies flew away, leaving 75 - 30 = 45 fairies. Therefore, there are 45 fairies remaining.
+
+"
+OLMo,0,19,gsm8k_0501,math,GSM8K,145830742,5.4471049659999835,1087.299,4345.364,64,86,eos,False," Mariah used 1 / 4 of a skein of yarn, which is (1 / 4) * 364 = 91 yards. Her grandma used 1 / 2 of a skein of yarn, which is (1 / 2) * 364 = 182 yards. Altogether, they used 91 + 182 = 273 yards of yarn. The answer: 273."
+OLMo,0,20,drop_41ceae2f,comprehension,DROP,110680563,4.9160647200000085,4796.874,106.654,277,3,eos,False, Jake Elliott
+OLMo,0,21,tqa_4597,knowledge,TriviaQA,22370060,0.8396407040000327,282.015,537.428,13,12,eos,False, The city of Leeds stands on the River Humber.
+OLMo,0,22,drop_1da8ddaa,comprehension,DROP,105536228,4.525310962000049,4308.1,209.661,251,5,eos,False, New England Patriots.
+OLMo,0,23,gsm8k_0054,math,GSM8K,258003124,9.58581820300003,1474.136,8092.707,85,157,eos,False," Let's break down the problem step by step:
+
+1. We know that Trixie has had 12 kittens.
+2. Patchy has had thrice the number of adopted kittens as Trixie. Therefore, Patchy has had 3 * 12 = 36 kittens.
+3. The total number of kittens adopted from the two house cats is 12 (from Trixie) + 36 (from Patchy) = 48 kittens.
+4. The total number of kittens the Doubtfire family now has is the sum of the kittens adopted from the two house cats and the kittens adopted from the 7 adopted kittens from the animal shelter: 48 + 7 = 55 kittens.
+
+Therefore, the final answer is: $\boxed{55}$"
+OLMo,0,24,tqa_1805,knowledge,TriviaQA,22784854,0.9514963710000188,785.115,147.678,43,4,word,False, Simon Cowell
+OLMo,0,25,drop_5e671a33,comprehension,DROP,106222873,4.358115617999999,3102.633,1248.915,181,25,eos,False," Ungheni is the third largest city with 32,828, followed by Cahul with 28,763."
+OLMo,0,26,drop_eb024d5a,comprehension,DROP,142445802,6.25653413699996,6075.481,164.212,353,4,eos,False, 1 month
+OLMo,0,27,drop_d817453d,comprehension,DROP,68939398,2.9549284830000033,2723.176,205.38,157,5,eos,False, 74.72
+OLMo,0,28,drop_f6b987f4,comprehension,DROP,120671200,5.186092441999961,4956.694,212.856,289,5,eos,False, 52.2
+OLMo,0,29,tqa_0053,knowledge,TriviaQA,12179962,0.47016846899998654,302.297,146.084,17,4,eos,False, Seymour Hersh
+OLMo,0,30,drop_513c00fd,comprehension,DROP,97860528,4.165040077000015,4048.258,108.209,235,3,eos,False, 31
+OLMo,0,31,tqa_6601,knowledge,TriviaQA,62905357,2.310468299999968,429.449,1863.303,23,39,eos,False," ""The question asked in the book of Genesis is, ""Who is the son of God?"" The question is posed by Joseph, who is in a dream interpreting for his father, Jacob."""
+OLMo,0,32,tqa_7121,knowledge,TriviaQA,613168719,22.79123748799998,511.298,22271.106,25,416,eos,False," The BBC reported in 2019 that Farah had been involved in discussions with the International Association of Athletics Federations (IAAF) about the use of performance-enhancing drugs. Farah has denied any involvement in doping. The BBC also reported that his coach, Rod Dixon, had been involved in discussions about the matter. Dixon has since stepped down from his role as Mo Farah's coach. The BBC also reported that Farah had been in discussions with the IAAF about the use of blood transfusions, but these discussions were dropped after Farah's agent, Steve Montgomery, met with IAAF chief executive Dr Luciano Ghirgyet in Berlin in April 2019. Farah has since stated that he had been involved in discussions about blood transfusions and had been offered a deal to use blood transfusions to enhance his performance, but he had refused. Farah has also stated that he had been involved in discussions about the use of certain banned substances, but he had been assured by his coaches and agents that these substances were safe and legal. Farah has since been critical of the IAAF's handling of the doping allegations against him, describing it as a ""witch hunt"" and accusing the organisation of ""bullying"" him. In response to the doping allegations, Farah has said that he had been ""misled"" by his coaches and agents about the legality of certain substances. Farah has also stated that he had been told by his agents that the substances were legal, and he had not been aware of the IAAF's strict stance on banned substances. In an interview with BBC Sport in 2019, Farah expressed his frustration with the situation, saying: ""I've been through enough. I've been through enough pain and suffering. I've been through enough disappointment. I've been through enough to last a lifetime. I've been through enough to know that I've been treated unfairly."" In 2020, Farah was named in the BBC's list of the 100 Greatest Sports Heroes of the 21st Century."
+OLMo,0,33,tqa_5323,knowledge,TriviaQA,12082489,0.4927959190000024,312.839,149.587,14,4,eos,False, Sesame seeds
+OLMo,0,34,drop_4c725499,comprehension,DROP,109101589,4.90119874100003,4789.267,106.803,276,3,eos,False, 93
+OLMo,0,35,tqa_1628,knowledge,TriviaQA,20847176,0.7911156900000265,282.03,486.527,13,11,eos,False, Lacrosse is the official summer sport of Canada.
+OLMo,0,36,gsm8k_0228,math,GSM8K,241300164,8.891010041999948,1008.254,7876.561,57,154,eos,False," Kalinda can add 4 pieces per minute. Her mom can place half as many pieces per minute as Kalinda, which is 4 / 2 = 2 pieces per minute. Together, they can add 4 + 2 = 6 pieces per minute. To find out how many hours it will take them to complete the 360 piece puzzle, we divide the total number of pieces by the number of pieces they can add per minute: 360 / 6 = 60 minutes. Since we need the answer in hours, we convert 60 minutes to hours by dividing by 60: 60 / 60 = 1 hour. Therefore, it will take them 1 hour to complete the puzzle.
+
+The final answer: 1."
+OLMo,0,37,gsm8k_0447,math,GSM8K,112227190,4.2238706900000125,845.709,3360.613,46,67,eos,False," First find the new total score for Joey after he scores 26 points: 214 + 26 = 240. Then subtract Marcy's score of 10 points to find Joey's new lead: 240 - 10 = 230. Joey is now winning by 230 points.
+The final answer: 230."
+OLMo,0,38,drop_2dce13c3,comprehension,DROP,60658536,2.6567913719999865,2489.3,153.896,145,4,eos,False, non-families
+OLMo,0,39,gsm8k_0476,math,GSM8K,123753101,4.595955216999982,824.056,3757.548,48,75,eos,False," Sarah spent a total of $300 on books. Each book costs $15, so the total number of books she bought is $300 / $15 = 20 books. Since she has 4 kids and she wants to give an equal number of books to each, the number of books each child gets is 20 / 4 = 5 books per child.
+
+"
+OLMo,0,40,gsm8k_1309,math,GSM8K,140561225,5.242541304000042,1007.785,4222.097,57,84,eos,False," Alexandra raises $430. Kim raises $320 more than Alexandra, so Kim raises $430 + 320 = 750$. Maryam raises $400 more than Sarah, who raises $300, so Maryam raises $300 + 400 = 700$. The total amount of money they all raised is $430 + 750 + 700 = 1720$.
+The final answer: 1720."
+OLMo,0,41,gsm8k_1116,math,GSM8K,129561863,4.822080296000024,796.19,4011.608,44,80,eos,False," To find the number of students enrolled this year, first calculate the increase in enrollment from last year. The increase is 20% of 50 students. 20% of 50 is (20 / 100) * 50 = 10 students. Therefore, the total number of students this year is 50 + 10 = 60 students.
+
+The final answer is: 60"
+OLMo,0,42,tqa_3679,knowledge,TriviaQA,23603394,0.9855582319999598,819.54,152.328,48,4,eos,False, John F Kennedy
+OLMo,0,43,drop_43d21cab,comprehension,DROP,58077549,2.508790266999995,2398.113,101.476,138,3,eos,False, 4
+OLMo,0,44,gsm8k_1232,math,GSM8K,173679060,6.381655562999981,870.479,5496.067,50,109,eos,False," Let's denote the number of pomelos Eve gave away as x. Since Eve was left with 1 / 4 of the original 20 pomelos, the number of pomelos she has left is 20 - x. According to the problem, this is equal to 1 / 4 * 20 = 5. Therefore, 20 - x = 5, which implies x = 15. So, Eve gave away 15 pomelos to her friend.
+The final answer is: 15"
+OLMo,0,45,gsm8k_0209,math,GSM8K,318059244,11.755831603999923,665.13,11074.485,37,214,eos,False," Let's break down the problem step by step.
+
+First, let's determine the cost of half a dozen plates. Since each plate costs $6000, half a dozen plates will cost:
+
+\[ \text{Cost of half a dozen plates} = 6 \times 6000 = 36000 \]
+
+Next, we know that twenty dozen cups cost $1200 less than this amount. Therefore, the cost of twenty dozen cups is:
+
+\[ \text{Cost of twenty dozen cups} = 36000 - 1200 = 34800 \]
+
+Now, we need to find the cost of each cup. Since we have twenty dozen cups, the total number of cups is:
+
+\[ \text{Number of cups} = 20 \times 12 = 240 \]
+
+The cost of each cup is then:
+
+\[ \text{Cost per cup} = \frac{34800}{240} = 150 \]
+
+So, the total cost of buying each cup is $150.
+
+The final answer is: $\boxed{150}$"
+OLMo,0,46,drop_d45d1bff,comprehension,DROP,127720620,5.785853272000054,5656.807,109.542,325,3,eos,False, 4
+OLMo,0,47,drop_b457b042,comprehension,DROP,65353959,2.833116974999939,2551.365,258.108,148,6,eos,False, 77.70%
+OLMo,0,48,gsm8k_0285,math,GSM8K,81454625,2.988546145999976,573.06,2407.861,30,49,eos,False," Ann's brother is twice her age, so he is 9 * 2 = 18 years old. In 3 years, he will be 18 + 3 = 21 years old.
+The final answer: 21."
+OLMo,0,49,drop_e240629c,comprehension,DROP,115453196,5.102897129999974,4930.637,161.167,284,4,eos,False," 2
+"
+OLMo,0,50,tqa_2278,knowledge,TriviaQA,12730681,0.48123156899998776,310.539,148.81,14,4,eos,False, Daniel Keyes
+OLMo,0,51,gsm8k_0563,math,GSM8K,211194711,7.7817698229999905,899.638,6875.552,52,135,eos,False," 
+To find out how much James spends on birthday candles, we first need to determine the total number of candles he buys.
+
+The first son is 12 years old, so he needs 12 birthday candles.
+The second son is 4 years younger, so he needs 12 - 4 = 8 candles.
+
+Therefore, James buys a total of 12 + 8 = 20 candles.
+
+Since a pack of 5 candles costs $3, James needs to buy 20 / 5 = 4 packs of candles.
+
+Since each pack costs $3, James spends 4 * $3 = $12 on candles.
+
+The answer: 12."
+OLMo,0,52,gsm8k_0065,math,GSM8K,246995949,9.279923323000048,898.32,8365.327,51,161,eos,False," Jim spends 2 hours watching TV each time. So in one instance, he spends a total of 2 hours + (2 / 2) * 2 = 2 + 1 = 3 hours.
+He reads for half as long as he watches TV, so he reads for 2 / 2 = 1 hour each time he reads.
+So in one instance, he spends a total of 2 + 1 = 3 hours.
+He does this 3 times a week, so in one week he spends 3 * 3 = 9 hours.
+In 4 weeks, he spends 9 * 4 = 36 hours.
+Thus, Jim spends a total of 36 hours on TV and reading in 4 weeks.
+The answer: 36."
+OLMo,0,53,tqa_2787,knowledge,TriviaQA,16148396,0.632347999999979,412.405,202.201,22,5,eos,False," ""a tattoo"""
+OLMo,0,54,drop_f39a64a4,comprehension,DROP,88691545,3.9281384370000296,3816.031,104.776,220,3,eos,False, 65
+OLMo,0,55,drop_ec451b54,comprehension,DROP,186673839,8.392413042000044,8197.868,176.326,470,4,eos,False, Alex Henery
+OLMo,0,56,tqa_5745,knowledge,TriviaQA,15953878,0.6226954420000084,439.674,150.654,23,4,eos,False, Pete Seeger
+OLMo,0,57,drop_52f65e5e,comprehension,DROP,1007030320,39.99774890799995,8878.396,31111.354,509,512,limit,True," The Astros lost the National League Division Series against the Atlanta Braves, 3-1, with a game four that set postseason records for most innings (18), most players used by a single team (23), and longest game time (5 hours and 50 minutes). Trailing by a score of 6-1, Lance Berkman hit an eighth-inning grand slam to narrow the score to 6-5. In the bottom of the ninth, Brad Ausmus hit a game-tying home run that allowed the game to continue in extra innings. In the bottom of the fifteenth inning, Roger Clemens made only his second career relief appearance, pitching three shutout innings, notably striking out Julio Franco, at the time the oldest player in the MLB at 47 years old; Clemens was himself 43. In the bottom of the eighteen inning, Clemens came to bat again, indicating that he would be pitching in the nineteenth inning, if it came to that. Clemens struck out, but the next batter, Chris Burke (baseball), hit a home run to left field that had home run distance, but was inches foul. This game remained scoreless for the next eight innings. In the top of the fifteenth inning, Luke Scott hit a blast to left field that had home run distance, but was inches foul. This game remained scoreless for the next eight innings. In the top of the eighteen inning, Roy Oswalt pitched a complete game shutout, allowing only two hits and no bases-loaded hits, striking out seven and walking two. In the bottom of the eighteen inning, Oswalt faced the final batter, Chris Burke, who hit a walk-off home run to win the game for the Astros, 8-7. Oddly enough, a fan in the ""Crawford Boxes"" in left field had previously caught Berkmans grand slam and this same fan caught Burkes home run. The 2005 National League Championship Series featured a rematch of the 2004 National League Championship Series. The Astros lost the first game in St. Louis, but would win the next three games, with Roy Oswalt getting the win. Though the Astros were poised to close out the series in Game Five in Houston, Brad Lidge gave up a monstrous two-out three-run home run to Albert Pujols, forcing the series to a sixth game in St. Louis, where the Astros clinched a World Series appearance. Roy Oswalt was named NLCS MVP, having gone 2-0 with"
+OLMo,0,58,drop_dc647615,comprehension,DROP,100004810,4.493648088999976,3681.574,751.054,212,15,eos,False, African American (U.S. Census) or 0.95%
+OLMo,0,59,gsm8k_0178,math,GSM8K,153455052,5.857619234000026,833.626,5004.977,45,98,eos,False," Monic has 4 fewer crabs than Bo, who has 40 crabs. So Monic has 40 - 4 = 36 crabs.
+Rani has ten more crabs than Monic, who has 36 crabs. So Rani has 36 + 10 = 46 crabs.
+The total number of crabs the three have together is 40 + 36 + 46 = 122 crabs.
+The answer: 122."
+OLMo,0,60,tqa_4464,knowledge,TriviaQA,73530207,2.7600596089999954,358.389,2387.847,19,48,eos,False," Fitzroy was originally named after Sir Thomas FitzRoy, the Governor of the British East Indies. The name was officially changed to Fitzroy in 2002 to avoid confusion with the famous Australian shipbuilder and explorer, William FitzRoy."
+OLMo,1,61,drop_41ceae2f,comprehension,DROP,109282435,4.942694292000056,4820.275,107.603,277,3,eos,False, Jake Elliott
+OLMo,1,62,gsm8k_0061,math,GSM8K,278336873,10.570887740000103,1078.747,9469.96,60,181,eos,False," To find the total amount Janet paid, we need to add the cost of the material, the construction cost, and the insurance cost.
+
+First, we calculate the total cost of the material and construction.
+The material cost is $500.
+The construction cost is $800.
+So the total cost for material and construction is $500 + 800 = 1300$.
+
+Next, we calculate the insurance cost which is 10% of the total cost.
+The insurance cost is 10% of $1300, which is $1300 * 10 / 100 = 13000 / 100 = 130$.
+
+Finally, we add the insurance cost to the total cost of material and construction to get the total amount paid.
+The total amount paid is $1300 + 130 = 1430$.
+
+Thus, Janet paid a total of \boxed{1430} dollars."
+OLMo,1,63,drop_5e671a33,comprehension,DROP,102780193,4.416453463000039,3124.909,1272.235,181,25,eos,False," Ungheni is the third largest city with 32,828, followed by Cahul with 28,763."
+OLMo,1,64,gsm8k_0457,math,GSM8K,163135691,6.313714531000073,1432.684,4870.363,79,94,eos,False," Katelyn saw 50 fairies initially. After twenty minutes, her friend saw half as many fairies as Katelyn saw, which is 50 / 2 = 25 fairies. So, the total number of fairies became 50 + 25 = 75. After ten more minutes, 30 fairies flew away, leaving 75 - 30 = 45 fairies. Therefore, there are 45 fairies remaining.
+
+"
+OLMo,1,65,drop_f39a64a4,comprehension,DROP,86862387,3.9425955929999645,3818.672,109.306,220,3,eos,False, 65
+OLMo,1,66,gsm8k_0864,math,GSM8K,205593590,7.845731531999945,1096.939,6729.568,64,130,eos,False," To find the total number of leftover burritos, first calculate the total number of burritos given to the students and then subtract the number of burritos eaten by Mr. George.
+
+The total number of burritos given to the students is 50 students * 10 burritos per student = 500 burritos.
+
+Adding the burritos eaten by Mr. George, the total number of burritos consumed is 500 + 20 = 520 burritos.
+
+The number of leftover burritos is then 600 - 520 = 80 burritos.
+
+So, the total number of leftover burritos from the picnic is \boxed{80}."
+OLMo,1,67,gsm8k_0209,math,GSM8K,310576598,11.916302487000053,663.454,11243.262,37,214,eos,False," Let's break down the problem step by step.
+
+First, let's determine the cost of half a dozen plates. Since each plate costs $6000, half a dozen plates will cost:
+
+\[ \text{Cost of half a dozen plates} = 6 \times 6000 = 36000 \]
+
+Next, we know that twenty dozen cups cost $1200 less than this amount. Therefore, the cost of twenty dozen cups is:
+
+\[ \text{Cost of twenty dozen cups} = 36000 - 1200 = 34800 \]
+
+Now, we need to find the cost of each cup. Since we have twenty dozen cups, the total number of cups is:
+
+\[ \text{Number of cups} = 20 \times 12 = 240 \]
+
+The cost of each cup is then:
+
+\[ \text{Cost per cup} = \frac{34800}{240} = 150 \]
+
+So, the total cost of buying each cup is $150.
+
+The final answer is: $\boxed{150}$"
+OLMo,1,68,gsm8k_1116,math,GSM8K,126473614,4.900125574999947,803.698,4089.177,44,80,eos,False," To find the number of students enrolled this year, first calculate the increase in enrollment from last year. The increase is 20% of 50 students. 20% of 50 is (20 / 100) * 50 = 10 students. Therefore, the total number of students this year is 50 + 10 = 60 students.
+
+The final answer is: 60"
+OLMo,1,69,drop_d817453d,comprehension,DROP,65774917,2.971730321999985,2753.692,208.903,157,5,eos,False, 74.72
+OLMo,1,70,gsm8k_0178,math,GSM8K,154311922,5.834966100000088,825.326,5000.0,45,98,eos,False," Monic has 4 fewer crabs than Bo, who has 40 crabs. So Monic has 40 - 4 = 36 crabs.
+Rani has ten more crabs than Monic, who has 36 crabs. So Rani has 36 + 10 = 46 crabs.
+The total number of crabs the three have together is 40 + 36 + 46 = 122 crabs.
+The answer: 122."
+OLMo,1,71,tqa_4827,knowledge,TriviaQA,276255641,10.534832317999985,579.316,9946.561,30,191,eos,False," footpad is the term used to describe a criminal from the 16th to 19th century. Today, the term ""footpad"" is no longer used, and the term ""thief"" or ""burglar"" is more commonly used to describe a criminal who steals property. The term ""footpad"" was used during the Renaissance and the early modern period, particularly in England, to describe individuals who committed petty thefts by forcibly taking property from individuals at their feet, typically while they were asleep or distracted. The term was derived from the act of stealing a man's shoes, which was considered a particularly heinous crime at the time. The term ""footpad"" was used in various forms throughout the 17th and 18th centuries, and was used in various English-language legal documents and literature. The term fell out of use after the 19th century, and today it is considered an archaic or historical term."
+OLMo,1,72,gsm8k_0501,math,GSM8K,141752506,5.554047207000053,1101.954,4444.734,64,86,eos,False," Mariah used 1 / 4 of a skein of yarn, which is (1 / 4) * 364 = 91 yards. Her grandma used 1 / 2 of a skein of yarn, which is (1 / 2) * 364 = 182 yards. Altogether, they used 91 + 182 = 273 yards of yarn. The answer: 273."
+OLMo,1,73,gsm8k_1209,math,GSM8K,378919685,15.150007931000005,2877.106,12257.094,166,223,eos,False," Let's break down the problem step by step.
+
+The low setting removes 1 liter of water per day.
+So, in 3 days on the low setting, the dehumidifier removes 3 * 1 = 3 liters of water.
+
+The medium setting removes twice as much water per day as the low setting, which is 2 * 1 = 2 liters per day.
+So, in 3 days on the medium setting, the dehumidifier removes 3 * 2 = 6 liters of water.
+
+The high setting removes twice as much water per day as the medium setting, which is 2 * 2 = 4 liters per day.
+So, in 5 days on the high setting, the dehumidifier removes 5 * 4 = 20 liters of water.
+
+Now, let's add up the total amount of water removed: 3 + 6 + 20 = 29 liters.
+
+Thus, the total amount of water that the dehumidifier removed from the air in Brian's basement is \boxed{29} liters."
+OLMo,1,74,drop_f6b987f4,comprehension,DROP,113308120,5.289613557000052,5042.069,219.162,289,5,eos,False, 52.2
+OLMo,1,75,drop_0a1e6fa5,comprehension,DROP,109513575,4.981492645000003,4629.31,327.684,265,7,eos,False," The French army was bigger.
+"
+OLMo,1,76,tqa_4597,knowledge,TriviaQA,22906862,0.8582790230000228,281.142,556.856,13,12,eos,False, The city of Leeds stands on the River Humber.
+OLMo,1,77,drop_dc647615,comprehension,DROP,126075666,5.369078148999961,4558.597,801.306,212,15,eos,False, African American (U.S. Census) or 0.95%
+OLMo,1,78,drop_e240629c,comprehension,DROP,113666641,5.111114073000067,4932.233,161.987,284,4,eos,False," 2
+"
+OLMo,1,79,tqa_3679,knowledge,TriviaQA,24525877,1.0002587669999912,831.046,149.462,48,4,eos,False, John F Kennedy
+OLMo,1,80,gsm8k_0285,math,GSM8K,81312597,2.9944873889999144,573.919,2413.608,30,49,eos,False," Ann's brother is twice her age, so he is 9 * 2 = 18 years old. In 3 years, he will be 18 + 3 = 21 years old.
+The final answer: 21."
+OLMo,1,81,gsm8k_0563,math,GSM8K,209747326,7.853076315999942,916.17,6928.315,52,135,eos,False," 
+To find out how much James spends on birthday candles, we first need to determine the total number of candles he buys.
+
+The first son is 12 years old, so he needs 12 birthday candles.
+The second son is 4 years younger, so he needs 12 - 4 = 8 candles.
+
+Therefore, James buys a total of 12 + 8 = 20 candles.
+
+Since a pack of 5 candles costs $3, James needs to buy 20 / 5 = 4 packs of candles.
+
+Since each pack costs $3, James spends 4 * $3 = $12 on candles.
+
+The answer: 12."
+OLMo,1,82,gsm8k_0228,math,GSM8K,235422615,9.08001458299998,1027.347,8040.982,57,154,eos,False," Kalinda can add 4 pieces per minute. Her mom can place half as many pieces per minute as Kalinda, which is 4 / 2 = 2 pieces per minute. Together, they can add 4 + 2 = 6 pieces per minute. To find out how many hours it will take them to complete the 360 piece puzzle, we divide the total number of pieces by the number of pieces they can add per minute: 360 / 6 = 60 minutes. Since we need the answer in hours, we convert 60 minutes to hours by dividing by 60: 60 / 60 = 1 hour. Therefore, it will take them 1 hour to complete the puzzle.
+
+The final answer: 1."
+OLMo,1,83,tqa_5745,knowledge,TriviaQA,14993309,0.5995766329999697,439.485,151.251,23,4,eos,False, Pete Seeger
+OLMo,1,84,drop_1da8ddaa,comprehension,DROP,101247971,4.569925697999906,4340.49,218.154,251,5,eos,False, New England Patriots.
+OLMo,1,85,drop_4c725499,comprehension,DROP,108297269,4.912807606000001,4774.929,115.688,276,3,eos,False, 93
+OLMo,1,86,gsm8k_0476,math,GSM8K,122385490,4.650648107000052,826.501,3801.0,48,75,eos,False," Sarah spent a total of $300 on books. Each book costs $15, so the total number of books she bought is $300 / $15 = 20 books. Since she has 4 kids and she wants to give an equal number of books to each, the number of books each child gets is 20 / 4 = 5 books per child.
+
+"
+OLMo,1,87,tqa_7121,knowledge,TriviaQA,596513915,23.095543349999957,472.779,22614.516,25,416,eos,False," The BBC reported in 2019 that Farah had been involved in discussions with the International Association of Athletics Federations (IAAF) about the use of performance-enhancing drugs. Farah has denied any involvement in doping. The BBC also reported that his coach, Rod Dixon, had been involved in discussions about the matter. Dixon has since stepped down from his role as Mo Farah's coach. The BBC also reported that Farah had been in discussions with the IAAF about the use of blood transfusions, but these discussions were dropped after Farah's agent, Steve Montgomery, met with IAAF chief executive Dr Luciano Ghirgyet in Berlin in April 2019. Farah has since stated that he had been involved in discussions about blood transfusions and had been offered a deal to use blood transfusions to enhance his performance, but he had refused. Farah has also stated that he had been involved in discussions about the use of certain banned substances, but he had been assured by his coaches and agents that these substances were safe and legal. Farah has since been critical of the IAAF's handling of the doping allegations against him, describing it as a ""witch hunt"" and accusing the organisation of ""bullying"" him. In response to the doping allegations, Farah has said that he had been ""misled"" by his coaches and agents about the legality of certain substances. Farah has also stated that he had been told by his agents that the substances were legal, and he had not been aware of the IAAF's strict stance on banned substances. In an interview with BBC Sport in 2019, Farah expressed his frustration with the situation, saying: ""I've been through enough. I've been through enough pain and suffering. I've been through enough disappointment. I've been through enough to last a lifetime. I've been through enough to know that I've been treated unfairly."" In 2020, Farah was named in the BBC's list of the 100 Greatest Sports Heroes of the 21st Century."
+OLMo,1,88,tqa_6216,knowledge,TriviaQA,25316097,0.9854726259999325,263.559,717.644,12,15,eos,False,  The Charlie Chan series was written by Earl Derrbigger.
+OLMo,1,89,tqa_3436,knowledge,TriviaQA,206667745,7.91541475300005,284.07,7627.02,16,148,eos,False," Alba is the Gaelic name for Scotland. The name is derived from the ancient Pictish word ""Alba,"" which means ""island"" or ""sea."" The name was adopted by the Gaels when they began to settle the Scottish islands in the 5th century. The name is also used in the Scottish language, where it is known as ""Alba"" or ""Albannach."" In Scots, ""Alba"" is often used to refer to Scotland as a whole, while ""Albannach"" is used to refer to the Scottish Highlands. The name is also used in various other contexts, including the Scottish national anthem, ""Scotland the Brave,"" which is titled after Alba. "
+OLMo,1,90,drop_4f1919d2,comprehension,DROP,125768233,5.857844084000021,5616.459,230.023,321,5,eos,False, Commonwealth resumed the offensive
+OLMo,1,91,tqa_5323,knowledge,TriviaQA,12301483,0.47980190999999195,307.224,150.95,14,4,eos,False, Sesame seeds
+OLMo,1,92,drop_9b1e4b5e,comprehension,DROP,198646403,9.035389455999962,8551.42,470.031,490,9,eos,False, The Battle of White Mountain happened second.
+OLMo,1,93,tqa_1307,knowledge,TriviaQA,26816338,1.0019874649999565,311.86,659.745,17,14,eos,False, Ferdinand Marcos became President of the Philippines in December 1965.
+OLMo,1,94,gsm8k_1232,math,GSM8K,171451466,6.477035518000093,878.608,5590.092,50,109,eos,False," Let's denote the number of pomelos Eve gave away as x. Since Eve was left with 1 / 4 of the original 20 pomelos, the number of pomelos she has left is 20 - x. According to the problem, this is equal to 1 / 4 * 20 = 5. Therefore, 20 - x = 5, which implies x = 15. So, Eve gave away 15 pomelos to her friend.
+The final answer is: 15"
+OLMo,1,95,drop_43d21cab,comprehension,DROP,57128516,2.5415440399999625,2428.525,102.999,138,3,eos,False, 4
+OLMo,1,96,gsm8k_0447,math,GSM8K,111921283,4.227069842999981,854.317,3363.508,46,67,eos,False," First find the new total score for Joey after he scores 26 points: 214 + 26 = 240. Then subtract Marcy's score of 10 points to find Joey's new lead: 240 - 10 = 230. Joey is now winning by 230 points.
+The final answer: 230."
+OLMo,1,97,tqa_4464,knowledge,TriviaQA,73533198,2.7359571910000113,356.693,2370.855,19,48,eos,False," Fitzroy was originally named after Sir Thomas FitzRoy, the Governor of the British East Indies. The name was officially changed to Fitzroy in 2002 to avoid confusion with the famous Australian shipbuilder and explorer, William FitzRoy."
+OLMo,1,98,drop_d45d1bff,comprehension,DROP,127777932,5.773667850999914,5650.585,109.613,325,3,eos,False, 4
+OLMo,1,99,tqa_2278,knowledge,TriviaQA,12614775,0.4796589549999908,308.416,149.219,14,4,eos,False, Daniel Keyes
+OLMo,1,100,drop_ec451b54,comprehension,DROP,186798167,8.38577361199998,8200.59,171.625,470,4,eos,False, Alex Henery
+OLMo,1,101,drop_b457b042,comprehension,DROP,65219011,2.8527276510000092,2562.036,258.669,148,6,eos,False, 77.70%
+OLMo,1,102,gsm8k_1309,math,GSM8K,140146797,5.295211280999979,1024.421,4261.125,57,84,eos,False," Alexandra raises $430. Kim raises $320 more than Alexandra, so Kim raises $430 + 320 = 750$. Maryam raises $400 more than Sarah, who raises $300, so Maryam raises $300 + 400 = 700$. The total amount of money they all raised is $430 + 750 + 700 = 1720$.
+The final answer: 1720."
+OLMo,1,103,tqa_1628,knowledge,TriviaQA,21439032,0.7956927030000998,280.315,505.28,13,11,eos,False, Lacrosse is the official summer sport of Canada.
+OLMo,1,104,tqa_5865,knowledge,TriviaQA,219791674,8.173223639999946,358.334,7810.764,19,152,eos,False," H'Angus the Monkey is the official mascot of Arsenal F.C. in the English Premier League. The monkey was introduced in 2001 by Arsenal manager Arsène Wenger, who wanted a distinctive mascot to promote the club. The character was designed by artist Simon Groom and was first used at a match against Leeds United on 21 September 2001. The name 'H'Angus' was chosen after a poll conducted by Arsenal fans, with 'Angus' being the name of the founder of the club. H'Angus is a registered trademark of Arsenal Football Club and is used in all club communications and marketing. The character has since become a significant part of Arsenal's identity, and is often used in promotional material and merchandise."
+OLMo,1,105,gsm8k_0065,math,GSM8K,242265493,9.330911386000025,916.622,8410.438,51,161,eos,False," Jim spends 2 hours watching TV each time. So in one instance, he spends a total of 2 hours + (2 / 2) * 2 = 2 + 1 = 3 hours.
+He reads for half as long as he watches TV, so he reads for 2 / 2 = 1 hour each time he reads.
+So in one instance, he spends a total of 2 + 1 = 3 hours.
+He does this 3 times a week, so in one week he spends 3 * 3 = 9 hours.
+In 4 weeks, he spends 9 * 4 = 36 hours.
+Thus, Jim spends a total of 36 hours on TV and reading in 4 weeks.
+The answer: 36."
+OLMo,1,106,gsm8k_1034,math,GSM8K,154998932,5.992823336000015,692.051,5293.956,38,103,eos,False," Ted buys 3 books for 16 dollars each, so the total cost of the books is 3 * 16 = 48 dollars. He also buys 3 pencils for 6 dollars each, so the total cost of the pencils is 3 * 6 = 18 dollars. The total amount Ted spent is 48 + 18 = 66 dollars.
+Explanation: Ted spent 48 dollars on books and 18 dollars on pencils, so the total amount he spent is 66 dollars."
+OLMo,1,107,drop_eb024d5a,comprehension,DROP,136144243,6.335651525999992,6152.763,167.953,353,4,eos,False, 1 month
+OLMo,1,108,drop_2dce13c3,comprehension,DROP,60360380,2.6831874249999146,2502.696,156.565,145,4,eos,False, non-families
+OLMo,1,109,tqa_0053,knowledge,TriviaQA,12438749,0.47225069000000985,310.277,153.589,17,4,eos,False, Seymour Hersh
+OLMo,1,110,drop_513c00fd,comprehension,DROP,94585024,4.175237742000036,4060.019,105.296,235,3,eos,False, 31
+OLMo,1,111,gsm8k_0054,math,GSM8K,255690813,9.722884654999916,1479.85,8222.089,85,157,eos,False," Let's break down the problem step by step:
+
+1. We know that Trixie has had 12 kittens.
+2. Patchy has had thrice the number of adopted kittens as Trixie. Therefore, Patchy has had 3 * 12 = 36 kittens.
+3. The total number of kittens adopted from the two house cats is 12 (from Trixie) + 36 (from Patchy) = 48 kittens.
+4. The total number of kittens the Doubtfire family now has is the sum of the kittens adopted from the two house cats and the kittens adopted from the 7 adopted kittens from the animal shelter: 48 + 7 = 55 kittens.
+
+Therefore, the final answer is: $\boxed{55}$"
+OLMo,1,112,gsm8k_0051,math,GSM8K,750304780,29.453626644999986,915.308,28517.922,52,512,limit,True," To find the time it takes for Tom to get back, we first need to determine the time he spends traveling from 1 to 4 PM.
+
+Since Tom sails from 1 to 4 PM, he has a total of 3 hours of travel time.
+
+Let's calculate the distance traveled from 1 to 4 PM. 
+Tom's ship travels at 10 miles per hour, so in 3 hours, it covers a distance of 10 * 3 = 30 miles.
+
+Since Tom needs to return at a rate of 6 mph, we need to calculate the time it takes to cover the same 30 miles back.
+
+Time = Distance / Speed = 30 miles / 6 mph = 5 hours.
+
+However, this calculation seems to contradict the fact that he only traveled for 3 hours from 1 to 4 PM. Let's re-evaluate the problem.
+
+The time from 1 to 4 PM is 3 hours, and he travels at 10 mph. So, the distance covered from 1 to 4 PM is 10 * 3 = 30 miles.
+
+Since he needs to return at 6 mph, the time taken to return is 30 miles / 6 mph = 5 hours.
+
+This calculation seems incorrect because it suggests a 5-hour return trip when only 3 hours were spent traveling from 1 to 4 PM. Let's re-evaluate the problem again.
+
+The correct approach is to calculate the time taken to travel 30 miles at 6 mph.
+
+Time = Distance / Speed = 30 miles / 6 mph = 5 hours.
+
+However, this still doesn't align with the 3-hour travel time from 1 to 4 PM. Let's consider the total travel time from 1 to 4 PM as 3 hours and the return trip as 5 hours, but this seems inconsistent.
+
+Let's reframe the problem: Tom travels from 1 to 4 PM and then returns at 6 mph. The total travel time should be consistent with the given 3 hours from 1 to 4 PM.
+
+The correct interpretation is that the return trip should take into account the initial travel time and the return speed. Let's calculate the return trip time correctly:
+
+The distance covered in the initial 3-hour trip is 30 miles. The return trip at 6 mph should cover the same distance in a time that is consistent with the total travel time of 3 hours.
+
+Time = Distance / Speed = 30 miles / "
+OLMo,1,113,drop_52f65e5e,comprehension,DROP,972381850,40.31204558400009,8978.346,31310.924,509,512,limit,True," The Astros lost the National League Division Series against the Atlanta Braves, 3-1, with a game four that set postseason records for most innings (18), most players used by a single team (23), and longest game time (5 hours and 50 minutes). Trailing by a score of 6-1, Lance Berkman hit an eighth-inning grand slam to narrow the score to 6-5. In the bottom of the ninth, Brad Ausmus hit a game-tying home run that allowed the game to continue in extra innings. In the bottom of the fifteenth inning, Roger Clemens made only his second career relief appearance, pitching three shutout innings, notably striking out Julio Franco, at the time the oldest player in the MLB at 47 years old; Clemens was himself 43. In the bottom of the eighteen inning, Clemens came to bat again, indicating that he would be pitching in the nineteenth inning, if it came to that. Clemens struck out, but the next batter, Chris Burke (baseball), hit a home run to left field that had home run distance, but was inches foul. This game remained scoreless for the next eight innings. In the top of the fifteenth inning, Luke Scott hit a blast to left field that had home run distance, but was inches foul. This game remained scoreless for the next eight innings. In the top of the eighteen inning, Roy Oswalt pitched a complete game shutout, allowing only two hits and no bases-loaded hits, striking out seven and walking two. In the bottom of the eighteen inning, Oswalt faced the final batter, Chris Burke, who hit a walk-off home run to win the game for the Astros, 8-7. Oddly enough, a fan in the ""Crawford Boxes"" in left field had previously caught Berkmans grand slam and this same fan caught Burkes home run. The 2005 National League Championship Series featured a rematch of the 2004 National League Championship Series. The Astros lost the first game in St. Louis, but would win the next three games, with Roy Oswalt getting the win. Though the Astros were poised to close out the series in Game Five in Houston, Brad Lidge gave up a monstrous two-out three-run home run to Albert Pujols, forcing the series to a sixth game in St. Louis, where the Astros clinched a World Series appearance. Roy Oswalt was named NLCS MVP, having gone 2-0 with"
+OLMo,1,114,tqa_6630,knowledge,TriviaQA,21086555,0.8740078620000986,458.097,359.458,24,8,eos,False, I'm Gonna Pay You Back
+OLMo,1,115,tqa_1805,knowledge,TriviaQA,22694644,0.9576995749998787,798.814,153.336,43,4,word,False, Simon Cowell
+OLMo,1,116,gsm8k_0191,math,GSM8K,180002957,6.852222421000079,727.828,6115.935,40,119,eos,False," To find out how many pounds of insects the flock of ducks needs per day, we first calculate the total pounds needed per week and then divide by the number of days in a week. First, calculate the weekly requirement: 3.5 pounds per duck per week means for 10 ducks, the weekly requirement is 3.5 * 10 = 35 pounds. Since there are 7 days in a week, the daily requirement is 35 pounds / 7 days = 5 pounds per day. Therefore, the flock of ducks needs 5 pounds of insects per day.
+
+"
+OLMo,1,117,tqa_2787,knowledge,TriviaQA,16100545,0.63436950099981,418.886,205.603,22,5,eos,False," ""a tattoo"""
+OLMo,1,118,tqa_5719,knowledge,TriviaQA,16269550,0.6529178910000155,446.291,199.827,24,5,eos,False, Enchiladas
+OLMo,1,119,tqa_6601,knowledge,TriviaQA,63816304,2.3663898279999103,446.526,1912.937,23,39,eos,False," ""The question asked in the book of Genesis is, ""Who is the son of God?"" The question is posed by Joseph, who is in a dream interpreting for his father, Jacob."""
+OLMo,1,120,tqa_3462,knowledge,TriviaQA,22685977,0.9296357430000626,871.824,50.149,47,2,word,False, Brazil
+OLMo,2,121,drop_9b1e4b5e,comprehension,DROP,203243437,9.02301347499997,8542.603,465.879,490,9,eos,False, The Battle of White Mountain happened second.
+OLMo,2,122,gsm8k_0457,math,GSM8K,164275947,6.303108533000113,1428.62,4842.097,79,94,eos,False," Katelyn saw 50 fairies initially. After twenty minutes, her friend saw half as many fairies as Katelyn saw, which is 50 / 2 = 25 fairies. So, the total number of fairies became 50 + 25 = 75. After ten more minutes, 30 fairies flew away, leaving 75 - 30 = 45 fairies. Therefore, there are 45 fairies remaining.
+
+"
+OLMo,2,123,drop_5e671a33,comprehension,DROP,102762921,4.413796613999921,3131.713,1270.864,181,25,eos,False," Ungheni is the third largest city with 32,828, followed by Cahul with 28,763."
+OLMo,2,124,drop_0a1e6fa5,comprehension,DROP,110734397,4.965240945999994,4627.327,324.751,265,7,eos,False," The French army was bigger.
+"
+OLMo,2,125,gsm8k_1309,math,GSM8K,139198680,5.318279672000017,1024.746,4272.066,57,84,eos,False," Alexandra raises $430. Kim raises $320 more than Alexandra, so Kim raises $430 + 320 = 750$. Maryam raises $400 more than Sarah, who raises $300, so Maryam raises $300 + 400 = 700$. The total amount of money they all raised is $430 + 750 + 700 = 1720$.
+The final answer: 1720."
+OLMo,2,126,tqa_5719,knowledge,TriviaQA,16744708,0.6618750370000726,452.647,201.117,24,5,eos,False, Enchiladas
+OLMo,2,127,tqa_6601,knowledge,TriviaQA,63466756,2.358841203000111,437.686,1915.03,23,39,eos,False," ""The question asked in the book of Genesis is, ""Who is the son of God?"" The question is posed by Joseph, who is in a dream interpreting for his father, Jacob."""
+OLMo,2,128,tqa_5745,knowledge,TriviaQA,15631429,0.601061879000099,444.773,150.366,23,4,eos,False, Pete Seeger
+OLMo,2,129,gsm8k_0178,math,GSM8K,155667326,5.791798940000035,816.886,4967.262,45,98,eos,False," Monic has 4 fewer crabs than Bo, who has 40 crabs. So Monic has 40 - 4 = 36 crabs.
+Rani has ten more crabs than Monic, who has 36 crabs. So Rani has 36 + 10 = 46 crabs.
+The total number of crabs the three have together is 40 + 36 + 46 = 122 crabs.
+The answer: 122."
+OLMo,2,130,tqa_5865,knowledge,TriviaQA,217357171,8.171960960999968,362.437,7800.575,19,152,eos,False," H'Angus the Monkey is the official mascot of Arsenal F.C. in the English Premier League. The monkey was introduced in 2001 by Arsenal manager Arsène Wenger, who wanted a distinctive mascot to promote the club. The character was designed by artist Simon Groom and was first used at a match against Leeds United on 21 September 2001. The name 'H'Angus' was chosen after a poll conducted by Arsenal fans, with 'Angus' being the name of the founder of the club. H'Angus is a registered trademark of Arsenal Football Club and is used in all club communications and marketing. The character has since become a significant part of Arsenal's identity, and is often used in promotional material and merchandise."
+OLMo,2,131,tqa_1307,knowledge,TriviaQA,26000299,0.9819587439999395,318.695,658.563,17,14,eos,False, Ferdinand Marcos became President of the Philippines in December 1965.
+OLMo,2,132,drop_1da8ddaa,comprehension,DROP,101965743,4.572554291000188,4347.825,214.121,251,5,eos,False, New England Patriots.
+OLMo,2,133,gsm8k_0228,math,GSM8K,237947816,9.043258014999992,1023.541,8007.764,57,154,eos,False," Kalinda can add 4 pieces per minute. Her mom can place half as many pieces per minute as Kalinda, which is 4 / 2 = 2 pieces per minute. Together, they can add 4 + 2 = 6 pieces per minute. To find out how many hours it will take them to complete the 360 piece puzzle, we divide the total number of pieces by the number of pieces they can add per minute: 360 / 6 = 60 minutes. Since we need the answer in hours, we convert 60 minutes to hours by dividing by 60: 60 / 60 = 1 hour. Therefore, it will take them 1 hour to complete the puzzle.
+
+The final answer: 1."
+OLMo,2,134,drop_e240629c,comprehension,DROP,111889301,5.133226401000002,4956.391,162.902,284,4,eos,False," 2
+"
+OLMo,2,135,gsm8k_1034,math,GSM8K,157535668,5.97034660700001,694.492,5255.167,38,103,eos,False," Ted buys 3 books for 16 dollars each, so the total cost of the books is 3 * 16 = 48 dollars. He also buys 3 pencils for 6 dollars each, so the total cost of the pencils is 3 * 6 = 18 dollars. The total amount Ted spent is 48 + 18 = 66 dollars.
+Explanation: Ted spent 48 dollars on books and 18 dollars on pencils, so the total amount he spent is 66 dollars."
+OLMo,2,136,gsm8k_0563,math,GSM8K,206461324,7.938573098999996,919.274,7008.526,52,135,eos,False," 
+To find out how much James spends on birthday candles, we first need to determine the total number of candles he buys.
+
+The first son is 12 years old, so he needs 12 birthday candles.
+The second son is 4 years younger, so he needs 12 - 4 = 8 candles.
+
+Therefore, James buys a total of 12 + 8 = 20 candles.
+
+Since a pack of 5 candles costs $3, James needs to buy 20 / 5 = 4 packs of candles.
+
+Since each pack costs $3, James spends 4 * $3 = $12 on candles.
+
+The answer: 12."
+OLMo,2,137,drop_41ceae2f,comprehension,DROP,107420074,4.947563526000067,4818.724,115.855,277,3,eos,False, Jake Elliott
+OLMo,2,138,drop_f6b987f4,comprehension,DROP,115509775,5.234672038000099,4993.765,217.213,289,5,eos,False, 52.2
+OLMo,2,139,drop_4f1919d2,comprehension,DROP,128703039,5.8234229089998735,5574.299,223.172,321,5,eos,False, Commonwealth resumed the offensive
+OLMo,2,140,gsm8k_0061,math,GSM8K,277766623,10.576407602000018,1079.078,9471.165,60,181,eos,False," To find the total amount Janet paid, we need to add the cost of the material, the construction cost, and the insurance cost.
+
+First, we calculate the total cost of the material and construction.
+The material cost is $500.
+The construction cost is $800.
+So the total cost for material and construction is $500 + 800 = 1300$.
+
+Next, we calculate the insurance cost which is 10% of the total cost.
+The insurance cost is 10% of $1300, which is $1300 * 10 / 100 = 13000 / 100 = 130$.
+
+Finally, we add the insurance cost to the total cost of material and construction to get the total amount paid.
+The total amount paid is $1300 + 130 = 1430$.
+
+Thus, Janet paid a total of \boxed{1430} dollars."
+OLMo,2,141,drop_43d21cab,comprehension,DROP,56266397,2.5445867179998913,2428.282,104.407,138,3,eos,False, 4
+OLMo,2,142,gsm8k_1209,math,GSM8K,383914850,15.129890277999948,2879.965,12236.682,166,223,eos,False," Let's break down the problem step by step.
+
+The low setting removes 1 liter of water per day.
+So, in 3 days on the low setting, the dehumidifier removes 3 * 1 = 3 liters of water.
+
+The medium setting removes twice as much water per day as the low setting, which is 2 * 1 = 2 liters per day.
+So, in 3 days on the medium setting, the dehumidifier removes 3 * 2 = 6 liters of water.
+
+The high setting removes twice as much water per day as the medium setting, which is 2 * 2 = 4 liters per day.
+So, in 5 days on the high setting, the dehumidifier removes 5 * 4 = 20 liters of water.
+
+Now, let's add up the total amount of water removed: 3 + 6 + 20 = 29 liters.
+
+Thus, the total amount of water that the dehumidifier removed from the air in Brian's basement is \boxed{29} liters."
+OLMo,2,143,tqa_6630,knowledge,TriviaQA,20983711,0.8385275299999648,455.856,357.731,24,8,eos,False, I'm Gonna Pay You Back
+OLMo,2,144,tqa_4597,knowledge,TriviaQA,22306096,0.8475448700000925,289.594,553.023,13,12,eos,False, The city of Leeds stands on the River Humber.
+OLMo,2,145,gsm8k_0191,math,GSM8K,180710719,6.81805366399999,720.815,6089.062,40,119,eos,False," To find out how many pounds of insects the flock of ducks needs per day, we first calculate the total pounds needed per week and then divide by the number of days in a week. First, calculate the weekly requirement: 3.5 pounds per duck per week means for 10 ducks, the weekly requirement is 3.5 * 10 = 35 pounds. Since there are 7 days in a week, the daily requirement is 35 pounds / 7 days = 5 pounds per day. Therefore, the flock of ducks needs 5 pounds of insects per day.
+
+"
+OLMo,2,146,gsm8k_0447,math,GSM8K,110668540,4.253302007000002,852.097,3392.606,46,67,eos,False," First find the new total score for Joey after he scores 26 points: 214 + 26 = 240. Then subtract Marcy's score of 10 points to find Joey's new lead: 240 - 10 = 230. Joey is now winning by 230 points.
+The final answer: 230."
+OLMo,2,147,gsm8k_1116,math,GSM8K,127403726,4.882494353999846,811.56,4062.195,44,80,eos,False," To find the number of students enrolled this year, first calculate the increase in enrollment from last year. The increase is 20% of 50 students. 20% of 50 is (20 / 100) * 50 = 10 students. Therefore, the total number of students this year is 50 + 10 = 60 students.
+
+The final answer is: 60"
+OLMo,2,148,drop_513c00fd,comprehension,DROP,91769114,4.207705940999858,4090.52,106.322,235,3,eos,False, 31
+OLMo,2,149,gsm8k_0285,math,GSM8K,79898111,3.031108095000036,586.515,2432.177,30,49,eos,False," Ann's brother is twice her age, so he is 9 * 2 = 18 years old. In 3 years, he will be 18 + 3 = 21 years old.
+The final answer: 21."
+OLMo,2,150,gsm8k_0476,math,GSM8K,122138421,4.637013642999818,837.502,3791.631,48,75,eos,False," Sarah spent a total of $300 on books. Each book costs $15, so the total number of books she bought is $300 / $15 = 20 books. Since she has 4 kids and she wants to give an equal number of books to each, the number of books each child gets is 20 / 4 = 5 books per child.
+
+"
+OLMo,2,151,drop_2dce13c3,comprehension,DROP,60223845,2.6680267920000915,2502.264,155.783,145,4,eos,False, non-families
+OLMo,2,152,tqa_2787,knowledge,TriviaQA,16439655,0.6275270599999203,419.212,199.966,22,5,eos,False," ""a tattoo"""
+OLMo,2,153,drop_ec451b54,comprehension,DROP,187238839,8.383445844000107,8198.721,171.606,470,4,eos,False, Alex Henery
+OLMo,2,154,tqa_3679,knowledge,TriviaQA,24662657,1.0168363350001073,836.055,150.231,48,4,eos,False, John F Kennedy
+OLMo,2,155,tqa_5323,knowledge,TriviaQA,12347930,0.4636063689999901,306.425,152.091,14,4,eos,False, Sesame seeds
+OLMo,2,156,tqa_1805,knowledge,TriviaQA,23876342,0.9498986579999382,793.107,149.845,43,4,word,False, Simon Cowell
+OLMo,2,157,tqa_2278,knowledge,TriviaQA,12250945,0.4591438160000507,305.892,147.593,14,4,eos,False, Daniel Keyes
+OLMo,2,158,gsm8k_0051,math,GSM8K,766537772,29.151180980000163,908.841,28236.879,52,512,limit,True," To find the time it takes for Tom to get back, we first need to determine the time he spends traveling from 1 to 4 PM.
+
+Since Tom sails from 1 to 4 PM, he has a total of 3 hours of travel time.
+
+Let's calculate the distance traveled from 1 to 4 PM. 
+Tom's ship travels at 10 miles per hour, so in 3 hours, it covers a distance of 10 * 3 = 30 miles.
+
+Since Tom needs to return at a rate of 6 mph, we need to calculate the time it takes to cover the same 30 miles back.
+
+Time = Distance / Speed = 30 miles / 6 mph = 5 hours.
+
+However, this calculation seems to contradict the fact that he only traveled for 3 hours from 1 to 4 PM. Let's re-evaluate the problem.
+
+The time from 1 to 4 PM is 3 hours, and he travels at 10 mph. So, the distance covered from 1 to 4 PM is 10 * 3 = 30 miles.
+
+Since he needs to return at 6 mph, the time taken to return is 30 miles / 6 mph = 5 hours.
+
+This calculation seems incorrect because it suggests a 5-hour return trip when only 3 hours were spent traveling from 1 to 4 PM. Let's re-evaluate the problem again.
+
+The correct approach is to calculate the time taken to travel 30 miles at 6 mph.
+
+Time = Distance / Speed = 30 miles / 6 mph = 5 hours.
+
+However, this still doesn't align with the 3-hour travel time from 1 to 4 PM. Let's consider the total travel time from 1 to 4 PM as 3 hours and the return trip as 5 hours, but this seems inconsistent.
+
+Let's reframe the problem: Tom travels from 1 to 4 PM and then returns at 6 mph. The total travel time should be consistent with the given 3 hours from 1 to 4 PM.
+
+The correct interpretation is that the return trip should take into account the initial travel time and the return speed. Let's calculate the return trip time correctly:
+
+The distance covered in the initial 3-hour trip is 30 miles. The return trip at 6 mph should cover the same distance in a time that is consistent with the total travel time of 3 hours.
+
+Time = Distance / Speed = 30 miles / "
+OLMo,2,159,drop_52f65e5e,comprehension,DROP,969969807,40.25731776700013,8962.794,31271.721,509,512,limit,True," The Astros lost the National League Division Series against the Atlanta Braves, 3-1, with a game four that set postseason records for most innings (18), most players used by a single team (23), and longest game time (5 hours and 50 minutes). Trailing by a score of 6-1, Lance Berkman hit an eighth-inning grand slam to narrow the score to 6-5. In the bottom of the ninth, Brad Ausmus hit a game-tying home run that allowed the game to continue in extra innings. In the bottom of the fifteenth inning, Roger Clemens made only his second career relief appearance, pitching three shutout innings, notably striking out Julio Franco, at the time the oldest player in the MLB at 47 years old; Clemens was himself 43. In the bottom of the eighteen inning, Clemens came to bat again, indicating that he would be pitching in the nineteenth inning, if it came to that. Clemens struck out, but the next batter, Chris Burke (baseball), hit a home run to left field that had home run distance, but was inches foul. This game remained scoreless for the next eight innings. In the top of the fifteenth inning, Luke Scott hit a blast to left field that had home run distance, but was inches foul. This game remained scoreless for the next eight innings. In the top of the eighteen inning, Roy Oswalt pitched a complete game shutout, allowing only two hits and no bases-loaded hits, striking out seven and walking two. In the bottom of the eighteen inning, Oswalt faced the final batter, Chris Burke, who hit a walk-off home run to win the game for the Astros, 8-7. Oddly enough, a fan in the ""Crawford Boxes"" in left field had previously caught Berkmans grand slam and this same fan caught Burkes home run. The 2005 National League Championship Series featured a rematch of the 2004 National League Championship Series. The Astros lost the first game in St. Louis, but would win the next three games, with Roy Oswalt getting the win. Though the Astros were poised to close out the series in Game Five in Houston, Brad Lidge gave up a monstrous two-out three-run home run to Albert Pujols, forcing the series to a sixth game in St. Louis, where the Astros clinched a World Series appearance. Roy Oswalt was named NLCS MVP, having gone 2-0 with"
+OLMo,2,160,gsm8k_0065,math,GSM8K,236650456,9.43111594600009,920.001,8450.634,51,161,eos,False," Jim spends 2 hours watching TV each time. So in one instance, he spends a total of 2 hours + (2 / 2) * 2 = 2 + 1 = 3 hours.
+He reads for half as long as he watches TV, so he reads for 2 / 2 = 1 hour each time he reads.
+So in one instance, he spends a total of 2 + 1 = 3 hours.
+He does this 3 times a week, so in one week he spends 3 * 3 = 9 hours.
+In 4 weeks, he spends 9 * 4 = 36 hours.
+Thus, Jim spends a total of 36 hours on TV and reading in 4 weeks.
+The answer: 36."
+OLMo,2,161,gsm8k_0864,math,GSM8K,199751076,7.910279787000036,1103.865,6798.396,64,130,eos,False," To find the total number of leftover burritos, first calculate the total number of burritos given to the students and then subtract the number of burritos eaten by Mr. George.
+
+The total number of burritos given to the students is 50 students * 10 burritos per student = 500 burritos.
+
+Adding the burritos eaten by Mr. George, the total number of burritos consumed is 500 + 20 = 520 burritos.
+
+The number of leftover burritos is then 600 - 520 = 80 burritos.
+
+So, the total number of leftover burritos from the picnic is \boxed{80}."
+OLMo,2,162,gsm8k_1232,math,GSM8K,166642639,6.52733348300012,889.416,5627.801,50,109,eos,False," Let's denote the number of pomelos Eve gave away as x. Since Eve was left with 1 / 4 of the original 20 pomelos, the number of pomelos she has left is 20 - x. According to the problem, this is equal to 1 / 4 * 20 = 5. Therefore, 20 - x = 5, which implies x = 15. So, Eve gave away 15 pomelos to her friend.
+The final answer is: 15"
+OLMo,2,163,tqa_6216,knowledge,TriviaQA,26001032,0.986739420999811,265.158,711.712,12,15,eos,False,  The Charlie Chan series was written by Earl Derrbigger.
+OLMo,2,164,drop_eb024d5a,comprehension,DROP,138021131,6.3237621890000355,6140.261,171.549,353,4,eos,False, 1 month
+OLMo,2,165,drop_dc647615,comprehension,DROP,101403061,4.439532683000152,3657.697,751.372,212,15,eos,False, African American (U.S. Census) or 0.95%
+OLMo,2,166,drop_b457b042,comprehension,DROP,64555437,2.8295513790001223,2555.466,263.502,148,6,eos,False, 77.70%
+OLMo,2,167,tqa_3462,knowledge,TriviaQA,22703738,0.9389597530000628,880.728,49.738,47,2,word,False, Brazil
+OLMo,2,168,gsm8k_0209,math,GSM8K,313984425,11.840947165999978,662.717,11173.338,37,214,eos,False," Let's break down the problem step by step.
+
+First, let's determine the cost of half a dozen plates. Since each plate costs $6000, half a dozen plates will cost:
+
+\[ \text{Cost of half a dozen plates} = 6 \times 6000 = 36000 \]
+
+Next, we know that twenty dozen cups cost $1200 less than this amount. Therefore, the cost of twenty dozen cups is:
+
+\[ \text{Cost of twenty dozen cups} = 36000 - 1200 = 34800 \]
+
+Now, we need to find the cost of each cup. Since we have twenty dozen cups, the total number of cups is:
+
+\[ \text{Number of cups} = 20 \times 12 = 240 \]
+
+The cost of each cup is then:
+
+\[ \text{Cost per cup} = \frac{34800}{240} = 150 \]
+
+So, the total cost of buying each cup is $150.
+
+The final answer is: $\boxed{150}$"
+OLMo,2,169,tqa_3436,knowledge,TriviaQA,206522665,7.927257400000144,296.311,7627.134,16,148,eos,False," Alba is the Gaelic name for Scotland. The name is derived from the ancient Pictish word ""Alba,"" which means ""island"" or ""sea."" The name was adopted by the Gaels when they began to settle the Scottish islands in the 5th century. The name is also used in the Scottish language, where it is known as ""Alba"" or ""Albannach."" In Scots, ""Alba"" is often used to refer to Scotland as a whole, while ""Albannach"" is used to refer to the Scottish Highlands. The name is also used in various other contexts, including the Scottish national anthem, ""Scotland the Brave,"" which is titled after Alba. "
+OLMo,2,170,gsm8k_0054,math,GSM8K,247188454,9.790605034999999,1500.293,8282.215,85,157,eos,False," Let's break down the problem step by step:
+
+1. We know that Trixie has had 12 kittens.
+2. Patchy has had thrice the number of adopted kittens as Trixie. Therefore, Patchy has had 3 * 12 = 36 kittens.
+3. The total number of kittens adopted from the two house cats is 12 (from Trixie) + 36 (from Patchy) = 48 kittens.
+4. The total number of kittens the Doubtfire family now has is the sum of the kittens adopted from the two house cats and the kittens adopted from the 7 adopted kittens from the animal shelter: 48 + 7 = 55 kittens.
+
+Therefore, the final answer is: $\boxed{55}$"
+OLMo,2,171,drop_f39a64a4,comprehension,DROP,85283168,3.9649939079999967,3846.223,106.82,220,3,eos,False, 65
+OLMo,2,172,tqa_4827,knowledge,TriviaQA,273516329,10.554913558999942,583.512,9962.253,30,191,eos,False," footpad is the term used to describe a criminal from the 16th to 19th century. Today, the term ""footpad"" is no longer used, and the term ""thief"" or ""burglar"" is more commonly used to describe a criminal who steals property. The term ""footpad"" was used during the Renaissance and the early modern period, particularly in England, to describe individuals who committed petty thefts by forcibly taking property from individuals at their feet, typically while they were asleep or distracted. The term was derived from the act of stealing a man's shoes, which was considered a particularly heinous crime at the time. The term ""footpad"" was used in various forms throughout the 17th and 18th centuries, and was used in various English-language legal documents and literature. The term fell out of use after the 19th century, and today it is considered an archaic or historical term."
+OLMo,2,173,drop_d45d1bff,comprehension,DROP,124005176,5.815600554999946,5692.202,111.24,325,3,eos,False, 4
+OLMo,2,174,gsm8k_0501,math,GSM8K,142408632,5.546346164999932,1106.065,4417.458,64,86,eos,False," Mariah used 1 / 4 of a skein of yarn, which is (1 / 4) * 364 = 91 yards. Her grandma used 1 / 2 of a skein of yarn, which is (1 / 2) * 364 = 182 yards. Altogether, they used 91 + 182 = 273 yards of yarn. The answer: 273."
+OLMo,2,175,tqa_1628,knowledge,TriviaQA,21456915,0.8202712530001008,293.106,519.076,13,11,eos,False, Lacrosse is the official summer sport of Canada.
+OLMo,2,176,drop_4c725499,comprehension,DROP,108458890,4.902339430999973,4784.039,108.237,276,3,eos,False, 93
+OLMo,2,177,tqa_0053,knowledge,TriviaQA,12631620,0.4807992369999283,308.473,152.921,17,4,eos,False, Seymour Hersh
+OLMo,2,178,drop_d817453d,comprehension,DROP,68316475,2.9469464399999197,2730.204,206.638,157,5,eos,False, 74.72
+OLMo,2,179,tqa_7121,knowledge,TriviaQA,598644342,23.016803107999976,474.486,22534.003,25,416,eos,False," The BBC reported in 2019 that Farah had been involved in discussions with the International Association of Athletics Federations (IAAF) about the use of performance-enhancing drugs. Farah has denied any involvement in doping. The BBC also reported that his coach, Rod Dixon, had been involved in discussions about the matter. Dixon has since stepped down from his role as Mo Farah's coach. The BBC also reported that Farah had been in discussions with the IAAF about the use of blood transfusions, but these discussions were dropped after Farah's agent, Steve Montgomery, met with IAAF chief executive Dr Luciano Ghirgyet in Berlin in April 2019. Farah has since stated that he had been involved in discussions about blood transfusions and had been offered a deal to use blood transfusions to enhance his performance, but he had refused. Farah has also stated that he had been involved in discussions about the use of certain banned substances, but he had been assured by his coaches and agents that these substances were safe and legal. Farah has since been critical of the IAAF's handling of the doping allegations against him, describing it as a ""witch hunt"" and accusing the organisation of ""bullying"" him. In response to the doping allegations, Farah has said that he had been ""misled"" by his coaches and agents about the legality of certain substances. Farah has also stated that he had been told by his agents that the substances were legal, and he had not been aware of the IAAF's strict stance on banned substances. In an interview with BBC Sport in 2019, Farah expressed his frustration with the situation, saying: ""I've been through enough. I've been through enough pain and suffering. I've been through enough disappointment. I've been through enough to last a lifetime. I've been through enough to know that I've been treated unfairly."" In 2020, Farah was named in the BBC's list of the 100 Greatest Sports Heroes of the 21st Century."
+OLMo,2,180,tqa_4464,knowledge,TriviaQA,71679809,2.781253346000085,370.07,2406.335,19,48,eos,False," Fitzroy was originally named after Sir Thomas FitzRoy, the Governor of the British East Indies. The name was officially changed to Fitzroy in 2002 to avoid confusion with the famous Australian shipbuilder and explorer, William FitzRoy."
+OLMo,3,181,tqa_3462,knowledge,TriviaQA,21907048,0.9422305740001775,884.321,50.654,47,2,word,False, Brazil
+OLMo,3,182,drop_f39a64a4,comprehension,DROP,86818077,3.930328278000161,3815.375,105.399,220,3,eos,False, 65
+OLMo,3,183,gsm8k_0178,math,GSM8K,154318270,5.852627026000164,832.456,5010.233,45,98,eos,False," Monic has 4 fewer crabs than Bo, who has 40 crabs. So Monic has 40 - 4 = 36 crabs.
+Rani has ten more crabs than Monic, who has 36 crabs. So Rani has 36 + 10 = 46 crabs.
+The total number of crabs the three have together is 40 + 36 + 46 = 122 crabs.
+The answer: 122."
+OLMo,3,184,tqa_3436,knowledge,TriviaQA,207135273,7.901612290999992,285.581,7608.405,16,148,eos,False," Alba is the Gaelic name for Scotland. The name is derived from the ancient Pictish word ""Alba,"" which means ""island"" or ""sea."" The name was adopted by the Gaels when they began to settle the Scottish islands in the 5th century. The name is also used in the Scottish language, where it is known as ""Alba"" or ""Albannach."" In Scots, ""Alba"" is often used to refer to Scotland as a whole, while ""Albannach"" is used to refer to the Scottish Highlands. The name is also used in various other contexts, including the Scottish national anthem, ""Scotland the Brave,"" which is titled after Alba. "
+OLMo,3,185,tqa_6216,knowledge,TriviaQA,25819087,0.9793860649999715,265.647,709.352,12,15,eos,False,  The Charlie Chan series was written by Earl Derrbigger.
+OLMo,3,186,gsm8k_1034,math,GSM8K,157208399,5.993373409000014,697.86,5288.52,38,103,eos,False," Ted buys 3 books for 16 dollars each, so the total cost of the books is 3 * 16 = 48 dollars. He also buys 3 pencils for 6 dollars each, so the total cost of the pencils is 3 * 6 = 18 dollars. The total amount Ted spent is 48 + 18 = 66 dollars.
+Explanation: Ted spent 48 dollars on books and 18 dollars on pencils, so the total amount he spent is 66 dollars."
+OLMo,3,187,gsm8k_0051,math,GSM8K,744340989,29.423629844999823,921.96,28493.585,52,512,limit,True," To find the time it takes for Tom to get back, we first need to determine the time he spends traveling from 1 to 4 PM.
+
+Since Tom sails from 1 to 4 PM, he has a total of 3 hours of travel time.
+
+Let's calculate the distance traveled from 1 to 4 PM. 
+Tom's ship travels at 10 miles per hour, so in 3 hours, it covers a distance of 10 * 3 = 30 miles.
+
+Since Tom needs to return at a rate of 6 mph, we need to calculate the time it takes to cover the same 30 miles back.
+
+Time = Distance / Speed = 30 miles / 6 mph = 5 hours.
+
+However, this calculation seems to contradict the fact that he only traveled for 3 hours from 1 to 4 PM. Let's re-evaluate the problem.
+
+The time from 1 to 4 PM is 3 hours, and he travels at 10 mph. So, the distance covered from 1 to 4 PM is 10 * 3 = 30 miles.
+
+Since he needs to return at 6 mph, the time taken to return is 30 miles / 6 mph = 5 hours.
+
+This calculation seems incorrect because it suggests a 5-hour return trip when only 3 hours were spent traveling from 1 to 4 PM. Let's re-evaluate the problem again.
+
+The correct approach is to calculate the time taken to travel 30 miles at 6 mph.
+
+Time = Distance / Speed = 30 miles / 6 mph = 5 hours.
+
+However, this still doesn't align with the 3-hour travel time from 1 to 4 PM. Let's consider the total travel time from 1 to 4 PM as 3 hours and the return trip as 5 hours, but this seems inconsistent.
+
+Let's reframe the problem: Tom travels from 1 to 4 PM and then returns at 6 mph. The total travel time should be consistent with the given 3 hours from 1 to 4 PM.
+
+The correct interpretation is that the return trip should take into account the initial travel time and the return speed. Let's calculate the return trip time correctly:
+
+The distance covered in the initial 3-hour trip is 30 miles. The return trip at 6 mph should cover the same distance in a time that is consistent with the total travel time of 3 hours.
+
+Time = Distance / Speed = 30 miles / "
+OLMo,3,188,tqa_5323,knowledge,TriviaQA,12015411,0.48038474300005873,318.413,157.557,14,4,eos,False, Sesame seeds
+OLMo,3,189,gsm8k_0065,math,GSM8K,240015743,9.347680238000066,917.137,8426.716,51,161,eos,False," Jim spends 2 hours watching TV each time. So in one instance, he spends a total of 2 hours + (2 / 2) * 2 = 2 + 1 = 3 hours.
+He reads for half as long as he watches TV, so he reads for 2 / 2 = 1 hour each time he reads.
+So in one instance, he spends a total of 2 + 1 = 3 hours.
+He does this 3 times a week, so in one week he spends 3 * 3 = 9 hours.
+In 4 weeks, he spends 9 * 4 = 36 hours.
+Thus, Jim spends a total of 36 hours on TV and reading in 4 weeks.
+The answer: 36."
+OLMo,3,190,gsm8k_0457,math,GSM8K,158710898,6.334732169000063,1438.281,4889.237,79,94,eos,False," Katelyn saw 50 fairies initially. After twenty minutes, her friend saw half as many fairies as Katelyn saw, which is 50 / 2 = 25 fairies. So, the total number of fairies became 50 + 25 = 75. After ten more minutes, 30 fairies flew away, leaving 75 - 30 = 45 fairies. Therefore, there are 45 fairies remaining.
+
+"
+OLMo,3,191,gsm8k_0501,math,GSM8K,140304633,5.54942918200004,1103.613,4434.706,64,86,eos,False," Mariah used 1 / 4 of a skein of yarn, which is (1 / 4) * 364 = 91 yards. Her grandma used 1 / 2 of a skein of yarn, which is (1 / 2) * 364 = 182 yards. Altogether, they used 91 + 182 = 273 yards of yarn. The answer: 273."
+OLMo,3,192,drop_e240629c,comprehension,DROP,111467366,5.149340238999912,4972.798,163.458,284,4,eos,False," 2
+"
+OLMo,3,193,gsm8k_0447,math,GSM8K,110663169,4.273535089000006,855.509,3397.465,46,67,eos,False," First find the new total score for Joey after he scores 26 points: 214 + 26 = 240. Then subtract Marcy's score of 10 points to find Joey's new lead: 240 - 10 = 230. Joey is now winning by 230 points.
+The final answer: 230."
+OLMo,3,194,drop_5e671a33,comprehension,DROP,103064189,4.41155149400015,3123.714,1277.313,181,25,eos,False," Ungheni is the third largest city with 32,828, followed by Cahul with 28,763."
+OLMo,3,195,gsm8k_1209,math,GSM8K,380913148,15.139517176000027,2871.099,12253.611,166,223,eos,False," Let's break down the problem step by step.
+
+The low setting removes 1 liter of water per day.
+So, in 3 days on the low setting, the dehumidifier removes 3 * 1 = 3 liters of water.
+
+The medium setting removes twice as much water per day as the low setting, which is 2 * 1 = 2 liters per day.
+So, in 3 days on the medium setting, the dehumidifier removes 3 * 2 = 6 liters of water.
+
+The high setting removes twice as much water per day as the medium setting, which is 2 * 2 = 4 liters per day.
+So, in 5 days on the high setting, the dehumidifier removes 5 * 4 = 20 liters of water.
+
+Now, let's add up the total amount of water removed: 3 + 6 + 20 = 29 liters.
+
+Thus, the total amount of water that the dehumidifier removed from the air in Brian's basement is \boxed{29} liters."
+OLMo,3,196,gsm8k_0228,math,GSM8K,232521683,9.12224944400009,1030.063,8065.499,57,154,eos,False," Kalinda can add 4 pieces per minute. Her mom can place half as many pieces per minute as Kalinda, which is 4 / 2 = 2 pieces per minute. Together, they can add 4 + 2 = 6 pieces per minute. To find out how many hours it will take them to complete the 360 piece puzzle, we divide the total number of pieces by the number of pieces they can add per minute: 360 / 6 = 60 minutes. Since we need the answer in hours, we convert 60 minutes to hours by dividing by 60: 60 / 60 = 1 hour. Therefore, it will take them 1 hour to complete the puzzle.
+
+The final answer: 1."
+OLMo,3,197,tqa_4597,knowledge,TriviaQA,22462955,0.856810373999906,286.995,560.482,13,12,eos,False, The city of Leeds stands on the River Humber.
+OLMo,3,198,drop_eb024d5a,comprehension,DROP,137835707,6.306215578999854,6123.624,170.628,353,4,eos,False, 1 month
+OLMo,3,199,gsm8k_0864,math,GSM8K,204906580,7.8960245470000245,1101.149,6768.475,64,130,eos,False," To find the total number of leftover burritos, first calculate the total number of burritos given to the students and then subtract the number of burritos eaten by Mr. George.
+
+The total number of burritos given to the students is 50 students * 10 burritos per student = 500 burritos.
+
+Adding the burritos eaten by Mr. George, the total number of burritos consumed is 500 + 20 = 520 burritos.
+
+The number of leftover burritos is then 600 - 520 = 80 burritos.
+
+So, the total number of leftover burritos from the picnic is \boxed{80}."
+OLMo,3,200,gsm8k_0191,math,GSM8K,178123201,6.875615084999936,723.673,6141.568,40,119,eos,False," To find out how many pounds of insects the flock of ducks needs per day, we first calculate the total pounds needed per week and then divide by the number of days in a week. First, calculate the weekly requirement: 3.5 pounds per duck per week means for 10 ducks, the weekly requirement is 3.5 * 10 = 35 pounds. Since there are 7 days in a week, the daily requirement is 35 pounds / 7 days = 5 pounds per day. Therefore, the flock of ducks needs 5 pounds of insects per day.
+
+"
+OLMo,3,201,tqa_1805,knowledge,TriviaQA,23027834,0.9622076609998658,801.207,152.7,43,4,word,False, Simon Cowell
+OLMo,3,202,tqa_4827,knowledge,TriviaQA,275788723,10.552517998999974,585.15,9961.313,30,191,eos,False," footpad is the term used to describe a criminal from the 16th to 19th century. Today, the term ""footpad"" is no longer used, and the term ""thief"" or ""burglar"" is more commonly used to describe a criminal who steals property. The term ""footpad"" was used during the Renaissance and the early modern period, particularly in England, to describe individuals who committed petty thefts by forcibly taking property from individuals at their feet, typically while they were asleep or distracted. The term was derived from the act of stealing a man's shoes, which was considered a particularly heinous crime at the time. The term ""footpad"" was used in various forms throughout the 17th and 18th centuries, and was used in various English-language legal documents and literature. The term fell out of use after the 19th century, and today it is considered an archaic or historical term."
+OLMo,3,203,tqa_5719,knowledge,TriviaQA,16496051,0.6639257860001635,454.635,204.586,24,5,eos,False, Enchiladas
+OLMo,3,204,drop_dc647615,comprehension,DROP,100589098,4.425189086000046,3667.794,748.288,212,15,eos,False, African American (U.S. Census) or 0.95%
+OLMo,3,205,gsm8k_1116,math,GSM8K,128280189,4.862507045000029,801.539,4050.046,44,80,eos,False," To find the number of students enrolled this year, first calculate the increase in enrollment from last year. The increase is 20% of 50 students. 20% of 50 is (20 / 100) * 50 = 10 students. Therefore, the total number of students this year is 50 + 10 = 60 students.
+
+The final answer is: 60"
+OLMo,3,206,drop_b457b042,comprehension,DROP,64340472,2.833266237000089,2564.405,259.872,148,6,eos,False, 77.70%
+OLMo,3,207,tqa_5865,knowledge,TriviaQA,217554925,8.16717622200008,363.621,7795.546,19,152,eos,False," H'Angus the Monkey is the official mascot of Arsenal F.C. in the English Premier League. The monkey was introduced in 2001 by Arsenal manager Arsène Wenger, who wanted a distinctive mascot to promote the club. The character was designed by artist Simon Groom and was first used at a match against Leeds United on 21 September 2001. The name 'H'Angus' was chosen after a poll conducted by Arsenal fans, with 'Angus' being the name of the founder of the club. H'Angus is a registered trademark of Arsenal Football Club and is used in all club communications and marketing. The character has since become a significant part of Arsenal's identity, and is often used in promotional material and merchandise."
+OLMo,3,208,tqa_2787,knowledge,TriviaQA,16539997,0.645852135000041,425.089,216.336,22,5,eos,False," ""a tattoo"""
+OLMo,3,209,tqa_1307,knowledge,TriviaQA,26014704,0.9782370640000408,309.558,663.795,17,14,eos,False, Ferdinand Marcos became President of the Philippines in December 1965.
+OLMo,3,210,tqa_6601,knowledge,TriviaQA,64135212,2.361695836000081,437.005,1918.634,23,39,eos,False," ""The question asked in the book of Genesis is, ""Who is the son of God?"" The question is posed by Joseph, who is in a dream interpreting for his father, Jacob."""
+OLMo,3,211,drop_52f65e5e,comprehension,DROP,990094145,40.086488831999986,8870.718,31192.532,509,512,limit,True," The Astros lost the National League Division Series against the Atlanta Braves, 3-1, with a game four that set postseason records for most innings (18), most players used by a single team (23), and longest game time (5 hours and 50 minutes). Trailing by a score of 6-1, Lance Berkman hit an eighth-inning grand slam to narrow the score to 6-5. In the bottom of the ninth, Brad Ausmus hit a game-tying home run that allowed the game to continue in extra innings. In the bottom of the fifteenth inning, Roger Clemens made only his second career relief appearance, pitching three shutout innings, notably striking out Julio Franco, at the time the oldest player in the MLB at 47 years old; Clemens was himself 43. In the bottom of the eighteen inning, Clemens came to bat again, indicating that he would be pitching in the nineteenth inning, if it came to that. Clemens struck out, but the next batter, Chris Burke (baseball), hit a home run to left field that had home run distance, but was inches foul. This game remained scoreless for the next eight innings. In the top of the fifteenth inning, Luke Scott hit a blast to left field that had home run distance, but was inches foul. This game remained scoreless for the next eight innings. In the top of the eighteen inning, Roy Oswalt pitched a complete game shutout, allowing only two hits and no bases-loaded hits, striking out seven and walking two. In the bottom of the eighteen inning, Oswalt faced the final batter, Chris Burke, who hit a walk-off home run to win the game for the Astros, 8-7. Oddly enough, a fan in the ""Crawford Boxes"" in left field had previously caught Berkmans grand slam and this same fan caught Burkes home run. The 2005 National League Championship Series featured a rematch of the 2004 National League Championship Series. The Astros lost the first game in St. Louis, but would win the next three games, with Roy Oswalt getting the win. Though the Astros were poised to close out the series in Game Five in Houston, Brad Lidge gave up a monstrous two-out three-run home run to Albert Pujols, forcing the series to a sixth game in St. Louis, where the Astros clinched a World Series appearance. Roy Oswalt was named NLCS MVP, having gone 2-0 with"
+OLMo,3,212,tqa_6630,knowledge,TriviaQA,21130622,0.8710595669999748,454.53,360.658,24,8,eos,False, I'm Gonna Pay You Back
+OLMo,3,213,tqa_0053,knowledge,TriviaQA,11962311,0.47138884400010284,312.313,152.153,17,4,eos,False, Seymour Hersh
+OLMo,3,214,drop_43d21cab,comprehension,DROP,56997717,2.545447279999962,2433.503,103.583,138,3,eos,False, 4
+OLMo,3,215,tqa_7121,knowledge,TriviaQA,593426825,23.05071648000012,473.499,22569.762,25,416,eos,False," The BBC reported in 2019 that Farah had been involved in discussions with the International Association of Athletics Federations (IAAF) about the use of performance-enhancing drugs. Farah has denied any involvement in doping. The BBC also reported that his coach, Rod Dixon, had been involved in discussions about the matter. Dixon has since stepped down from his role as Mo Farah's coach. The BBC also reported that Farah had been in discussions with the IAAF about the use of blood transfusions, but these discussions were dropped after Farah's agent, Steve Montgomery, met with IAAF chief executive Dr Luciano Ghirgyet in Berlin in April 2019. Farah has since stated that he had been involved in discussions about blood transfusions and had been offered a deal to use blood transfusions to enhance his performance, but he had refused. Farah has also stated that he had been involved in discussions about the use of certain banned substances, but he had been assured by his coaches and agents that these substances were safe and legal. Farah has since been critical of the IAAF's handling of the doping allegations against him, describing it as a ""witch hunt"" and accusing the organisation of ""bullying"" him. In response to the doping allegations, Farah has said that he had been ""misled"" by his coaches and agents about the legality of certain substances. Farah has also stated that he had been told by his agents that the substances were legal, and he had not been aware of the IAAF's strict stance on banned substances. In an interview with BBC Sport in 2019, Farah expressed his frustration with the situation, saying: ""I've been through enough. I've been through enough pain and suffering. I've been through enough disappointment. I've been through enough to last a lifetime. I've been through enough to know that I've been treated unfairly."" In 2020, Farah was named in the BBC's list of the 100 Greatest Sports Heroes of the 21st Century."
+OLMo,3,216,drop_4c725499,comprehension,DROP,104574745,4.960147953999922,4840.309,109.74,276,3,eos,False, 93
+OLMo,3,217,drop_0a1e6fa5,comprehension,DROP,108935757,4.982596994000005,4633.028,326.274,265,7,eos,False," The French army was bigger.
+"
+OLMo,3,218,tqa_2278,knowledge,TriviaQA,12464324,0.48264026900005774,312.581,150.711,14,4,eos,False, Daniel Keyes
+OLMo,3,219,gsm8k_0054,math,GSM8K,253563193,9.71669867200012,1484.179,8222.944,85,157,eos,False," Let's break down the problem step by step:
+
+1. We know that Trixie has had 12 kittens.
+2. Patchy has had thrice the number of adopted kittens as Trixie. Therefore, Patchy has had 3 * 12 = 36 kittens.
+3. The total number of kittens adopted from the two house cats is 12 (from Trixie) + 36 (from Patchy) = 48 kittens.
+4. The total number of kittens the Doubtfire family now has is the sum of the kittens adopted from the two house cats and the kittens adopted from the 7 adopted kittens from the animal shelter: 48 + 7 = 55 kittens.
+
+Therefore, the final answer is: $\boxed{55}$"
+OLMo,3,220,drop_9b1e4b5e,comprehension,DROP,197040450,9.095952520999845,8609.931,468.367,490,9,eos,False, The Battle of White Mountain happened second.
+OLMo,3,221,drop_2dce13c3,comprehension,DROP,60205229,2.696200756000053,2509.057,156.0,145,4,eos,False, non-families
+OLMo,3,222,tqa_1628,knowledge,TriviaQA,21607489,0.8012307770000007,281.673,511.281,13,11,eos,False, Lacrosse is the official summer sport of Canada.
+OLMo,3,223,drop_513c00fd,comprehension,DROP,94526918,4.172627479000084,4058.793,104.982,235,3,eos,False, 31
+OLMo,3,224,drop_f6b987f4,comprehension,DROP,117832401,5.206275542000185,4977.461,214.779,289,5,eos,False, 52.2
+OLMo,3,225,gsm8k_0476,math,GSM8K,123402150,4.64014616999998,835.532,3783.882,48,75,eos,False," Sarah spent a total of $300 on books. Each book costs $15, so the total number of books she bought is $300 / $15 = 20 books. Since she has 4 kids and she wants to give an equal number of books to each, the number of books each child gets is 20 / 4 = 5 books per child.
+
+"
+OLMo,3,226,gsm8k_1232,math,GSM8K,171701221,6.484548399999994,883.382,5591.509,50,109,eos,False," Let's denote the number of pomelos Eve gave away as x. Since Eve was left with 1 / 4 of the original 20 pomelos, the number of pomelos she has left is 20 - x. According to the problem, this is equal to 1 / 4 * 20 = 5. Therefore, 20 - x = 5, which implies x = 15. So, Eve gave away 15 pomelos to her friend.
+The final answer is: 15"
+OLMo,3,227,drop_d817453d,comprehension,DROP,66440382,2.9648220740000397,2747.136,208.234,157,5,eos,False, 74.72
+OLMo,3,228,tqa_4464,knowledge,TriviaQA,74229119,2.7517040449999968,361.475,2376.267,19,48,eos,False," Fitzroy was originally named after Sir Thomas FitzRoy, the Governor of the British East Indies. The name was officially changed to Fitzroy in 2002 to avoid confusion with the famous Australian shipbuilder and explorer, William FitzRoy."
+OLMo,3,229,gsm8k_0061,math,GSM8K,277540244,10.571382247999964,1076.392,9485.195,60,181,eos,False," To find the total amount Janet paid, we need to add the cost of the material, the construction cost, and the insurance cost.
+
+First, we calculate the total cost of the material and construction.
+The material cost is $500.
+The construction cost is $800.
+So the total cost for material and construction is $500 + 800 = 1300$.
+
+Next, we calculate the insurance cost which is 10% of the total cost.
+The insurance cost is 10% of $1300, which is $1300 * 10 / 100 = 13000 / 100 = 130$.
+
+Finally, we add the insurance cost to the total cost of material and construction to get the total amount paid.
+The total amount paid is $1300 + 130 = 1430$.
+
+Thus, Janet paid a total of \boxed{1430} dollars."
+OLMo,3,230,gsm8k_1309,math,GSM8K,137164444,5.350194873999953,1022.88,4316.359,57,84,eos,False," Alexandra raises $430. Kim raises $320 more than Alexandra, so Kim raises $430 + 320 = 750$. Maryam raises $400 more than Sarah, who raises $300, so Maryam raises $300 + 400 = 700$. The total amount of money they all raised is $430 + 750 + 700 = 1720$.
+The final answer: 1720."
+OLMo,3,231,tqa_5745,knowledge,TriviaQA,15104697,0.604895784999826,444.61,152.735,23,4,eos,False, Pete Seeger
+OLMo,3,232,gsm8k_0563,math,GSM8K,207683977,7.90834768600007,917.284,6982.765,52,135,eos,False," 
+To find out how much James spends on birthday candles, we first need to determine the total number of candles he buys.
+
+The first son is 12 years old, so he needs 12 birthday candles.
+The second son is 4 years younger, so he needs 12 - 4 = 8 candles.
+
+Therefore, James buys a total of 12 + 8 = 20 candles.
+
+Since a pack of 5 candles costs $3, James needs to buy 20 / 5 = 4 packs of candles.
+
+Since each pack costs $3, James spends 4 * $3 = $12 on candles.
+
+The answer: 12."
+OLMo,3,233,drop_4f1919d2,comprehension,DROP,126700298,5.836586981999972,5597.3,225.205,321,5,eos,False, Commonwealth resumed the offensive
+OLMo,3,234,drop_ec451b54,comprehension,DROP,182885884,8.425217602999965,8221.747,173.992,470,4,eos,False, Alex Henery
+OLMo,3,235,drop_d45d1bff,comprehension,DROP,127766335,5.811164034000285,5667.088,109.853,325,3,eos,False, 4
+OLMo,3,236,drop_1da8ddaa,comprehension,DROP,102583660,4.582931632000054,4345.715,212.787,251,5,eos,False, New England Patriots.
+OLMo,3,237,tqa_3679,knowledge,TriviaQA,24239684,0.9922289999999521,831.83,149.473,48,4,eos,False, John F Kennedy
+OLMo,3,238,drop_41ceae2f,comprehension,DROP,111911456,4.929154418000053,4810.895,106.704,277,3,eos,False, Jake Elliott
+OLMo,3,239,gsm8k_0285,math,GSM8K,81134070,3.0072657929999878,582.755,2405.437,30,49,eos,False," Ann's brother is twice her age, so he is 9 * 2 = 18 years old. In 3 years, he will be 18 + 3 = 21 years old.
+The final answer: 21."
+OLMo,3,240,gsm8k_0209,math,GSM8K,314829394,11.833337512000071,667.601,11159.64,37,214,eos,False," Let's break down the problem step by step.
+
+First, let's determine the cost of half a dozen plates. Since each plate costs $6000, half a dozen plates will cost:
+
+\[ \text{Cost of half a dozen plates} = 6 \times 6000 = 36000 \]
+
+Next, we know that twenty dozen cups cost $1200 less than this amount. Therefore, the cost of twenty dozen cups is:
+
+\[ \text{Cost of twenty dozen cups} = 36000 - 1200 = 34800 \]
+
+Now, we need to find the cost of each cup. Since we have twenty dozen cups, the total number of cups is:
+
+\[ \text{Number of cups} = 20 \times 12 = 240 \]
+
+The cost of each cup is then:
+
+\[ \text{Cost per cup} = \frac{34800}{240} = 150 \]
+
+So, the total cost of buying each cup is $150.
+
+The final answer is: $\boxed{150}$"
+OLMo,4,241,tqa_0053,knowledge,TriviaQA,11986541,0.46895295400008763,312.712,151.848,17,4,eos,False, Seymour Hersh
+OLMo,4,242,tqa_6630,knowledge,TriviaQA,20830880,0.8067236659999253,450.217,351.402,24,8,eos,False, I'm Gonna Pay You Back
+OLMo,4,243,tqa_3462,knowledge,TriviaQA,22586124,0.9321652409998933,876.126,50.846,47,2,word,False, Brazil
+OLMo,4,244,gsm8k_0228,math,GSM8K,240538081,8.951496848999795,1013.177,7929.032,57,154,eos,False," Kalinda can add 4 pieces per minute. Her mom can place half as many pieces per minute as Kalinda, which is 4 / 2 = 2 pieces per minute. Together, they can add 4 + 2 = 6 pieces per minute. To find out how many hours it will take them to complete the 360 piece puzzle, we divide the total number of pieces by the number of pieces they can add per minute: 360 / 6 = 60 minutes. Since we need the answer in hours, we convert 60 minutes to hours by dividing by 60: 60 / 60 = 1 hour. Therefore, it will take them 1 hour to complete the puzzle.
+
+The final answer: 1."
+OLMo,4,245,gsm8k_0864,math,GSM8K,204858485,7.87380942999971,1099.036,6762.538,64,130,eos,False," To find the total number of leftover burritos, first calculate the total number of burritos given to the students and then subtract the number of burritos eaten by Mr. George.
+
+The total number of burritos given to the students is 50 students * 10 burritos per student = 500 burritos.
+
+Adding the burritos eaten by Mr. George, the total number of burritos consumed is 500 + 20 = 520 burritos.
+
+The number of leftover burritos is then 600 - 520 = 80 burritos.
+
+So, the total number of leftover burritos from the picnic is \boxed{80}."
+OLMo,4,246,tqa_4464,knowledge,TriviaQA,72929135,2.763494069999979,364.285,2387.316,19,48,eos,False," Fitzroy was originally named after Sir Thomas FitzRoy, the Governor of the British East Indies. The name was officially changed to Fitzroy in 2002 to avoid confusion with the famous Australian shipbuilder and explorer, William FitzRoy."
+OLMo,4,247,drop_d817453d,comprehension,DROP,67039379,2.975521671000024,2757.404,209.053,157,5,eos,False, 74.72
+OLMo,4,248,drop_0a1e6fa5,comprehension,DROP,111337056,4.948232828000073,4612.654,323.393,265,7,eos,False," The French army was bigger.
+"
+OLMo,4,249,tqa_3436,knowledge,TriviaQA,211431221,7.882750190000024,283.291,7578.137,16,148,eos,False," Alba is the Gaelic name for Scotland. The name is derived from the ancient Pictish word ""Alba,"" which means ""island"" or ""sea."" The name was adopted by the Gaels when they began to settle the Scottish islands in the 5th century. The name is also used in the Scottish language, where it is known as ""Alba"" or ""Albannach."" In Scots, ""Alba"" is often used to refer to Scotland as a whole, while ""Albannach"" is used to refer to the Scottish Highlands. The name is also used in various other contexts, including the Scottish national anthem, ""Scotland the Brave,"" which is titled after Alba. "
+OLMo,4,250,gsm8k_0178,math,GSM8K,152608191,5.862617653000143,831.25,5024.791,45,98,eos,False," Monic has 4 fewer crabs than Bo, who has 40 crabs. So Monic has 40 - 4 = 36 crabs.
+Rani has ten more crabs than Monic, who has 36 crabs. So Rani has 36 + 10 = 46 crabs.
+The total number of crabs the three have together is 40 + 36 + 46 = 122 crabs.
+The answer: 122."
+OLMo,4,251,gsm8k_0051,math,GSM8K,747429849,29.399877218000256,913.235,28478.071,52,512,limit,True," To find the time it takes for Tom to get back, we first need to determine the time he spends traveling from 1 to 4 PM.
+
+Since Tom sails from 1 to 4 PM, he has a total of 3 hours of travel time.
+
+Let's calculate the distance traveled from 1 to 4 PM. 
+Tom's ship travels at 10 miles per hour, so in 3 hours, it covers a distance of 10 * 3 = 30 miles.
+
+Since Tom needs to return at a rate of 6 mph, we need to calculate the time it takes to cover the same 30 miles back.
+
+Time = Distance / Speed = 30 miles / 6 mph = 5 hours.
+
+However, this calculation seems to contradict the fact that he only traveled for 3 hours from 1 to 4 PM. Let's re-evaluate the problem.
+
+The time from 1 to 4 PM is 3 hours, and he travels at 10 mph. So, the distance covered from 1 to 4 PM is 10 * 3 = 30 miles.
+
+Since he needs to return at 6 mph, the time taken to return is 30 miles / 6 mph = 5 hours.
+
+This calculation seems incorrect because it suggests a 5-hour return trip when only 3 hours were spent traveling from 1 to 4 PM. Let's re-evaluate the problem again.
+
+The correct approach is to calculate the time taken to travel 30 miles at 6 mph.
+
+Time = Distance / Speed = 30 miles / 6 mph = 5 hours.
+
+However, this still doesn't align with the 3-hour travel time from 1 to 4 PM. Let's consider the total travel time from 1 to 4 PM as 3 hours and the return trip as 5 hours, but this seems inconsistent.
+
+Let's reframe the problem: Tom travels from 1 to 4 PM and then returns at 6 mph. The total travel time should be consistent with the given 3 hours from 1 to 4 PM.
+
+The correct interpretation is that the return trip should take into account the initial travel time and the return speed. Let's calculate the return trip time correctly:
+
+The distance covered in the initial 3-hour trip is 30 miles. The return trip at 6 mph should cover the same distance in a time that is consistent with the total travel time of 3 hours.
+
+Time = Distance / Speed = 30 miles / "
+OLMo,4,252,tqa_3679,knowledge,TriviaQA,23289979,1.0182056500002545,859.578,153.492,48,4,eos,False, John F Kennedy
+OLMo,4,253,tqa_7121,knowledge,TriviaQA,588522114,23.090792471999976,477.588,22607.679,25,416,eos,False," The BBC reported in 2019 that Farah had been involved in discussions with the International Association of Athletics Federations (IAAF) about the use of performance-enhancing drugs. Farah has denied any involvement in doping. The BBC also reported that his coach, Rod Dixon, had been involved in discussions about the matter. Dixon has since stepped down from his role as Mo Farah's coach. The BBC also reported that Farah had been in discussions with the IAAF about the use of blood transfusions, but these discussions were dropped after Farah's agent, Steve Montgomery, met with IAAF chief executive Dr Luciano Ghirgyet in Berlin in April 2019. Farah has since stated that he had been involved in discussions about blood transfusions and had been offered a deal to use blood transfusions to enhance his performance, but he had refused. Farah has also stated that he had been involved in discussions about the use of certain banned substances, but he had been assured by his coaches and agents that these substances were safe and legal. Farah has since been critical of the IAAF's handling of the doping allegations against him, describing it as a ""witch hunt"" and accusing the organisation of ""bullying"" him. In response to the doping allegations, Farah has said that he had been ""misled"" by his coaches and agents about the legality of certain substances. Farah has also stated that he had been told by his agents that the substances were legal, and he had not been aware of the IAAF's strict stance on banned substances. In an interview with BBC Sport in 2019, Farah expressed his frustration with the situation, saying: ""I've been through enough. I've been through enough pain and suffering. I've been through enough disappointment. I've been through enough to last a lifetime. I've been through enough to know that I've been treated unfairly."" In 2020, Farah was named in the BBC's list of the 100 Greatest Sports Heroes of the 21st Century."
+OLMo,4,254,drop_4f1919d2,comprehension,DROP,124627489,5.88840023199964,5650.28,227.177,321,5,eos,False, Commonwealth resumed the offensive
+OLMo,4,255,drop_513c00fd,comprehension,DROP,91358713,4.222186563999912,4088.0,106.79,235,3,eos,False, 31
+OLMo,4,256,drop_e240629c,comprehension,DROP,112849015,5.123058755999864,4946.68,162.283,284,4,eos,False," 2
+"
+OLMo,4,257,gsm8k_0061,math,GSM8K,276858666,10.596479692999765,1078.822,9495.698,60,181,eos,False," To find the total amount Janet paid, we need to add the cost of the material, the construction cost, and the insurance cost.
+
+First, we calculate the total cost of the material and construction.
+The material cost is $500.
+The construction cost is $800.
+So the total cost for material and construction is $500 + 800 = 1300$.
+
+Next, we calculate the insurance cost which is 10% of the total cost.
+The insurance cost is 10% of $1300, which is $1300 * 10 / 100 = 13000 / 100 = 130$.
+
+Finally, we add the insurance cost to the total cost of material and construction to get the total amount paid.
+The total amount paid is $1300 + 130 = 1430$.
+
+Thus, Janet paid a total of \boxed{1430} dollars."
+OLMo,4,258,drop_41ceae2f,comprehension,DROP,106998933,4.944886828000108,4822.229,108.704,277,3,eos,False, Jake Elliott
+OLMo,4,259,tqa_4597,knowledge,TriviaQA,22947207,0.862142624000171,284.482,558.119,13,12,eos,False, The city of Leeds stands on the River Humber.
+OLMo,4,260,gsm8k_1116,math,GSM8K,128656531,4.857843885999955,802.428,4047.38,44,80,eos,False," To find the number of students enrolled this year, first calculate the increase in enrollment from last year. The increase is 20% of 50 students. 20% of 50 is (20 / 100) * 50 = 10 students. Therefore, the total number of students this year is 50 + 10 = 60 students.
+
+The final answer is: 60"
+OLMo,4,261,drop_eb024d5a,comprehension,DROP,138623913,6.294103467000241,6114.378,166.618,353,4,eos,False, 1 month
+OLMo,4,262,gsm8k_0285,math,GSM8K,80499000,3.026425460000155,582.699,2419.82,30,49,eos,False," Ann's brother is twice her age, so he is 9 * 2 = 18 years old. In 3 years, he will be 18 + 3 = 21 years old.
+The final answer: 21."
+OLMo,4,263,gsm8k_1034,math,GSM8K,158478171,5.942872560000069,690.535,5243.6,38,103,eos,False," Ted buys 3 books for 16 dollars each, so the total cost of the books is 3 * 16 = 48 dollars. He also buys 3 pencils for 6 dollars each, so the total cost of the pencils is 3 * 6 = 18 dollars. The total amount Ted spent is 48 + 18 = 66 dollars.
+Explanation: Ted spent 48 dollars on books and 18 dollars on pencils, so the total amount he spent is 66 dollars."
+OLMo,4,264,gsm8k_0054,math,GSM8K,251620450,9.75152842000034,1484.152,8257.208,85,157,eos,False," Let's break down the problem step by step:
+
+1. We know that Trixie has had 12 kittens.
+2. Patchy has had thrice the number of adopted kittens as Trixie. Therefore, Patchy has had 3 * 12 = 36 kittens.
+3. The total number of kittens adopted from the two house cats is 12 (from Trixie) + 36 (from Patchy) = 48 kittens.
+4. The total number of kittens the Doubtfire family now has is the sum of the kittens adopted from the two house cats and the kittens adopted from the 7 adopted kittens from the animal shelter: 48 + 7 = 55 kittens.
+
+Therefore, the final answer is: $\boxed{55}$"
+OLMo,4,265,drop_b457b042,comprehension,DROP,63194419,2.841599211999892,2567.717,261.05,148,6,eos,False, 77.70%
+OLMo,4,266,tqa_6601,knowledge,TriviaQA,62880149,2.3658555059996615,439.965,1917.403,23,39,eos,False," ""The question asked in the book of Genesis is, ""Who is the son of God?"" The question is posed by Joseph, who is in a dream interpreting for his father, Jacob."""
+OLMo,4,267,gsm8k_0191,math,GSM8K,180464809,6.820944708999832,719.028,6093.819,40,119,eos,False," To find out how many pounds of insects the flock of ducks needs per day, we first calculate the total pounds needed per week and then divide by the number of days in a week. First, calculate the weekly requirement: 3.5 pounds per duck per week means for 10 ducks, the weekly requirement is 3.5 * 10 = 35 pounds. Since there are 7 days in a week, the daily requirement is 35 pounds / 7 days = 5 pounds per day. Therefore, the flock of ducks needs 5 pounds of insects per day.
+
+"
+OLMo,4,268,gsm8k_1209,math,GSM8K,381754394,15.170670428999983,2882.854,12274.326,166,223,eos,False," Let's break down the problem step by step.
+
+The low setting removes 1 liter of water per day.
+So, in 3 days on the low setting, the dehumidifier removes 3 * 1 = 3 liters of water.
+
+The medium setting removes twice as much water per day as the low setting, which is 2 * 1 = 2 liters per day.
+So, in 3 days on the medium setting, the dehumidifier removes 3 * 2 = 6 liters of water.
+
+The high setting removes twice as much water per day as the medium setting, which is 2 * 2 = 4 liters per day.
+So, in 5 days on the high setting, the dehumidifier removes 5 * 4 = 20 liters of water.
+
+Now, let's add up the total amount of water removed: 3 + 6 + 20 = 29 liters.
+
+Thus, the total amount of water that the dehumidifier removed from the air in Brian's basement is \boxed{29} liters."
+OLMo,4,269,tqa_4827,knowledge,TriviaQA,271235755,10.621672978999868,586.563,10008.481,30,191,eos,False," footpad is the term used to describe a criminal from the 16th to 19th century. Today, the term ""footpad"" is no longer used, and the term ""thief"" or ""burglar"" is more commonly used to describe a criminal who steals property. The term ""footpad"" was used during the Renaissance and the early modern period, particularly in England, to describe individuals who committed petty thefts by forcibly taking property from individuals at their feet, typically while they were asleep or distracted. The term was derived from the act of stealing a man's shoes, which was considered a particularly heinous crime at the time. The term ""footpad"" was used in various forms throughout the 17th and 18th centuries, and was used in various English-language legal documents and literature. The term fell out of use after the 19th century, and today it is considered an archaic or historical term."
+OLMo,4,270,drop_4c725499,comprehension,DROP,105439306,4.937484931000199,4818.834,108.934,276,3,eos,False, 93
+OLMo,4,271,drop_43d21cab,comprehension,DROP,56941260,2.5474903350000204,2425.035,102.766,138,3,eos,False, 4
+OLMo,4,272,drop_d45d1bff,comprehension,DROP,127712502,5.787428339000144,5664.676,109.975,325,3,eos,False, 4
+OLMo,4,273,gsm8k_0501,math,GSM8K,144763240,5.520698238000023,1101.195,4396.637,64,86,eos,False," Mariah used 1 / 4 of a skein of yarn, which is (1 / 4) * 364 = 91 yards. Her grandma used 1 / 2 of a skein of yarn, which is (1 / 2) * 364 = 182 yards. Altogether, they used 91 + 182 = 273 yards of yarn. The answer: 273."
+OLMo,4,274,gsm8k_0065,math,GSM8K,242769398,9.310050370000226,906.903,8394.719,51,161,eos,False," Jim spends 2 hours watching TV each time. So in one instance, he spends a total of 2 hours + (2 / 2) * 2 = 2 + 1 = 3 hours.
+He reads for half as long as he watches TV, so he reads for 2 / 2 = 1 hour each time he reads.
+So in one instance, he spends a total of 2 + 1 = 3 hours.
+He does this 3 times a week, so in one week he spends 3 * 3 = 9 hours.
+In 4 weeks, he spends 9 * 4 = 36 hours.
+Thus, Jim spends a total of 36 hours on TV and reading in 4 weeks.
+The answer: 36."
+OLMo,4,275,tqa_5719,knowledge,TriviaQA,16546772,0.6601783660003093,452.317,203.074,24,5,eos,False, Enchiladas
+OLMo,4,276,tqa_1628,knowledge,TriviaQA,20840645,0.7910040309998294,287.465,497.943,13,11,eos,False, Lacrosse is the official summer sport of Canada.
+OLMo,4,277,gsm8k_0457,math,GSM8K,163761665,6.2542337079999015,1420.398,4825.74,79,94,eos,False," Katelyn saw 50 fairies initially. After twenty minutes, her friend saw half as many fairies as Katelyn saw, which is 50 / 2 = 25 fairies. So, the total number of fairies became 50 + 25 = 75. After ten more minutes, 30 fairies flew away, leaving 75 - 30 = 45 fairies. Therefore, there are 45 fairies remaining.
+
+"
+OLMo,4,278,drop_dc647615,comprehension,DROP,101283311,4.432184666000012,3668.256,752.943,212,15,eos,False, African American (U.S. Census) or 0.95%
+OLMo,4,279,gsm8k_1232,math,GSM8K,170263236,6.473121445000288,873.14,5589.463,50,109,eos,False," Let's denote the number of pomelos Eve gave away as x. Since Eve was left with 1 / 4 of the original 20 pomelos, the number of pomelos she has left is 20 - x. According to the problem, this is equal to 1 / 4 * 20 = 5. Therefore, 20 - x = 5, which implies x = 15. So, Eve gave away 15 pomelos to her friend.
+The final answer is: 15"
+OLMo,4,280,drop_5e671a33,comprehension,DROP,102781169,4.411199177000071,3125.149,1275.235,181,25,eos,False," Ungheni is the third largest city with 32,828, followed by Cahul with 28,763."
+OLMo,4,281,drop_9b1e4b5e,comprehension,DROP,198455974,9.063189480999881,8578.913,467.557,490,9,eos,False, The Battle of White Mountain happened second.
+OLMo,4,282,drop_2dce13c3,comprehension,DROP,60688504,2.6953404390001197,2508.557,154.93,145,4,eos,False, non-families
+OLMo,4,283,gsm8k_0209,math,GSM8K,312633477,11.860499092000282,663.267,11189.87,37,214,eos,False," Let's break down the problem step by step.
+
+First, let's determine the cost of half a dozen plates. Since each plate costs $6000, half a dozen plates will cost:
+
+\[ \text{Cost of half a dozen plates} = 6 \times 6000 = 36000 \]
+
+Next, we know that twenty dozen cups cost $1200 less than this amount. Therefore, the cost of twenty dozen cups is:
+
+\[ \text{Cost of twenty dozen cups} = 36000 - 1200 = 34800 \]
+
+Now, we need to find the cost of each cup. Since we have twenty dozen cups, the total number of cups is:
+
+\[ \text{Number of cups} = 20 \times 12 = 240 \]
+
+The cost of each cup is then:
+
+\[ \text{Cost per cup} = \frac{34800}{240} = 150 \]
+
+So, the total cost of buying each cup is $150.
+
+The final answer is: $\boxed{150}$"
+OLMo,4,284,gsm8k_0476,math,GSM8K,120119749,4.67727051699967,840.335,3830.016,48,75,eos,False," Sarah spent a total of $300 on books. Each book costs $15, so the total number of books she bought is $300 / $15 = 20 books. Since she has 4 kids and she wants to give an equal number of books to each, the number of books each child gets is 20 / 4 = 5 books per child.
+
+"
+OLMo,4,285,gsm8k_1309,math,GSM8K,137576003,5.351755820000108,1022.08,4320.441,57,84,eos,False," Alexandra raises $430. Kim raises $320 more than Alexandra, so Kim raises $430 + 320 = 750$. Maryam raises $400 more than Sarah, who raises $300, so Maryam raises $300 + 400 = 700$. The total amount of money they all raised is $430 + 750 + 700 = 1720$.
+The final answer: 1720."
+OLMo,4,286,tqa_1307,knowledge,TriviaQA,25999506,0.9821961160000683,311.299,662.485,17,14,eos,False, Ferdinand Marcos became President of the Philippines in December 1965.
+OLMo,4,287,tqa_2787,knowledge,TriviaQA,16002034,0.6197276170000805,413.689,199.674,22,5,eos,False," ""a tattoo"""
+OLMo,4,288,drop_f39a64a4,comprehension,DROP,88899370,3.9219902110003204,3808.36,104.757,220,3,eos,False, 65
+OLMo,4,289,tqa_5323,knowledge,TriviaQA,12318206,0.46348755700000766,305.503,148.418,14,4,eos,False, Sesame seeds
+OLMo,4,290,drop_52f65e5e,comprehension,DROP,998520149,40.07146564899995,8858.081,31190.807,509,512,limit,True," The Astros lost the National League Division Series against the Atlanta Braves, 3-1, with a game four that set postseason records for most innings (18), most players used by a single team (23), and longest game time (5 hours and 50 minutes). Trailing by a score of 6-1, Lance Berkman hit an eighth-inning grand slam to narrow the score to 6-5. In the bottom of the ninth, Brad Ausmus hit a game-tying home run that allowed the game to continue in extra innings. In the bottom of the fifteenth inning, Roger Clemens made only his second career relief appearance, pitching three shutout innings, notably striking out Julio Franco, at the time the oldest player in the MLB at 47 years old; Clemens was himself 43. In the bottom of the eighteen inning, Clemens came to bat again, indicating that he would be pitching in the nineteenth inning, if it came to that. Clemens struck out, but the next batter, Chris Burke (baseball), hit a home run to left field that had home run distance, but was inches foul. This game remained scoreless for the next eight innings. In the top of the fifteenth inning, Luke Scott hit a blast to left field that had home run distance, but was inches foul. This game remained scoreless for the next eight innings. In the top of the eighteen inning, Roy Oswalt pitched a complete game shutout, allowing only two hits and no bases-loaded hits, striking out seven and walking two. In the bottom of the eighteen inning, Oswalt faced the final batter, Chris Burke, who hit a walk-off home run to win the game for the Astros, 8-7. Oddly enough, a fan in the ""Crawford Boxes"" in left field had previously caught Berkmans grand slam and this same fan caught Burkes home run. The 2005 National League Championship Series featured a rematch of the 2004 National League Championship Series. The Astros lost the first game in St. Louis, but would win the next three games, with Roy Oswalt getting the win. Though the Astros were poised to close out the series in Game Five in Houston, Brad Lidge gave up a monstrous two-out three-run home run to Albert Pujols, forcing the series to a sixth game in St. Louis, where the Astros clinched a World Series appearance. Roy Oswalt was named NLCS MVP, having gone 2-0 with"
+OLMo,4,291,tqa_5865,knowledge,TriviaQA,211684822,8.310431382999923,369.226,7879.081,19,152,eos,False," H'Angus the Monkey is the official mascot of Arsenal F.C. in the English Premier League. The monkey was introduced in 2001 by Arsenal manager Arsène Wenger, who wanted a distinctive mascot to promote the club. The character was designed by artist Simon Groom and was first used at a match against Leeds United on 21 September 2001. The name 'H'Angus' was chosen after a poll conducted by Arsenal fans, with 'Angus' being the name of the founder of the club. H'Angus is a registered trademark of Arsenal Football Club and is used in all club communications and marketing. The character has since become a significant part of Arsenal's identity, and is often used in promotional material and merchandise."
+OLMo,4,292,tqa_6216,knowledge,TriviaQA,25500790,0.9833414660001836,267.282,710.327,12,15,eos,False,  The Charlie Chan series was written by Earl Derrbigger.
+OLMo,4,293,drop_ec451b54,comprehension,DROP,181488549,8.432237151000209,8244.354,173.866,470,4,eos,False, Alex Henery
+OLMo,4,294,tqa_2278,knowledge,TriviaQA,12587859,0.4900320209999336,310.96,150.489,14,4,eos,False, Daniel Keyes
+OLMo,4,295,drop_f6b987f4,comprehension,DROP,116430305,5.227344181999797,4999.399,216.904,289,5,eos,False, 52.2
+OLMo,4,296,drop_1da8ddaa,comprehension,DROP,102149519,4.578836293000222,4341.9,213.514,251,5,eos,False, New England Patriots.
+OLMo,4,297,tqa_1805,knowledge,TriviaQA,23688843,0.9584223239999119,797.32,150.426,43,4,word,False, Simon Cowell
+OLMo,4,298,tqa_5745,knowledge,TriviaQA,15620505,0.5942734860000201,438.258,149.365,23,4,eos,False, Pete Seeger
+OLMo,4,299,gsm8k_0447,math,GSM8K,113610305,4.191249380000045,844.837,3340.119,46,67,eos,False," First find the new total score for Joey after he scores 26 points: 214 + 26 = 240. Then subtract Marcy's score of 10 points to find Joey's new lead: 240 - 10 = 230. Joey is now winning by 230 points.
+The final answer: 230."
+OLMo,4,300,gsm8k_0563,math,GSM8K,210196849,7.875018777999685,920.783,6944.353,52,135,eos,False," 
+To find out how much James spends on birthday candles, we first need to determine the total number of candles he buys.
+
+The first son is 12 years old, so he needs 12 birthday candles.
+The second son is 4 years younger, so he needs 12 - 4 = 8 candles.
+
+Therefore, James buys a total of 12 + 8 = 20 candles.
+
+Since a pack of 5 candles costs $3, James needs to buy 20 / 5 = 4 packs of candles.
+
+Since each pack costs $3, James spends 4 * $3 = $12 on candles.
+
+The answer: 12."
