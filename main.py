@@ -2,9 +2,19 @@ import time
 import requests
 import json
 import random
+import csv
 
 serverURL = "http://localhost:8080/completion"
 task_list = "tasks.jsonl"
+maxTokens = 512
+model = "OLMo" # switch to OLMoe for mixture-of-experts model
+
+stopSequences = {   # Written by claude, used to determine when the model has finished generating text
+    "math": ["Question:", "</s>", "<|im_end|>", "<|endoftext|>"],
+    "knowledge": ["\n\n", "Question:", "</s>", "<|im_end|>", "<|endoftext|>"],
+    "comprehension": ["Passage:", "Question:", "</s>", "<|im_end|>", "<|endoftext|>"],
+}
+
 
 def readEnergy(): # reads total energy consumption from arbitrary starting point in microjoules
     with open("/sys/class/powercap/intel-rapl:0/energy_uj", "r") as file:
@@ -14,43 +24,80 @@ def readEnergy(): # reads total energy consumption from arbitrary starting point
 def counterMax(): # maximum counter before wrap around in microjoules
     with open("/sys/class/powercap/intel-rapl:0/max_energy_range_uj", "r") as file:
         max_energy = file.read()
-        return(max_energy)
+        return(int(max_energy))
 
 def energyUsed(start, end, max_energy): # calculates delta energy, accounting for wrap around
     if (start>end): # if t1>t2, it means the energy counter has wrapped around
         return (max_energy - int(start) + int(end))
     return (int(end) - int(start))
 
-def prompt():
-    with open(task_list, "r") as file:
-        lines = [json.loads(line) for line in file]
-        random_task = random.choice(lines)
-        if random_task["context"] != "":
-            return "Passage: " + random_task["context"] + "\nQuestion: " + random_task["question"] + "\nAnswer:"
-        else:
-            return "Question: " + random_task["question"] + "\nAnswer:"
 
-start = int(readEnergy())
-time.sleep(10)
-end = int(readEnergy())
-delta_e = energyUsed(start, end, counterMax())
-watts = delta_e / 10000000
-print(f"Power consumption: {watts} watts")
-print(f"Energy consumption: {delta_e} microjoules")
 
-prompt = prompt()
-maxTokens = 512
-response = requests.post(serverURL, json={
-    "prompt": "Question: " + prompt,
-    "n_predict": maxTokens,
-    "temperature": 0,
-    "cache_prompt": False,
-    "stream": False
+def prompt(task):
+    if task["context"] != "":
+        return "Passage: " + task["context"] + "\nQuestion: " + task["question"] + "\nAnswer:"
+    else:
+        return "Question: " + task["question"] + "\nAnswer:"
 
-})
-data = response.json()
-print(f"prompt: {data.get('prompt')}") # prompt sent to the model
-print(f"tokens: {data.get('tokens_predicted')}") # amount of tokens generated for the response
-print(f"content: {data.get('content')}") # solution and reasoning for the prompt
-print(f"prompt_ms: {data.get('timings').get('prompt_ms')}") # time taken to process the prompt (prefill)
-print(f"predicted_ms: {data.get('timings').get('predicted_ms')}") # time taken to generate the response (decode)
+
+
+def runTask(task, maxEnergy):        
+    request = {
+        "prompt": prompt(task),
+        "n_predict": maxTokens,
+        "temperature": 0,
+        "cache_prompt": False,
+        "stream": False,
+        "stop": stopSequences[task["domain"]]
+    }
+
+    start = int(readEnergy())
+    t1 =time.perf_counter() # starts timer with high precision
+    response = requests.post(serverURL, json=request)
+    data = response.json()
+    t2 = time.perf_counter() # ends timer with high precision
+    end = int(readEnergy())
+
+    task_id = task["id"]
+    domain = task["domain"]
+    benchmark = task["benchmark"]
+    energy_package_uj = energyUsed(start, end, maxEnergy)
+    wall_time_s = t2 - t1
+    prompt_ms = data.get("timings").get("prompt_ms")
+    predicted_ms = data.get("timings").get("predicted_ms")
+    tokens_prompt = data.get("tokens_evaluated")
+    tokens_predicted = data.get("tokens_predicted")
+    stop_type = data.get("stop_type")
+    truncated = tokens_predicted >= maxTokens
+    content = data.get("content")
+
+    measurements = [task_id, domain, benchmark, energy_package_uj, wall_time_s, prompt_ms, predicted_ms, tokens_prompt, tokens_predicted, stop_type, truncated, content]
+    return measurements
+
+def main():
+    maxEnergy = int(counterMax())
+    runTask(task, maxEnergy)
+    tasks = []
+    with open("tasks.jsonl", "r") as file:
+        for line in file:
+            tasks.append(json.loads(line))
+    print(f"Loaded {len(tasks)} tasks from task.jsonl")
+
+    totalRuns = 5 * len(tasks)
+    i = 0
+
+
+    
+    with open(f"results-{model}.csv", "a") as file:
+        file.write("run order, model, repeat, task_id, domain, benchmark, energy_package_uj, wall_time_s, prompt_ms, predicted_ms, tokens_prompt, tokens_predicted, stop_type, truncated, content, \n")
+        for repeat in range(5):
+            order = tasks.copy()
+            random.shuffle(order)
+            for task in order:
+                time.sleep(2)
+                measurements = runTask(task, counterMax())
+                i += 1
+                file.write(f"{i}, {model}, {repeat}, {measurements[0]}, {measurements[1]}, {measurements[2]}, {measurements[3]}, {measurements[4]}, {measurements[5]}, {measurements[6]}, {measurements[7]}, {measurements[8]}, {measurements[9]}, {measurements[10]}, \"{measurements[11]}\", \n")
+
+
+main()
