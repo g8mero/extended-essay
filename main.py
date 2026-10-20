@@ -1,4 +1,5 @@
 import time
+import requests
 
 while True:
     def readEnergy(): # reads instantateous energy consumption in microjoules
@@ -11,15 +12,16 @@ while True:
             max_energy = file.read()
             return(max_energy)
 
-    def energyUsed(min, max, max_energy): # calculates delta energy, accounting for wrap around
-        if (min>max): # if t1>t2, it means the energy counter has wrapped around
-            return (max_energy - int(min) + int(max))
-        return (int(max) - int(min))
+    def energyUsed(start, end, max_energy): # calculates delta energy, accounting for wrap around
+        if (start>end): # if t1>t2, it means the energy counter has wrapped around
+            return (max_energy - int(start) + int(end))
+        return (int(end) - int(start))
 
-    min = readEnergy()
+    start = readEnergy()
     time.sleep(10)
-    max = readEnergy()
-    delta_e = energyUsed(min, max, readMaxEnergy())
+    end = readEnergy()
+    delta_e = energyUsed(start, end, readMaxEnergy())
     watts = delta_e / 10000000
     print(f"Power consumption: {watts} watts")
-    
+    print(f"Energy consumption: {delta_e} microjoules")
+    print(f"Max energy consumption: {readMaxEnergy()} microjoules")
